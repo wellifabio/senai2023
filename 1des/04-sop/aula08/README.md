@@ -35,4 +35,12 @@
 - Faturamento = Pedidos[quantidade] * LOOKUPVALUE(Produtos[preco], Produtos[id], Pedidos[id_produto])
 - Lucro = Pedidos[Faturamento] - Pedidos[Investimento]
 ### 6. Criar medidas, neste caso não será necessário
-### 7. Criar o Dashboard
+### 7. Criar dois Dashboards
+
+| Dashboards |
+|-|
+|Desempenho por localidade (Mapa de Árvore, Pizza, Mapa e Cartões)|
+|![Visual1](./analisepedidos/visual1.png)|
+|Detalhes dos pedidos (Colunas e Linhas, Segmentação de dados, Tabela e Grade de Imagens)|
+|![Visual2](./analisepedidos/visual2.png)|
+|Obs: O visual de grade de imagens **(Image Grig)** não está disponível no Power BI Desktop, deve ser importado, para isso precisa fazer login com um e-mail corporativo, utilize seu email do SENAI|
