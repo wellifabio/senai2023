@@ -56,3 +56,25 @@
 
 </html>
 ```
+
+#### 3. Adicionar o código abaixo no arquivo **index.html** dentro da tag **head**
+```html
+<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/css/style.css">
+```
+
+#### 4. Adicionar o código abaixo no arquivo **index.html** dentro da tag **body** antes da tag **header**
+```html
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card" id="card01">
+                <h2 id="t1">Produto</h2>
+                <h3 id="t2">Tipo</h3>
+                <img id="t3" alt="imagem do produto">
+                <p id="t4">Preço</p>
+            </div>
+        </div>
+    </div>
+</div>
+```
