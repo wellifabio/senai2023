@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fábrica de Autos</title>
+</head>
+
+<body>
+    <main>
+        <div class="areas" id="d5" onclick="alert('Área vazia')">5</div>
+        <div class="areas" id="d3" onclick="alert('Área vazia')">3</div>
+        <div class="areas" id="d10" onclick="alert('Área vazia')">10</div>
+        <div class="areas" id="d1" onclick="alert('Área vazia')">1</div>
+        <div class="areas" id="d2" onclick="alert('Área vazia')">2</div>
+        <div class="areas" id="d4" onclick="alert('Área vazia')">4</div>
+        <div class="areas" id="d6" onclick="alert('Área vazia')">6</div>
+        <div class="areas" id="d7" onclick="alert('Área vazia')">7</div>
+        <div class="areas" id="d8" onclick="alert('Área vazia')">8</div>
+        <div class="areas" id="d9" onclick="alert('Área vazia')">9</div>
+        <div class="areas" id="d11" onclick="alert('Área vazia')">11</div>
+    </main>
+    <footer>
+        <div id="area" class="modais oculto">
+            <div class="modal1">
+                <div class="barra">
+                    <button onclick="area.classList.add('oculto')">X</button>
+                </div>
+                <div id="areaTitulo" class="titulo">
+                </div>
+                <div id="areaConteudo" class="conteudo">
+                </div>
+            </div>
+        </div>
+        <div id="venda" class="modais oculto">
+            <div class="modal1">
+                <div class="barra">
+                    <button onclick="venda.classList.add('oculto')">X</button>
+                </div>
+                <div id="vendaTitulo" class="titulo">
+                </div>
+                <div id="vendaConteudo" class="conteudo">
+                    <form id="formVenda">
+                        <div id="campos"></div>
+                        <button id="concluir" type="submit" disabled="true">Confirmar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="index.js"></script>
+
+</html>

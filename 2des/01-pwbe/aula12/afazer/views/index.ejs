@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="assets/ico.png" type="image/x-icon">
+    <title>Interface de Usuário</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <%= titulo%>
+        </h1>
+    </header>
+    <main>
+        <div>
+            <form action="/create" method="POST">
+                <label for="descricao">Descrição:</label>
+                <textarea name="descricao" id="descricao" placeholder="Digite a descrição da sua tarefa"
+                    required></textarea>
+                <label for="quando">Quando:</label>
+                <% hoje=new Date().toISOString().slice(0,
+                    16).replace('T',' ')%>
+                <input type="datetime-local" name="quando" id="quando" value="<%=hoje%>">
+                <input type="submit" value="Novo">
+            </form>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <td>
+                        <label>Id</label>
+                        <label>Descrição</label>
+                        <label>Quando</label>
+                        <label> Alterar</label>
+                    </td>
+                    <td>Excluir</td>
+                </tr>
+            </thead>
+            <tbody>
+                <% dados.forEach(t=>{%>
+                    <tr>
+                        <td colspan="4">
+                            <form action="/update?_method=PUT" method="POST">
+                                <input type="number" name = "id" value="<%=t.id%>" readonly>
+                                <textarea name = "descricao" required><%=t.descricao%></textarea>
+                                <input type="datetime-local" name = "quando" value="<%=t.quando.toISOString().slice(0, 16).replace(' T',' ')%>" required>
+                                <input type="submit" value="[ * ]">
+                            </form>
+                        </td>
+                    </form>
+                        <td>
+                            <form action="/del/<%=t.id%>?_method=DELETE" method="POST">
+                                <input type="submit" value="[ - ]">
+                            </form>
+                        </td>
+                    </tr>
+                    <% })%>
+            </tbody>
+        </table>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

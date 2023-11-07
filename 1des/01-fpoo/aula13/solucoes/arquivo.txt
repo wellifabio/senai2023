@@ -1,0 +1,4 @@
+Mariana 5 7 10
+Roberta 10 10 10
+Genoveva 5 5 5
+Jussara 3 4 5

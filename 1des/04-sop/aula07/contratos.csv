@@ -1,0 +1,1110 @@
+id;Data;Cidade;Vendedor;Contrato;Valor
+1;23/03/2023;Artur Nogueira;Maria Clara Martins;1003;4640,00
+2;24/03/2023;Holambra;Andreia Moreno;1004;6240,00
+3;25/03/2023;Pedreira;Jaqueline Almeida;1005;5910,90
+4;26/03/2023;Amparo;Jaqueline Almeida;1006;1050,00
+5;27/03/2023;Amparo;Mariana Silva;1007;9550,90
+6;28/03/2023;Pedreira;Silvia Culiari Lima;1008;2880,00
+7;29/03/2023;Campinas;Ivone Teixeira;1009;6830,00
+8;30/03/2023;Holambra;Maria Clara Martins;1010;2140,50
+9;31/03/2023;Holambra;Jaqueline Almeida;1011;1630,50
+10;01/04/2023;Amparo;Silvia Culiari Lima;1012;3450,90
+11;02/04/2023;Holambra;Andreia Moreno;1013;4730,00
+12;03/04/2023;Santo Antônio de Posse;Mariana Silva;1014;8560,90
+13;04/04/2023;Amparo;Ivone Teixeira;1015;2200,90
+14;05/04/2023;Amparo;Regina Santos Rocha;1016;8010,90
+15;06/04/2023;Holambra;Maria Clara Martins;1017;5650,50
+16;07/04/2023;Artur Nogueira;Sandra Oliveira;1018;9270,50
+17;08/04/2023;Jaguariúna;Silvia Culiari Lima;1019;9370,00
+18;09/04/2023;Amparo;Silvia Culiari Lima;1020;1350,00
+19;10/04/2023;Artur Nogueira;Mariana Silva;1021;6520,00
+20;11/04/2023;Santo Antônio de Posse;Mariana Silva;1022;2610,50
+21;12/04/2023;Holambra;Jaqueline Almeida;1023;7940,90
+22;13/04/2023;Campinas;Andreia Moreno;1024;9530,50
+23;14/04/2023;Pedreira;Mariana Silva;1025;9990,90
+24;15/04/2023;Campinas;Ivone Teixeira;1026;3730,50
+25;16/04/2023;Amparo;Ivone Teixeira;1027;8540,50
+26;17/04/2023;Santo Antônio de Posse;Silvia Culiari Lima;1028;9770,90
+27;18/04/2023;Holambra;Regina Santos Rocha;1029;6730,00
+28;19/04/2023;Campinas;Silvia Culiari Lima;1030;5500,90
+29;20/04/2023;Amparo;Maria Clara Martins;1031;9980,90
+30;21/04/2023;Holambra;Andreia Moreno;1032;6630,00
+31;22/04/2023;Santo Antônio de Posse;Regina Santos Rocha;1033;2320,90
+32;23/04/2023;Jaguariúna;Ivonete Teixeira;1034;6710,90
+33;24/04/2023;Jaguariúna;Andreia Moreno;1035;9030,50
+34;25/04/2023;Campinas;Silvia Culiari Lima;1036;7710,90
+35;26/04/2023;Campinas;Mariana Silva;1037;2070,50
+36;27/04/2023;Jaguariúna;Regina Santos Rocha;1038;8550,50
+37;28/04/2023;Holambra;Sandra Oliveira;1039;4080,90
+38;29/04/2023;Artur Nogueira;Mariana Silva;1040;5230,50
+39;30/04/2023;Holambra;Mariana Silva;1041;1640,50
+40;01/05/2023;Holambra;Ivonete Teixeira;1042;2780,90
+41;02/05/2023;Artur Nogueira;Maria Clara Martins;1043;9510,90
+42;03/05/2023;Campinas;Regina Santos Rocha;1044;3700,90
+43;04/05/2023;Amparo;Sandra Oliveira;1045;4930,00
+44;05/05/2023;Artur Nogueira;Regina Santos Rocha;1046;5360,00
+45;06/05/2023;Artur Nogueira;Andreia Moreno;1047;1520,50
+46;07/05/2023;Holambra;Andreia Moreno;1048;6990,00
+47;08/05/2023;Pedreira;Regina Santos Rocha;1049;5200,00
+48;09/05/2023;Pedreira;Ivone Teixeira;1050;4290,00
+49;10/05/2023;Holambra;Mariana Silva;1051;8120,90
+50;11/05/2023;Holambra;Jaqueline Almeida;1052;2300,90
+51;12/05/2023;Amparo;Ivonete Teixeira;1053;7100,50
+52;13/05/2023;Santo Antônio de Posse;Regina Santos Rocha;1054;4880,00
+53;14/05/2023;Amparo;Ivone Teixeira;1055;1260,00
+54;15/05/2023;Amparo;Ivone Teixeira;1056;6290,00
+55;16/05/2023;Jaguariúna;Mariana Silva;1057;1290,50
+56;17/05/2023;Santo Antônio de Posse;Maria Clara Martins;1058;9160,50
+57;18/05/2023;Artur Nogueira;Ivonete Teixeira;1059;2790,00
+58;19/05/2023;Santo Antônio de Posse;Sandra Oliveira;1060;1950,90
+59;20/05/2023;Amparo;Jaqueline Almeida;1061;3200,50
+60;21/05/2023;Jaguariúna;Jaqueline Almeida;1062;5720,90
+61;22/05/2023;Jaguariúna;Ivonete Teixeira;1063;6670,00
+62;23/05/2023;Pedreira;Regina Santos Rocha;1064;2670,90
+63;24/05/2023;Holambra;Andreia Moreno;1065;4810,50
+64;25/05/2023;Santo Antônio de Posse;Silvia Culiari Lima;1066;3680,00
+65;26/05/2023;Amparo;Ivonete Teixeira;1067;5340,50
+66;27/05/2023;Holambra;Ivonete Teixeira;1068;4130,00
+67;28/05/2023;Santo Antônio de Posse;Regina Santos Rocha;1069;5070,00
+68;29/05/2023;Jaguariúna;Regina Santos Rocha;1070;9430,50
+69;30/05/2023;Artur Nogueira;Andreia Moreno;1071;3440,90
+70;31/05/2023;Campinas;Jaqueline Almeida;1072;5190,00
+71;01/06/2023;Amparo;Ivonete Teixeira;1073;7490,50
+72;02/06/2023;Jaguariúna;Maria Clara Martins;1074;1260,90
+73;03/06/2023;Santo Antônio de Posse;Sandra Oliveira;1075;9400,00
+74;04/06/2023;Pedreira;Andreia Moreno;1076;8170,50
+75;05/06/2023;Artur Nogueira;Ivonete Teixeira;1077;4530,50
+76;06/06/2023;Holambra;Jaqueline Almeida;1078;2170,90
+77;07/06/2023;Campinas;Sandra Oliveira;1079;3660,90
+78;08/06/2023;Campinas;Regina Santos Rocha;1080;5550,00
+79;09/06/2023;Pedreira;Ivonete Teixeira;1081;5480,90
+80;10/06/2023;Campinas;Silvia Culiari Lima;1082;9330,00
+81;11/06/2023;Campinas;Mariana Silva;1083;2570,50
+82;12/06/2023;Amparo;Sandra Oliveira;1084;5970,00
+83;13/06/2023;Jaguariúna;Maria Clara Martins;1085;2510,50
+84;14/06/2023;Pedreira;Maria Clara Martins;1086;3530,90
+85;15/06/2023;Campinas;Andreia Moreno;1087;2720,90
+86;16/06/2023;Santo Antônio de Posse;Mariana Silva;1088;6970,90
+87;17/06/2023;Holambra;Sandra Oliveira;1089;6180,50
+88;18/06/2023;Santo Antônio de Posse;Andreia Moreno;1090;8240,90
+89;19/06/2023;Amparo;Ivone Teixeira;1091;4220,50
+90;20/06/2023;Campinas;Jaqueline Almeida;1092;8520,00
+91;21/06/2023;Holambra;Ivonete Teixeira;1093;2180,00
+92;22/06/2023;Amparo;Ivone Teixeira;1094;1080,00
+93;23/06/2023;Pedreira;Mariana Silva;1095;2320,00
+94;24/06/2023;Amparo;Sandra Oliveira;1096;5090,90
+95;25/06/2023;Santo Antônio de Posse;Maria Clara Martins;1097;4130,50
+96;26/06/2023;Pedreira;Silvia Culiari Lima;1098;7810,90
+97;27/06/2023;Campinas;Mariana Silva;1099;3450,90
+98;28/06/2023;Artur Nogueira;Regina Santos Rocha;1100;4770,00
+99;29/06/2023;Artur Nogueira;Silvia Culiari Lima;1101;7170,00
+100;30/06/2023;Amparo;Regina Santos Rocha;1102;3480,00
+101;01/07/2023;Artur Nogueira;Ivone Teixeira;1103;4190,50
+102;02/07/2023;Holambra;Andreia Moreno;1104;7320,00
+103;03/07/2023;Campinas;Silvia Culiari Lima;1105;5670,90
+104;04/07/2023;Santo Antônio de Posse;Sandra Oliveira;1106;2000,00
+105;05/07/2023;Santo Antônio de Posse;Sandra Oliveira;1107;7790,90
+106;06/07/2023;Holambra;Regina Santos Rocha;1108;3470,50
+107;07/07/2023;Campinas;Andreia Moreno;1109;5210,90
+108;08/07/2023;Artur Nogueira;Ivonete Teixeira;1110;6040,90
+109;09/07/2023;Santo Antônio de Posse;Andreia Moreno;1111;1860,90
+110;10/07/2023;Holambra;Andreia Moreno;1112;5960,00
+111;11/07/2023;Pedreira;Andreia Moreno;1113;7790,50
+112;12/07/2023;Campinas;Jaqueline Almeida;1114;1710,90
+113;13/07/2023;Campinas;Silvia Culiari Lima;1115;5880,00
+114;14/07/2023;Amparo;Silvia Culiari Lima;1116;9680,50
+115;15/07/2023;Holambra;Ivone Teixeira;1117;5770,90
+116;16/07/2023;Santo Antônio de Posse;Mariana Silva;1118;4170,00
+117;17/07/2023;Artur Nogueira;Regina Santos Rocha;1119;4080,00
+118;18/07/2023;Pedreira;Regina Santos Rocha;1120;1060,50
+119;19/07/2023;Pedreira;Mariana Silva;1121;7180,00
+120;20/07/2023;Campinas;Sandra Oliveira;1122;9430,00
+121;21/07/2023;Holambra;Ivone Teixeira;1123;5600,90
+122;22/07/2023;Amparo;Sandra Oliveira;1124;9500,90
+123;23/07/2023;Santo Antônio de Posse;Andreia Moreno;1125;9450,50
+124;24/07/2023;Artur Nogueira;Mariana Silva;1126;7740,00
+125;25/07/2023;Holambra;Maria Clara Martins;1127;3520,90
+126;26/07/2023;Pedreira;Ivone Teixeira;1128;1460,90
+127;27/07/2023;Amparo;Sandra Oliveira;1129;6040,90
+128;28/07/2023;Jaguariúna;Silvia Culiari Lima;1130;4150,50
+129;29/07/2023;Campinas;Ivone Teixeira;1131;4790,50
+130;30/07/2023;Artur Nogueira;Silvia Culiari Lima;1132;4630,90
+131;31/07/2023;Pedreira;Sandra Oliveira;1133;1110,90
+132;01/08/2023;Amparo;Sandra Oliveira;1134;1930,00
+133;02/08/2023;Holambra;Andreia Moreno;1135;7630,50
+134;03/08/2023;Jaguariúna;Maria Clara Martins;1136;7610,90
+135;04/08/2023;Pedreira;Sandra Oliveira;1137;2380,90
+136;05/08/2023;Santo Antônio de Posse;Andreia Moreno;1138;3870,90
+137;06/08/2023;Campinas;Andreia Moreno;1139;2650,50
+138;07/08/2023;Jaguariúna;Maria Clara Martins;1140;8290,90
+139;08/08/2023;Artur Nogueira;Ivone Teixeira;1141;5670,50
+140;09/08/2023;Campinas;Ivone Teixeira;1142;3460,50
+141;10/08/2023;Santo Antônio de Posse;Silvia Culiari Lima;1143;9070,00
+142;11/08/2023;Jaguariúna;Ivonete Teixeira;1144;6730,90
+143;12/08/2023;Pedreira;Maria Clara Martins;1145;7190,90
+144;13/08/2023;Holambra;Regina Santos Rocha;1146;8650,90
+145;14/08/2023;Amparo;Ivonete Teixeira;1147;8550,00
+146;15/08/2023;Jaguariúna;Sandra Oliveira;1148;9940,90
+147;16/08/2023;Holambra;Regina Santos Rocha;1149;7270,90
+148;17/08/2023;Campinas;Regina Santos Rocha;1150;1940,00
+149;18/08/2023;Artur Nogueira;Sandra Oliveira;1151;8120,00
+150;19/08/2023;Artur Nogueira;Jaqueline Almeida;1152;7830,00
+151;20/08/2023;Artur Nogueira;Maria Clara Martins;1153;1760,00
+152;21/08/2023;Holambra;Silvia Culiari Lima;1154;2490,50
+153;22/08/2023;Amparo;Jaqueline Almeida;1155;8740,50
+154;23/08/2023;Holambra;Silvia Culiari Lima;1156;1260,50
+155;24/08/2023;Pedreira;Sandra Oliveira;1157;9740,90
+156;25/08/2023;Jaguariúna;Ivone Teixeira;1158;7180,00
+157;26/08/2023;Pedreira;Regina Santos Rocha;1159;5000,90
+158;27/08/2023;Pedreira;Sandra Oliveira;1160;6030,00
+159;28/08/2023;Santo Antônio de Posse;Regina Santos Rocha;1161;1570,00
+160;29/08/2023;Pedreira;Mariana Silva;1162;3890,90
+161;30/08/2023;Holambra;Andreia Moreno;1163;5470,90
+162;31/08/2023;Artur Nogueira;Jaqueline Almeida;1164;5520,50
+163;01/09/2023;Holambra;Andreia Moreno;1165;2120,00
+164;02/09/2023;Santo Antônio de Posse;Maria Clara Martins;1166;5720,50
+165;03/09/2023;Holambra;Silvia Culiari Lima;1167;9650,50
+166;04/09/2023;Jaguariúna;Sandra Oliveira;1168;6080,00
+167;05/09/2023;Holambra;Jaqueline Almeida;1169;5440,00
+168;06/09/2023;Pedreira;Maria Clara Martins;1170;5150,00
+169;07/09/2023;Campinas;Regina Santos Rocha;1171;4570,90
+170;08/09/2023;Santo Antônio de Posse;Ivone Teixeira;1172;3230,90
+171;09/09/2023;Holambra;Mariana Silva;1173;9290,00
+172;10/09/2023;Santo Antônio de Posse;Sandra Oliveira;1174;5720,50
+173;11/09/2023;Jaguariúna;Regina Santos Rocha;1175;6470,50
+174;12/09/2023;Pedreira;Maria Clara Martins;1176;6550,90
+175;13/09/2023;Holambra;Sandra Oliveira;1177;5970,00
+176;14/09/2023;Pedreira;Andreia Moreno;1178;7250,50
+177;15/09/2023;Amparo;Maria Clara Martins;1179;1850,90
+178;16/09/2023;Artur Nogueira;Andreia Moreno;1180;9070,00
+179;17/09/2023;Campinas;Ivone Teixeira;1181;9830,90
+180;18/09/2023;Jaguariúna;Maria Clara Martins;1182;4970,00
+181;19/09/2023;Santo Antônio de Posse;Ivonete Teixeira;1183;9290,90
+182;20/09/2023;Holambra;Silvia Culiari Lima;1184;2220,00
+183;21/09/2023;Artur Nogueira;Andreia Moreno;1185;5900,50
+184;22/09/2023;Santo Antônio de Posse;Ivone Teixeira;1186;5810,90
+185;23/09/2023;Jaguariúna;Andreia Moreno;1187;3730,90
+186;23/03/2023;Jaguariúna;Jaqueline Almeida;1188;2180,90
+187;24/03/2023;Holambra;Silvia Culiari Lima;1189;5150,50
+188;25/03/2023;Jaguariúna;Maria Clara Martins;1190;6490,50
+189;26/03/2023;Campinas;Silvia Culiari Lima;1191;4620,90
+190;27/03/2023;Pedreira;Sandra Oliveira;1192;2540,00
+191;28/03/2023;Santo Antônio de Posse;Andreia Moreno;1193;2440,50
+192;29/03/2023;Amparo;Ivonete Teixeira;1194;4900,90
+193;30/03/2023;Pedreira;Jaqueline Almeida;1195;3020,50
+194;31/03/2023;Amparo;Silvia Culiari Lima;1196;7990,00
+195;01/04/2023;Santo Antônio de Posse;Silvia Culiari Lima;1197;9820,90
+196;02/04/2023;Pedreira;Jaqueline Almeida;1198;7170,50
+197;03/04/2023;Pedreira;Maria Clara Martins;1199;9280,50
+198;04/04/2023;Jaguariúna;Maria Clara Martins;1200;5800,00
+199;05/04/2023;Jaguariúna;Mariana Silva;1201;2890,50
+200;06/04/2023;Pedreira;Sandra Oliveira;1202;5800,50
+201;07/04/2023;Artur Nogueira;Jaqueline Almeida;1203;3690,90
+202;08/04/2023;Jaguariúna;Andreia Moreno;1204;4340,00
+203;09/04/2023;Holambra;Ivonete Teixeira;1205;3460,50
+204;10/04/2023;Holambra;Mariana Silva;1206;6850,90
+205;11/04/2023;Artur Nogueira;Jaqueline Almeida;1207;6720,90
+206;12/04/2023;Santo Antônio de Posse;Jaqueline Almeida;1208;3710,00
+207;13/04/2023;Artur Nogueira;Ivone Teixeira;1209;7220,90
+208;14/04/2023;Artur Nogueira;Regina Santos Rocha;1210;8620,50
+209;15/04/2023;Campinas;Jaqueline Almeida;1211;7090,00
+210;16/04/2023;Santo Antônio de Posse;Sandra Oliveira;1212;3470,50
+211;17/04/2023;Amparo;Andreia Moreno;1213;1650,00
+212;18/04/2023;Jaguariúna;Ivone Teixeira;1214;6200,00
+213;19/04/2023;Jaguariúna;Jaqueline Almeida;1215;5060,90
+214;20/04/2023;Amparo;Andreia Moreno;1216;3460,90
+215;21/04/2023;Pedreira;Jaqueline Almeida;1217;7110,90
+216;22/04/2023;Pedreira;Sandra Oliveira;1218;9730,50
+217;23/04/2023;Jaguariúna;Regina Santos Rocha;1219;1280,90
+218;24/04/2023;Pedreira;Sandra Oliveira;1220;4320,50
+219;25/04/2023;Santo Antônio de Posse;Ivonete Teixeira;1221;6540,50
+220;26/04/2023;Artur Nogueira;Andreia Moreno;1222;7040,50
+221;27/04/2023;Amparo;Maria Clara Martins;1223;2720,00
+222;28/04/2023;Santo Antônio de Posse;Silvia Culiari Lima;1224;4290,50
+223;29/04/2023;Amparo;Mariana Silva;1225;3690,50
+224;30/04/2023;Jaguariúna;Sandra Oliveira;1226;4740,90
+225;01/05/2023;Holambra;Maria Clara Martins;1227;3090,50
+226;02/05/2023;Santo Antônio de Posse;Sandra Oliveira;1228;8500,90
+227;03/05/2023;Holambra;Mariana Silva;1229;7340,90
+228;04/05/2023;Santo Antônio de Posse;Ivone Teixeira;1230;7030,50
+229;05/05/2023;Santo Antônio de Posse;Mariana Silva;1231;7620,00
+230;06/05/2023;Amparo;Mariana Silva;1232;8730,00
+231;07/05/2023;Santo Antônio de Posse;Ivone Teixeira;1233;1070,90
+232;08/05/2023;Campinas;Maria Clara Martins;1234;4760,50
+233;09/05/2023;Artur Nogueira;Jaqueline Almeida;1235;4110,00
+234;10/05/2023;Campinas;Maria Clara Martins;1236;7000,50
+235;11/05/2023;Campinas;Maria Clara Martins;1237;6300,50
+236;12/05/2023;Santo Antônio de Posse;Sandra Oliveira;1238;6720,00
+237;13/05/2023;Holambra;Sandra Oliveira;1239;1280,90
+238;14/05/2023;Artur Nogueira;Ivone Teixeira;1240;1600,00
+239;15/05/2023;Campinas;Regina Santos Rocha;1241;6570,50
+240;16/05/2023;Amparo;Silvia Culiari Lima;1242;3620,50
+241;17/05/2023;Jaguariúna;Maria Clara Martins;1243;5600,90
+242;18/05/2023;Amparo;Andreia Moreno;1244;3900,90
+243;19/05/2023;Pedreira;Andreia Moreno;1245;5260,50
+244;20/05/2023;Santo Antônio de Posse;Ivone Teixeira;1246;7190,00
+245;21/05/2023;Campinas;Silvia Culiari Lima;1247;7640,90
+246;22/05/2023;Amparo;Andreia Moreno;1248;9190,00
+247;23/05/2023;Jaguariúna;Mariana Silva;1249;5970,50
+248;24/05/2023;Artur Nogueira;Jaqueline Almeida;1250;1720,00
+249;25/05/2023;Pedreira;Andreia Moreno;1251;4420,50
+250;26/05/2023;Santo Antônio de Posse;Silvia Culiari Lima;1252;1840,90
+251;27/05/2023;Amparo;Andreia Moreno;1253;6910,50
+252;28/05/2023;Jaguariúna;Sandra Oliveira;1254;8600,00
+253;29/05/2023;Jaguariúna;Andreia Moreno;1255;3880,50
+254;30/05/2023;Artur Nogueira;Sandra Oliveira;1256;4740,00
+255;31/05/2023;Santo Antônio de Posse;Sandra Oliveira;1257;9280,00
+256;01/06/2023;Campinas;Jaqueline Almeida;1258;3690,90
+257;02/06/2023;Holambra;Ivone Teixeira;1259;2360,90
+258;03/06/2023;Campinas;Sandra Oliveira;1260;4620,00
+259;04/06/2023;Pedreira;Ivone Teixeira;1261;6450,50
+260;05/06/2023;Santo Antônio de Posse;Andreia Moreno;1262;4910,00
+261;06/06/2023;Pedreira;Maria Clara Martins;1263;8450,90
+262;07/06/2023;Holambra;Ivonete Teixeira;1264;7010,90
+263;08/06/2023;Artur Nogueira;Sandra Oliveira;1265;4910,50
+264;09/06/2023;Santo Antônio de Posse;Ivone Teixeira;1266;4490,00
+265;10/06/2023;Jaguariúna;Maria Clara Martins;1267;3020,50
+266;11/06/2023;Amparo;Jaqueline Almeida;1268;3140,50
+267;12/06/2023;Santo Antônio de Posse;Maria Clara Martins;1269;8930,90
+268;13/06/2023;Amparo;Maria Clara Martins;1270;5130,50
+269;14/06/2023;Pedreira;Silvia Culiari Lima;1271;4450,50
+270;15/06/2023;Campinas;Andreia Moreno;1272;1430,00
+271;16/06/2023;Jaguariúna;Sandra Oliveira;1273;7950,00
+272;17/06/2023;Santo Antônio de Posse;Silvia Culiari Lima;1274;7150,90
+273;18/06/2023;Santo Antônio de Posse;Andreia Moreno;1275;4110,50
+274;19/06/2023;Holambra;Silvia Culiari Lima;1276;5970,00
+275;20/06/2023;Jaguariúna;Mariana Silva;1277;1460,50
+276;21/06/2023;Campinas;Ivonete Teixeira;1278;4080,50
+277;22/06/2023;Pedreira;Andreia Moreno;1279;6670,90
+278;23/06/2023;Holambra;Silvia Culiari Lima;1280;5170,50
+279;24/06/2023;Holambra;Jaqueline Almeida;1281;3750,50
+280;25/06/2023;Pedreira;Sandra Oliveira;1282;6020,90
+281;26/06/2023;Artur Nogueira;Ivonete Teixeira;1283;4900,50
+282;27/06/2023;Holambra;Maria Clara Martins;1284;2120,50
+283;28/06/2023;Artur Nogueira;Jaqueline Almeida;1285;9640,50
+284;29/06/2023;Jaguariúna;Mariana Silva;1286;6520,00
+285;30/06/2023;Jaguariúna;Ivonete Teixeira;1287;7090,90
+286;01/07/2023;Pedreira;Maria Clara Martins;1288;9670,50
+287;02/07/2023;Holambra;Jaqueline Almeida;1289;2870,00
+288;03/07/2023;Amparo;Maria Clara Martins;1290;5870,00
+289;04/07/2023;Artur Nogueira;Regina Santos Rocha;1291;4360,50
+290;05/07/2023;Campinas;Andreia Moreno;1292;1040,50
+291;06/07/2023;Campinas;Andreia Moreno;1293;3620,50
+292;07/07/2023;Campinas;Regina Santos Rocha;1294;8160,90
+293;08/07/2023;Jaguariúna;Silvia Culiari Lima;1295;6150,50
+294;09/07/2023;Holambra;Ivonete Teixeira;1296;6770,00
+295;10/07/2023;Santo Antônio de Posse;Silvia Culiari Lima;1297;8060,00
+296;11/07/2023;Pedreira;Maria Clara Martins;1298;5230,00
+297;12/07/2023;Jaguariúna;Jaqueline Almeida;1299;9940,00
+298;13/07/2023;Holambra;Regina Santos Rocha;1300;5610,90
+299;14/07/2023;Artur Nogueira;Regina Santos Rocha;1301;8340,90
+300;15/07/2023;Campinas;Ivonete Teixeira;1302;5640,90
+301;16/07/2023;Artur Nogueira;Mariana Silva;1303;5660,50
+302;17/07/2023;Santo Antônio de Posse;Maria Clara Martins;1304;5420,90
+303;18/07/2023;Pedreira;Andreia Moreno;1305;9640,00
+304;19/07/2023;Holambra;Andreia Moreno;1306;9470,00
+305;20/07/2023;Campinas;Silvia Culiari Lima;1307;4680,50
+306;21/07/2023;Amparo;Andreia Moreno;1308;2620,90
+307;22/07/2023;Amparo;Ivone Teixeira;1309;6540,90
+308;23/07/2023;Amparo;Ivonete Teixeira;1310;5580,00
+309;24/07/2023;Pedreira;Andreia Moreno;1311;2630,90
+310;25/07/2023;Amparo;Sandra Oliveira;1312;1560,50
+311;26/07/2023;Campinas;Sandra Oliveira;1313;1880,50
+312;27/07/2023;Pedreira;Ivonete Teixeira;1314;5860,00
+313;28/07/2023;Artur Nogueira;Andreia Moreno;1315;8110,00
+314;29/07/2023;Campinas;Ivonete Teixeira;1316;2090,50
+315;30/07/2023;Santo Antônio de Posse;Silvia Culiari Lima;1317;5950,00
+316;31/07/2023;Pedreira;Ivone Teixeira;1318;8010,50
+317;01/08/2023;Holambra;Sandra Oliveira;1319;6210,50
+318;02/08/2023;Holambra;Silvia Culiari Lima;1320;6580,00
+319;03/08/2023;Santo Antônio de Posse;Ivone Teixeira;1321;7520,50
+320;04/08/2023;Jaguariúna;Silvia Culiari Lima;1322;7960,00
+321;05/08/2023;Campinas;Ivone Teixeira;1323;3320,90
+322;06/08/2023;Holambra;Silvia Culiari Lima;1324;5890,90
+323;07/08/2023;Holambra;Jaqueline Almeida;1325;9310,00
+324;08/08/2023;Campinas;Regina Santos Rocha;1326;1740,50
+325;09/08/2023;Campinas;Ivone Teixeira;1327;3760,90
+326;10/08/2023;Artur Nogueira;Jaqueline Almeida;1328;1110,00
+327;11/08/2023;Jaguariúna;Maria Clara Martins;1329;4780,00
+328;12/08/2023;Campinas;Ivonete Teixeira;1330;9510,50
+329;13/08/2023;Holambra;Ivonete Teixeira;1331;5430,50
+330;14/08/2023;Jaguariúna;Maria Clara Martins;1332;2530,90
+331;23/03/2023;Holambra;Andreia Moreno;1333;9940,90
+332;24/03/2023;Holambra;Ivonete Teixeira;1334;9680,90
+333;25/03/2023;Santo Antônio de Posse;Andreia Moreno;1335;9780,50
+334;26/03/2023;Campinas;Andreia Moreno;1336;3790,90
+335;27/03/2023;Campinas;Andreia Moreno;1337;3530,00
+336;28/03/2023;Holambra;Mariana Silva;1338;1800,90
+337;29/03/2023;Pedreira;Ivone Teixeira;1339;8190,50
+338;30/03/2023;Jaguariúna;Ivone Teixeira;1340;5100,90
+339;31/03/2023;Pedreira;Ivonete Teixeira;1341;2650,90
+340;01/04/2023;Campinas;Jaqueline Almeida;1342;5660,90
+341;02/04/2023;Pedreira;Mariana Silva;1343;2430,00
+342;03/04/2023;Campinas;Ivone Teixeira;1344;4100,00
+343;04/04/2023;Campinas;Ivone Teixeira;1345;9540,50
+344;05/04/2023;Amparo;Andreia Moreno;1346;1290,50
+345;06/04/2023;Holambra;Regina Santos Rocha;1347;4480,90
+346;07/04/2023;Pedreira;Maria Clara Martins;1348;7820,90
+347;08/04/2023;Jaguariúna;Ivone Teixeira;1349;7190,50
+348;09/04/2023;Amparo;Sandra Oliveira;1350;9640,50
+349;10/04/2023;Santo Antônio de Posse;Silvia Culiari Lima;1351;1290,00
+350;11/04/2023;Pedreira;Jaqueline Almeida;1352;7530,00
+351;12/04/2023;Jaguariúna;Andreia Moreno;1353;9230,90
+352;13/04/2023;Pedreira;Ivonete Teixeira;1354;8040,90
+353;14/04/2023;Santo Antônio de Posse;Mariana Silva;1355;5460,90
+354;15/04/2023;Amparo;Ivone Teixeira;1356;1330,00
+355;16/04/2023;Campinas;Silvia Culiari Lima;1357;2180,00
+356;17/04/2023;Pedreira;Regina Santos Rocha;1358;7670,00
+357;18/04/2023;Santo Antônio de Posse;Andreia Moreno;1359;2270,50
+358;19/04/2023;Artur Nogueira;Sandra Oliveira;1360;2570,90
+359;20/04/2023;Amparo;Ivonete Teixeira;1361;6820,50
+360;21/04/2023;Artur Nogueira;Jaqueline Almeida;1362;8470,90
+361;22/04/2023;Amparo;Sandra Oliveira;1363;1180,90
+362;23/04/2023;Pedreira;Silvia Culiari Lima;1364;5410,50
+363;24/04/2023;Holambra;Ivone Teixeira;1365;3450,00
+364;25/04/2023;Pedreira;Silvia Culiari Lima;1366;2420,50
+365;26/04/2023;Campinas;Mariana Silva;1367;4640,90
+366;27/04/2023;Campinas;Ivone Teixeira;1368;1540,90
+367;28/04/2023;Artur Nogueira;Silvia Culiari Lima;1369;5600,00
+368;29/04/2023;Pedreira;Maria Clara Martins;1370;7180,50
+369;30/04/2023;Artur Nogueira;Silvia Culiari Lima;1371;3870,00
+370;01/05/2023;Pedreira;Mariana Silva;1372;5360,90
+371;02/05/2023;Amparo;Silvia Culiari Lima;1373;7920,90
+372;03/05/2023;Amparo;Andreia Moreno;1374;6870,00
+373;04/05/2023;Holambra;Ivonete Teixeira;1375;10000,90
+374;05/05/2023;Holambra;Silvia Culiari Lima;1376;8470,90
+375;06/05/2023;Amparo;Sandra Oliveira;1377;9660,90
+376;07/05/2023;Jaguariúna;Ivonete Teixeira;1378;3520,50
+377;23/03/2023;Campinas;Regina Santos Rocha;1379;1540,00
+378;24/03/2023;Jaguariúna;Mariana Silva;1380;9770,00
+379;25/03/2023;Santo Antônio de Posse;Ivone Teixeira;1381;5770,00
+380;26/03/2023;Jaguariúna;Ivonete Teixeira;1382;4420,50
+381;27/03/2023;Campinas;Ivone Teixeira;1383;1020,90
+382;28/03/2023;Holambra;Maria Clara Martins;1384;3270,00
+383;29/03/2023;Santo Antônio de Posse;Mariana Silva;1385;5780,00
+384;30/03/2023;Santo Antônio de Posse;Sandra Oliveira;1386;3630,90
+385;31/03/2023;Jaguariúna;Maria Clara Martins;1387;2950,00
+386;01/04/2023;Amparo;Sandra Oliveira;1388;4070,00
+387;02/04/2023;Pedreira;Mariana Silva;1389;1380,50
+388;03/04/2023;Holambra;Regina Santos Rocha;1390;6780,50
+389;04/04/2023;Campinas;Regina Santos Rocha;1391;6810,50
+390;05/04/2023;Santo Antônio de Posse;Sandra Oliveira;1392;2240,00
+391;06/04/2023;Campinas;Ivone Teixeira;1393;9030,90
+392;07/04/2023;Santo Antônio de Posse;Regina Santos Rocha;1394;1880,50
+393;08/04/2023;Holambra;Maria Clara Martins;1395;6270,00
+394;09/04/2023;Pedreira;Ivone Teixeira;1396;1630,00
+395;10/04/2023;Holambra;Maria Clara Martins;1397;7240,00
+396;11/04/2023;Amparo;Mariana Silva;1398;7920,00
+397;12/04/2023;Pedreira;Mariana Silva;1399;2400,50
+398;13/04/2023;Pedreira;Regina Santos Rocha;1400;6180,50
+399;14/04/2023;Holambra;Sandra Oliveira;1401;1160,90
+400;15/04/2023;Jaguariúna;Jaqueline Almeida;1402;3780,90
+401;16/04/2023;Santo Antônio de Posse;Jaqueline Almeida;1403;8930,00
+402;17/04/2023;Jaguariúna;Ivonete Teixeira;1404;4550,50
+403;18/04/2023;Santo Antônio de Posse;Andreia Moreno;1405;6030,00
+404;19/04/2023;Holambra;Maria Clara Martins;1406;5520,00
+405;20/04/2023;Santo Antônio de Posse;Sandra Oliveira;1407;9000,50
+406;21/04/2023;Pedreira;Jaqueline Almeida;1408;7200,00
+407;22/04/2023;Campinas;Jaqueline Almeida;1409;5420,00
+408;23/04/2023;Santo Antônio de Posse;Regina Santos Rocha;1410;7350,00
+409;24/04/2023;Santo Antônio de Posse;Regina Santos Rocha;1411;4900,50
+410;25/04/2023;Artur Nogueira;Silvia Culiari Lima;1412;5390,90
+411;26/04/2023;Jaguariúna;Ivonete Teixeira;1413;8040,00
+412;27/04/2023;Jaguariúna;Ivone Teixeira;1414;6480,50
+413;28/04/2023;Artur Nogueira;Maria Clara Martins;1415;1770,00
+414;29/04/2023;Artur Nogueira;Regina Santos Rocha;1416;8190,00
+415;30/04/2023;Santo Antônio de Posse;Mariana Silva;1417;1230,90
+416;01/05/2023;Jaguariúna;Regina Santos Rocha;1418;1380,50
+417;02/05/2023;Jaguariúna;Sandra Oliveira;1419;3790,50
+418;03/05/2023;Santo Antônio de Posse;Silvia Culiari Lima;1420;4860,00
+419;04/05/2023;Holambra;Ivonete Teixeira;1421;9850,50
+420;05/05/2023;Amparo;Mariana Silva;1422;6340,50
+421;06/05/2023;Artur Nogueira;Jaqueline Almeida;1423;5110,50
+422;07/05/2023;Campinas;Mariana Silva;1424;7220,00
+423;08/05/2023;Santo Antônio de Posse;Andreia Moreno;1425;8100,90
+424;09/05/2023;Campinas;Maria Clara Martins;1426;5720,00
+425;10/05/2023;Campinas;Regina Santos Rocha;1427;9040,00
+426;11/05/2023;Holambra;Mariana Silva;1428;7060,50
+427;12/05/2023;Jaguariúna;Silvia Culiari Lima;1429;3990,50
+428;13/05/2023;Santo Antônio de Posse;Jaqueline Almeida;1430;4840,00
+429;14/05/2023;Pedreira;Sandra Oliveira;1431;5130,50
+430;15/05/2023;Santo Antônio de Posse;Maria Clara Martins;1432;6340,00
+431;16/05/2023;Santo Antônio de Posse;Sandra Oliveira;1433;6420,90
+432;17/05/2023;Pedreira;Sandra Oliveira;1434;5670,50
+433;18/05/2023;Artur Nogueira;Andreia Moreno;1435;3550,90
+434;19/05/2023;Santo Antônio de Posse;Ivone Teixeira;1436;3790,50
+435;20/05/2023;Amparo;Maria Clara Martins;1437;5760,00
+436;21/05/2023;Jaguariúna;Maria Clara Martins;1438;5610,90
+437;22/05/2023;Santo Antônio de Posse;Maria Clara Martins;1439;8380,50
+438;23/05/2023;Holambra;Mariana Silva;1440;4640,00
+439;24/05/2023;Artur Nogueira;Jaqueline Almeida;1441;5260,00
+440;25/05/2023;Santo Antônio de Posse;Mariana Silva;1442;1750,90
+441;26/05/2023;Amparo;Ivone Teixeira;1443;4890,50
+442;27/05/2023;Amparo;Andreia Moreno;1444;8450,90
+443;28/05/2023;Amparo;Regina Santos Rocha;1445;4500,90
+444;29/05/2023;Santo Antônio de Posse;Regina Santos Rocha;1446;9520,00
+445;30/05/2023;Holambra;Maria Clara Martins;1447;2210,90
+446;31/05/2023;Holambra;Ivone Teixeira;1448;6200,90
+447;01/06/2023;Artur Nogueira;Jaqueline Almeida;1449;9850,00
+448;02/06/2023;Holambra;Regina Santos Rocha;1450;8340,50
+449;03/06/2023;Holambra;Ivone Teixeira;1451;5220,50
+450;04/06/2023;Artur Nogueira;Maria Clara Martins;1452;1580,00
+451;05/06/2023;Jaguariúna;Jaqueline Almeida;1453;7850,90
+452;06/06/2023;Jaguariúna;Sandra Oliveira;1454;4280,00
+453;07/06/2023;Pedreira;Regina Santos Rocha;1455;9280,00
+454;08/06/2023;Artur Nogueira;Silvia Culiari Lima;1456;3700,90
+455;09/06/2023;Campinas;Ivone Teixeira;1457;8230,50
+456;10/06/2023;Artur Nogueira;Jaqueline Almeida;1458;9460,90
+457;11/06/2023;Artur Nogueira;Jaqueline Almeida;1459;1380,50
+458;12/06/2023;Amparo;Sandra Oliveira;1460;3610,90
+459;13/06/2023;Jaguariúna;Regina Santos Rocha;1461;9310,50
+460;14/06/2023;Campinas;Ivone Teixeira;1462;1420,90
+461;15/06/2023;Campinas;Jaqueline Almeida;1463;9800,50
+462;16/06/2023;Jaguariúna;Ivone Teixeira;1464;1020,90
+463;17/06/2023;Pedreira;Maria Clara Martins;1465;4700,50
+464;18/06/2023;Santo Antônio de Posse;Sandra Oliveira;1466;8510,50
+465;19/06/2023;Artur Nogueira;Maria Clara Martins;1467;2760,90
+466;20/06/2023;Campinas;Ivone Teixeira;1468;2210,00
+467;21/06/2023;Pedreira;Silvia Culiari Lima;1469;4010,90
+468;22/06/2023;Jaguariúna;Regina Santos Rocha;1470;2520,00
+469;23/06/2023;Holambra;Regina Santos Rocha;1471;2750,50
+470;24/06/2023;Campinas;Maria Clara Martins;1472;4050,90
+471;25/06/2023;Amparo;Andreia Moreno;1473;3060,90
+472;26/06/2023;Jaguariúna;Maria Clara Martins;1474;8960,90
+473;27/06/2023;Amparo;Silvia Culiari Lima;1475;3890,00
+474;28/06/2023;Artur Nogueira;Andreia Moreno;1476;4710,00
+475;29/06/2023;Artur Nogueira;Andreia Moreno;1477;5620,50
+476;30/06/2023;Jaguariúna;Andreia Moreno;1478;8490,00
+477;01/07/2023;Santo Antônio de Posse;Mariana Silva;1479;9290,00
+478;02/07/2023;Pedreira;Silvia Culiari Lima;1480;3550,00
+479;03/07/2023;Pedreira;Mariana Silva;1481;3900,50
+480;04/07/2023;Artur Nogueira;Maria Clara Martins;1482;2190,00
+481;05/07/2023;Campinas;Mariana Silva;1483;5200,50
+482;06/07/2023;Campinas;Regina Santos Rocha;1484;1530,90
+483;07/07/2023;Amparo;Ivone Teixeira;1485;1160,90
+484;08/07/2023;Holambra;Maria Clara Martins;1486;6440,00
+485;09/07/2023;Artur Nogueira;Silvia Culiari Lima;1487;3250,50
+486;10/07/2023;Pedreira;Mariana Silva;1488;3930,50
+487;11/07/2023;Artur Nogueira;Jaqueline Almeida;1489;1640,00
+488;12/07/2023;Holambra;Andreia Moreno;1490;2850,50
+489;13/07/2023;Campinas;Silvia Culiari Lima;1491;3860,50
+490;14/07/2023;Pedreira;Andreia Moreno;1492;5910,00
+491;15/07/2023;Santo Antônio de Posse;Jaqueline Almeida;1493;1750,90
+492;16/07/2023;Artur Nogueira;Andreia Moreno;1494;1030,00
+493;17/07/2023;Pedreira;Ivonete Teixeira;1495;1320,00
+494;18/07/2023;Jaguariúna;Maria Clara Martins;1496;2470,50
+495;19/07/2023;Campinas;Mariana Silva;1497;2730,50
+496;20/07/2023;Campinas;Sandra Oliveira;1498;8040,00
+497;21/07/2023;Holambra;Sandra Oliveira;1499;4350,90
+498;22/07/2023;Holambra;Silvia Culiari Lima;1500;3550,50
+499;23/07/2023;Jaguariúna;Maria Clara Martins;1501;7910,50
+500;24/07/2023;Campinas;Silvia Culiari Lima;1502;9360,90
+501;25/07/2023;Santo Antônio de Posse;Ivone Teixeira;1503;4920,50
+502;26/07/2023;Artur Nogueira;Andreia Moreno;1504;6550,50
+503;27/07/2023;Santo Antônio de Posse;Andreia Moreno;1505;6970,50
+504;28/07/2023;Artur Nogueira;Sandra Oliveira;1506;8830,00
+505;29/07/2023;Campinas;Jaqueline Almeida;1507;9420,00
+506;30/07/2023;Holambra;Maria Clara Martins;1508;7140,00
+507;31/07/2023;Artur Nogueira;Andreia Moreno;1509;7310,90
+508;01/08/2023;Holambra;Maria Clara Martins;1510;8010,00
+509;02/08/2023;Santo Antônio de Posse;Silvia Culiari Lima;1511;8980,90
+510;03/08/2023;Amparo;Mariana Silva;1512;4120,50
+511;04/08/2023;Amparo;Andreia Moreno;1513;4360,90
+512;05/08/2023;Jaguariúna;Jaqueline Almeida;1514;6380,00
+513;06/08/2023;Holambra;Silvia Culiari Lima;1515;2110,50
+514;07/08/2023;Santo Antônio de Posse;Sandra Oliveira;1516;3380,90
+515;08/08/2023;Campinas;Silvia Culiari Lima;1517;3060,90
+516;09/08/2023;Campinas;Ivone Teixeira;1518;3630,90
+517;10/08/2023;Holambra;Sandra Oliveira;1519;3250,50
+518;11/08/2023;Amparo;Andreia Moreno;1520;4830,50
+519;12/08/2023;Holambra;Ivonete Teixeira;1521;4700,50
+520;13/08/2023;Holambra;Andreia Moreno;1522;6040,00
+521;14/08/2023;Artur Nogueira;Ivone Teixeira;1523;9470,50
+522;15/08/2023;Santo Antônio de Posse;Ivone Teixeira;1524;9280,50
+523;16/08/2023;Holambra;Mariana Silva;1525;6450,50
+524;17/08/2023;Holambra;Silvia Culiari Lima;1526;3530,50
+525;18/08/2023;Santo Antônio de Posse;Ivone Teixeira;1527;4080,00
+526;19/08/2023;Jaguariúna;Mariana Silva;1528;4770,50
+527;20/08/2023;Campinas;Maria Clara Martins;1529;5600,50
+528;21/08/2023;Santo Antônio de Posse;Maria Clara Martins;1530;5790,50
+529;22/08/2023;Amparo;Ivonete Teixeira;1531;7880,90
+530;23/08/2023;Pedreira;Mariana Silva;1532;3040,50
+531;24/08/2023;Jaguariúna;Maria Clara Martins;1533;6230,50
+532;25/08/2023;Campinas;Ivone Teixeira;1534;1190,90
+533;26/08/2023;Campinas;Regina Santos Rocha;1535;5500,90
+534;27/08/2023;Holambra;Mariana Silva;1536;4580,50
+535;28/08/2023;Santo Antônio de Posse;Ivone Teixeira;1537;5070,00
+536;29/08/2023;Holambra;Jaqueline Almeida;1538;8360,50
+537;30/08/2023;Santo Antônio de Posse;Mariana Silva;1539;5550,00
+538;31/08/2023;Campinas;Maria Clara Martins;1540;6730,90
+539;01/09/2023;Jaguariúna;Mariana Silva;1541;3340,90
+540;02/09/2023;Jaguariúna;Andreia Moreno;1542;9080,00
+541;03/09/2023;Campinas;Ivonete Teixeira;1543;5900,50
+542;04/09/2023;Amparo;Silvia Culiari Lima;1544;4230,50
+543;05/09/2023;Jaguariúna;Sandra Oliveira;1545;8640,50
+544;06/09/2023;Holambra;Andreia Moreno;1546;5500,50
+545;07/09/2023;Amparo;Sandra Oliveira;1547;7900,00
+546;08/09/2023;Santo Antônio de Posse;Mariana Silva;1548;2900,50
+547;09/09/2023;Campinas;Ivone Teixeira;1549;2030,90
+548;10/09/2023;Holambra;Ivonete Teixeira;1550;4320,00
+549;11/09/2023;Pedreira;Maria Clara Martins;1551;9560,00
+550;12/09/2023;Jaguariúna;Ivonete Teixeira;1552;6290,90
+551;13/09/2023;Artur Nogueira;Silvia Culiari Lima;1553;5000,00
+552;14/09/2023;Pedreira;Andreia Moreno;1554;8820,50
+553;15/09/2023;Amparo;Maria Clara Martins;1555;4000,50
+554;16/09/2023;Campinas;Andreia Moreno;1556;8830,90
+555;17/09/2023;Amparo;Regina Santos Rocha;1557;1290,00
+556;18/09/2023;Pedreira;Jaqueline Almeida;1558;5480,00
+557;19/09/2023;Pedreira;Sandra Oliveira;1559;9210,90
+558;20/09/2023;Holambra;Andreia Moreno;1560;1300,00
+559;21/09/2023;Holambra;Andreia Moreno;1561;2900,90
+560;22/09/2023;Santo Antônio de Posse;Ivonete Teixeira;1562;1460,90
+561;23/09/2023;Santo Antônio de Posse;Ivone Teixeira;1563;2580,00
+562;23/03/2023;Jaguariúna;Ivonete Teixeira;1564;3870,00
+563;24/03/2023;Amparo;Ivonete Teixeira;1565;7980,00
+564;25/03/2023;Artur Nogueira;Mariana Silva;1566;9190,50
+565;26/03/2023;Holambra;Mariana Silva;1567;7830,50
+566;27/03/2023;Pedreira;Regina Santos Rocha;1568;9100,50
+567;28/03/2023;Holambra;Regina Santos Rocha;1569;8990,50
+568;29/03/2023;Amparo;Regina Santos Rocha;1570;9850,50
+569;30/03/2023;Campinas;Maria Clara Martins;1571;1600,90
+570;31/03/2023;Pedreira;Mariana Silva;1572;5720,90
+571;01/04/2023;Pedreira;Andreia Moreno;1573;4060,90
+572;02/04/2023;Santo Antônio de Posse;Silvia Culiari Lima;1574;2100,90
+573;03/04/2023;Pedreira;Mariana Silva;1575;4800,90
+574;04/04/2023;Santo Antônio de Posse;Maria Clara Martins;1576;6770,50
+575;05/04/2023;Pedreira;Ivone Teixeira;1577;9410,00
+576;06/04/2023;Jaguariúna;Sandra Oliveira;1578;4740,90
+577;07/04/2023;Campinas;Sandra Oliveira;1579;4410,00
+578;08/04/2023;Jaguariúna;Regina Santos Rocha;1580;5220,50
+579;09/04/2023;Holambra;Ivonete Teixeira;1581;8190,50
+580;10/04/2023;Amparo;Regina Santos Rocha;1582;7500,50
+581;11/04/2023;Pedreira;Andreia Moreno;1583;5140,50
+582;12/04/2023;Santo Antônio de Posse;Mariana Silva;1584;5270,90
+583;13/04/2023;Campinas;Regina Santos Rocha;1585;7090,90
+584;14/04/2023;Artur Nogueira;Jaqueline Almeida;1586;8400,90
+585;15/04/2023;Campinas;Andreia Moreno;1587;8780,00
+586;16/04/2023;Campinas;Silvia Culiari Lima;1588;8280,00
+587;17/04/2023;Campinas;Regina Santos Rocha;1589;9560,50
+588;18/04/2023;Jaguariúna;Ivonete Teixeira;1590;5870,90
+589;19/04/2023;Holambra;Maria Clara Martins;1591;8400,00
+590;20/04/2023;Holambra;Ivonete Teixeira;1592;7990,50
+591;21/04/2023;Campinas;Ivonete Teixeira;1593;2130,50
+592;22/04/2023;Jaguariúna;Mariana Silva;1594;6660,90
+593;23/04/2023;Amparo;Ivone Teixeira;1595;7880,00
+594;24/04/2023;Jaguariúna;Ivonete Teixeira;1596;9960,90
+595;25/04/2023;Artur Nogueira;Ivonete Teixeira;1597;4290,90
+596;26/04/2023;Amparo;Maria Clara Martins;1598;9490,50
+597;27/04/2023;Holambra;Sandra Oliveira;1599;10000,50
+598;28/04/2023;Pedreira;Jaqueline Almeida;1600;1810,50
+599;29/04/2023;Amparo;Regina Santos Rocha;1601;6690,50
+600;30/04/2023;Jaguariúna;Regina Santos Rocha;1602;9650,00
+601;01/05/2023;Pedreira;Maria Clara Martins;1603;8820,00
+602;02/05/2023;Artur Nogueira;Maria Clara Martins;1604;3170,00
+603;03/05/2023;Campinas;Ivonete Teixeira;1605;8320,90
+604;04/05/2023;Holambra;Maria Clara Martins;1606;9710,00
+605;05/05/2023;Pedreira;Regina Santos Rocha;1607;9920,50
+606;06/05/2023;Artur Nogueira;Ivone Teixeira;1608;7190,50
+607;07/05/2023;Pedreira;Sandra Oliveira;1609;5220,00
+608;08/05/2023;Amparo;Mariana Silva;1610;9010,00
+609;09/05/2023;Jaguariúna;Andreia Moreno;1611;4820,00
+610;10/05/2023;Pedreira;Mariana Silva;1612;5040,50
+611;11/05/2023;Jaguariúna;Regina Santos Rocha;1613;4540,50
+612;12/05/2023;Artur Nogueira;Jaqueline Almeida;1614;6210,00
+613;13/05/2023;Campinas;Regina Santos Rocha;1615;4880,90
+614;14/05/2023;Artur Nogueira;Maria Clara Martins;1616;2570,90
+615;15/05/2023;Jaguariúna;Ivonete Teixeira;1617;8830,50
+616;16/05/2023;Holambra;Ivonete Teixeira;1618;6510,90
+617;17/05/2023;Amparo;Maria Clara Martins;1619;4450,90
+618;18/05/2023;Pedreira;Jaqueline Almeida;1620;8530,90
+619;19/05/2023;Artur Nogueira;Mariana Silva;1621;6780,00
+620;20/05/2023;Jaguariúna;Regina Santos Rocha;1622;8600,00
+621;21/05/2023;Holambra;Silvia Culiari Lima;1623;2210,90
+622;22/05/2023;Campinas;Silvia Culiari Lima;1624;8840,00
+623;23/05/2023;Jaguariúna;Ivonete Teixeira;1625;1550,90
+624;24/05/2023;Pedreira;Silvia Culiari Lima;1626;1260,00
+625;25/05/2023;Amparo;Sandra Oliveira;1627;2480,90
+626;26/05/2023;Amparo;Maria Clara Martins;1628;5630,00
+627;27/05/2023;Amparo;Regina Santos Rocha;1629;7440,00
+628;28/05/2023;Amparo;Jaqueline Almeida;1630;4860,90
+629;29/05/2023;Artur Nogueira;Mariana Silva;1631;8070,00
+630;30/05/2023;Santo Antônio de Posse;Ivone Teixeira;1632;7600,00
+631;31/05/2023;Jaguariúna;Jaqueline Almeida;1633;1320,50
+632;01/06/2023;Artur Nogueira;Regina Santos Rocha;1634;7420,50
+633;02/06/2023;Pedreira;Andreia Moreno;1635;3720,90
+634;03/06/2023;Pedreira;Maria Clara Martins;1636;2780,50
+635;04/06/2023;Amparo;Sandra Oliveira;1637;7930,00
+636;05/06/2023;Santo Antônio de Posse;Mariana Silva;1638;9090,90
+637;06/06/2023;Holambra;Andreia Moreno;1639;2660,50
+638;07/06/2023;Amparo;Jaqueline Almeida;1640;9550,00
+639;08/06/2023;Amparo;Sandra Oliveira;1641;2040,50
+640;09/06/2023;Pedreira;Jaqueline Almeida;1642;3940,90
+641;10/06/2023;Campinas;Regina Santos Rocha;1643;8150,50
+642;11/06/2023;Pedreira;Andreia Moreno;1644;1060,00
+643;12/06/2023;Artur Nogueira;Regina Santos Rocha;1645;2450,50
+644;13/06/2023;Campinas;Mariana Silva;1646;6990,00
+645;14/06/2023;Jaguariúna;Silvia Culiari Lima;1647;2040,90
+646;15/06/2023;Holambra;Jaqueline Almeida;1648;1730,00
+647;16/06/2023;Pedreira;Regina Santos Rocha;1649;2280,50
+648;17/06/2023;Amparo;Andreia Moreno;1650;5350,90
+649;18/06/2023;Jaguariúna;Silvia Culiari Lima;1651;4080,50
+650;19/06/2023;Santo Antônio de Posse;Mariana Silva;1652;5030,00
+651;20/06/2023;Artur Nogueira;Sandra Oliveira;1653;6490,90
+652;21/06/2023;Pedreira;Mariana Silva;1654;2180,00
+653;22/06/2023;Artur Nogueira;Silvia Culiari Lima;1655;9400,50
+654;23/06/2023;Santo Antônio de Posse;Ivone Teixeira;1656;7390,50
+655;24/06/2023;Artur Nogueira;Ivonete Teixeira;1657;7860,90
+656;25/06/2023;Amparo;Silvia Culiari Lima;1658;5820,00
+657;26/06/2023;Santo Antônio de Posse;Andreia Moreno;1659;8660,50
+658;27/06/2023;Jaguariúna;Regina Santos Rocha;1660;3250,90
+659;28/06/2023;Pedreira;Sandra Oliveira;1661;5360,90
+660;29/06/2023;Campinas;Sandra Oliveira;1662;1730,00
+661;30/06/2023;Holambra;Silvia Culiari Lima;1663;6860,90
+662;01/07/2023;Jaguariúna;Regina Santos Rocha;1664;1620,00
+663;02/07/2023;Jaguariúna;Ivonete Teixeira;1665;9350,00
+664;03/07/2023;Holambra;Ivonete Teixeira;1666;8160,90
+665;04/07/2023;Artur Nogueira;Sandra Oliveira;1667;1830,50
+666;05/07/2023;Amparo;Mariana Silva;1668;7920,90
+667;06/07/2023;Pedreira;Ivone Teixeira;1669;1720,50
+668;07/07/2023;Jaguariúna;Jaqueline Almeida;1670;6370,90
+669;08/07/2023;Holambra;Maria Clara Martins;1671;2320,00
+670;09/07/2023;Jaguariúna;Silvia Culiari Lima;1672;2370,50
+671;10/07/2023;Jaguariúna;Silvia Culiari Lima;1673;7270,50
+672;11/07/2023;Holambra;Sandra Oliveira;1674;1120,00
+673;12/07/2023;Pedreira;Silvia Culiari Lima;1675;7920,90
+674;13/07/2023;Jaguariúna;Sandra Oliveira;1676;7620,50
+675;14/07/2023;Campinas;Silvia Culiari Lima;1677;1340,00
+676;15/07/2023;Artur Nogueira;Andreia Moreno;1678;2820,50
+677;16/07/2023;Holambra;Mariana Silva;1679;4410,00
+678;17/07/2023;Pedreira;Mariana Silva;1680;5310,00
+679;18/07/2023;Campinas;Maria Clara Martins;1681;3370,00
+680;19/07/2023;Jaguariúna;Ivonete Teixeira;1682;8060,50
+681;20/07/2023;Artur Nogueira;Ivonete Teixeira;1683;1010,90
+682;21/07/2023;Santo Antônio de Posse;Sandra Oliveira;1684;4530,50
+683;22/07/2023;Holambra;Sandra Oliveira;1685;8590,90
+684;23/07/2023;Campinas;Ivonete Teixeira;1686;1140,90
+685;24/07/2023;Holambra;Sandra Oliveira;1687;6110,90
+686;25/07/2023;Pedreira;Ivonete Teixeira;1688;5880,00
+687;26/07/2023;Holambra;Regina Santos Rocha;1689;8770,90
+688;27/07/2023;Artur Nogueira;Ivone Teixeira;1690;9080,00
+689;28/07/2023;Pedreira;Ivonete Teixeira;1691;7900,50
+690;29/07/2023;Pedreira;Maria Clara Martins;1692;9250,00
+691;30/07/2023;Santo Antônio de Posse;Silvia Culiari Lima;1693;3620,90
+692;31/07/2023;Artur Nogueira;Regina Santos Rocha;1694;8200,00
+693;01/08/2023;Jaguariúna;Jaqueline Almeida;1695;7050,50
+694;02/08/2023;Santo Antônio de Posse;Silvia Culiari Lima;1696;1540,90
+695;03/08/2023;Jaguariúna;Ivone Teixeira;1697;1880,50
+696;04/08/2023;Amparo;Regina Santos Rocha;1698;1060,90
+697;05/08/2023;Artur Nogueira;Ivonete Teixeira;1699;9300,90
+698;06/08/2023;Campinas;Ivonete Teixeira;1700;1700,00
+699;07/08/2023;Pedreira;Jaqueline Almeida;1701;7740,00
+700;08/08/2023;Jaguariúna;Ivonete Teixeira;1702;7370,00
+701;09/08/2023;Pedreira;Mariana Silva;1703;4820,90
+702;10/08/2023;Holambra;Mariana Silva;1704;3520,00
+703;11/08/2023;Jaguariúna;Ivone Teixeira;1705;9760,90
+704;12/08/2023;Santo Antônio de Posse;Ivone Teixeira;1706;9790,00
+705;13/08/2023;Jaguariúna;Maria Clara Martins;1707;9880,50
+706;14/08/2023;Artur Nogueira;Jaqueline Almeida;1708;2870,90
+707;15/08/2023;Amparo;Ivonete Teixeira;1709;9770,90
+708;16/08/2023;Holambra;Sandra Oliveira;1710;7410,50
+709;17/08/2023;Pedreira;Regina Santos Rocha;1711;8150,50
+710;18/08/2023;Holambra;Jaqueline Almeida;1712;1390,90
+711;19/08/2023;Amparo;Ivone Teixeira;1713;9430,50
+712;20/08/2023;Artur Nogueira;Jaqueline Almeida;1714;9140,00
+713;21/08/2023;Pedreira;Andreia Moreno;1715;1200,50
+714;22/08/2023;Artur Nogueira;Ivone Teixeira;1716;4400,50
+715;23/08/2023;Artur Nogueira;Sandra Oliveira;1717;9410,90
+716;24/08/2023;Artur Nogueira;Maria Clara Martins;1718;6260,00
+717;25/08/2023;Pedreira;Regina Santos Rocha;1719;3860,90
+718;26/08/2023;Santo Antônio de Posse;Andreia Moreno;1720;3280,00
+719;27/08/2023;Santo Antônio de Posse;Maria Clara Martins;1721;3840,90
+720;23/03/2023;Campinas;Andreia Moreno;1722;4230,50
+721;24/03/2023;Campinas;Sandra Oliveira;1723;3080,50
+722;25/03/2023;Artur Nogueira;Andreia Moreno;1724;1690,00
+723;26/03/2023;Santo Antônio de Posse;Regina Santos Rocha;1725;6120,90
+724;27/03/2023;Artur Nogueira;Maria Clara Martins;1726;2270,00
+725;28/03/2023;Campinas;Sandra Oliveira;1727;8320,50
+726;29/03/2023;Amparo;Mariana Silva;1728;3180,00
+727;30/03/2023;Holambra;Regina Santos Rocha;1729;8390,50
+728;31/03/2023;Artur Nogueira;Silvia Culiari Lima;1730;1150,90
+729;01/04/2023;Santo Antônio de Posse;Maria Clara Martins;1731;3000,50
+730;02/04/2023;Holambra;Silvia Culiari Lima;1732;8210,00
+731;03/04/2023;Jaguariúna;Sandra Oliveira;1733;2460,90
+732;04/04/2023;Campinas;Mariana Silva;1734;9080,50
+733;05/04/2023;Amparo;Jaqueline Almeida;1735;9140,90
+734;06/04/2023;Artur Nogueira;Regina Santos Rocha;1736;2970,50
+735;07/04/2023;Amparo;Silvia Culiari Lima;1737;8730,90
+736;08/04/2023;Amparo;Sandra Oliveira;1738;9430,00
+737;09/04/2023;Santo Antônio de Posse;Andreia Moreno;1739;7200,50
+738;10/04/2023;Jaguariúna;Maria Clara Martins;1740;5280,00
+739;11/04/2023;Holambra;Ivonete Teixeira;1741;1270,00
+740;12/04/2023;Campinas;Mariana Silva;1742;4050,90
+741;13/04/2023;Holambra;Silvia Culiari Lima;1743;3680,00
+742;14/04/2023;Santo Antônio de Posse;Andreia Moreno;1744;9070,90
+743;15/04/2023;Artur Nogueira;Regina Santos Rocha;1745;5630,50
+744;16/04/2023;Amparo;Ivonete Teixeira;1746;4810,00
+745;17/04/2023;Pedreira;Silvia Culiari Lima;1747;4400,90
+746;18/04/2023;Jaguariúna;Jaqueline Almeida;1748;4630,90
+747;19/04/2023;Jaguariúna;Jaqueline Almeida;1749;6230,50
+748;20/04/2023;Amparo;Regina Santos Rocha;1750;4460,00
+749;21/04/2023;Artur Nogueira;Mariana Silva;1751;2360,50
+750;22/04/2023;Pedreira;Ivonete Teixeira;1752;8590,00
+751;23/04/2023;Santo Antônio de Posse;Mariana Silva;1753;7730,50
+752;24/04/2023;Jaguariúna;Silvia Culiari Lima;1754;4580,00
+753;25/04/2023;Holambra;Mariana Silva;1755;9500,00
+754;26/04/2023;Holambra;Maria Clara Martins;1756;7210,50
+755;27/04/2023;Holambra;Sandra Oliveira;1757;3340,00
+756;28/04/2023;Pedreira;Ivonete Teixeira;1758;8300,90
+757;29/04/2023;Holambra;Ivone Teixeira;1759;5650,00
+758;30/04/2023;Campinas;Ivone Teixeira;1760;6260,90
+759;01/05/2023;Amparo;Andreia Moreno;1761;6760,50
+760;02/05/2023;Jaguariúna;Ivone Teixeira;1762;1200,00
+761;03/05/2023;Santo Antônio de Posse;Jaqueline Almeida;1763;4020,90
+762;04/05/2023;Holambra;Mariana Silva;1764;8620,00
+763;05/05/2023;Pedreira;Maria Clara Martins;1765;2350,50
+764;06/05/2023;Campinas;Sandra Oliveira;1766;10000,50
+765;07/05/2023;Holambra;Regina Santos Rocha;1767;5590,50
+766;08/05/2023;Jaguariúna;Maria Clara Martins;1768;1410,50
+767;09/05/2023;Jaguariúna;Ivonete Teixeira;1769;9170,00
+768;10/05/2023;Holambra;Mariana Silva;1770;8310,50
+769;11/05/2023;Holambra;Ivone Teixeira;1771;2450,50
+770;12/05/2023;Campinas;Ivonete Teixeira;1772;9210,50
+771;13/05/2023;Jaguariúna;Ivone Teixeira;1773;6380,50
+772;14/05/2023;Jaguariúna;Andreia Moreno;1774;7980,90
+773;15/05/2023;Pedreira;Silvia Culiari Lima;1775;2260,50
+774;16/05/2023;Campinas;Maria Clara Martins;1776;4500,00
+775;17/05/2023;Campinas;Ivonete Teixeira;1777;4880,00
+776;18/05/2023;Artur Nogueira;Mariana Silva;1778;2910,50
+777;19/05/2023;Pedreira;Mariana Silva;1779;4180,50
+778;20/05/2023;Pedreira;Silvia Culiari Lima;1780;8840,00
+779;21/05/2023;Campinas;Ivone Teixeira;1781;5430,00
+780;22/05/2023;Amparo;Regina Santos Rocha;1782;8430,50
+781;23/05/2023;Holambra;Andreia Moreno;1783;3610,90
+782;24/05/2023;Jaguariúna;Jaqueline Almeida;1784;4250,50
+783;25/05/2023;Campinas;Jaqueline Almeida;1785;9600,90
+784;26/05/2023;Artur Nogueira;Jaqueline Almeida;1786;2990,50
+785;27/05/2023;Campinas;Ivone Teixeira;1787;9610,50
+786;28/05/2023;Santo Antônio de Posse;Maria Clara Martins;1788;2400,00
+787;29/05/2023;Amparo;Jaqueline Almeida;1789;8450,00
+788;30/05/2023;Pedreira;Andreia Moreno;1790;3660,90
+789;31/05/2023;Artur Nogueira;Regina Santos Rocha;1791;4590,90
+790;01/06/2023;Campinas;Andreia Moreno;1792;9020,50
+791;02/06/2023;Jaguariúna;Sandra Oliveira;1793;2850,90
+792;03/06/2023;Pedreira;Mariana Silva;1794;6810,50
+793;04/06/2023;Jaguariúna;Regina Santos Rocha;1795;7500,00
+794;05/06/2023;Jaguariúna;Sandra Oliveira;1796;3930,00
+795;06/06/2023;Pedreira;Andreia Moreno;1797;8020,00
+796;07/06/2023;Pedreira;Ivone Teixeira;1798;1370,50
+797;08/06/2023;Amparo;Sandra Oliveira;1799;6910,90
+798;09/06/2023;Campinas;Sandra Oliveira;1800;5380,50
+799;10/06/2023;Pedreira;Maria Clara Martins;1801;6910,00
+800;11/06/2023;Pedreira;Jaqueline Almeida;1802;2130,90
+801;12/06/2023;Santo Antônio de Posse;Sandra Oliveira;1803;1200,50
+802;13/06/2023;Artur Nogueira;Maria Clara Martins;1804;4870,90
+803;14/06/2023;Pedreira;Ivone Teixeira;1805;7260,50
+804;15/06/2023;Amparo;Regina Santos Rocha;1806;9090,50
+805;16/06/2023;Artur Nogueira;Maria Clara Martins;1807;3850,00
+806;17/06/2023;Artur Nogueira;Ivonete Teixeira;1808;6010,90
+807;18/06/2023;Artur Nogueira;Ivone Teixeira;1809;4260,90
+808;19/06/2023;Jaguariúna;Regina Santos Rocha;1810;1450,90
+809;20/06/2023;Santo Antônio de Posse;Jaqueline Almeida;1811;6530,50
+810;21/06/2023;Campinas;Ivonete Teixeira;1812;4350,90
+811;22/06/2023;Amparo;Ivone Teixeira;1813;6420,50
+812;23/06/2023;Amparo;Regina Santos Rocha;1814;3020,50
+813;24/06/2023;Campinas;Mariana Silva;1815;3000,00
+814;25/06/2023;Jaguariúna;Ivonete Teixeira;1816;9740,50
+815;26/06/2023;Santo Antônio de Posse;Regina Santos Rocha;1817;8610,00
+816;27/06/2023;Amparo;Andreia Moreno;1818;9230,00
+817;28/06/2023;Amparo;Mariana Silva;1819;8560,90
+818;29/06/2023;Jaguariúna;Ivonete Teixeira;1820;2180,50
+819;30/06/2023;Campinas;Silvia Culiari Lima;1821;2940,90
+820;01/07/2023;Jaguariúna;Ivonete Teixeira;1822;2660,90
+821;02/07/2023;Artur Nogueira;Jaqueline Almeida;1823;9470,90
+822;03/07/2023;Amparo;Ivonete Teixeira;1824;4090,00
+823;04/07/2023;Holambra;Andreia Moreno;1825;4500,50
+824;05/07/2023;Jaguariúna;Silvia Culiari Lima;1826;4270,90
+825;06/07/2023;Amparo;Sandra Oliveira;1827;1360,90
+826;07/07/2023;Holambra;Regina Santos Rocha;1828;9600,50
+827;08/07/2023;Holambra;Silvia Culiari Lima;1829;9620,50
+828;09/07/2023;Campinas;Jaqueline Almeida;1830;6550,00
+829;10/07/2023;Artur Nogueira;Maria Clara Martins;1831;8570,90
+830;11/07/2023;Holambra;Silvia Culiari Lima;1832;3860,90
+831;12/07/2023;Santo Antônio de Posse;Regina Santos Rocha;1833;5990,00
+832;13/07/2023;Jaguariúna;Maria Clara Martins;1834;7060,90
+833;14/07/2023;Pedreira;Ivonete Teixeira;1835;9110,90
+834;15/07/2023;Pedreira;Silvia Culiari Lima;1836;7970,50
+835;16/07/2023;Holambra;Mariana Silva;1837;9990,50
+836;17/07/2023;Jaguariúna;Maria Clara Martins;1838;5350,50
+837;18/07/2023;Artur Nogueira;Regina Santos Rocha;1839;8470,50
+838;19/07/2023;Campinas;Maria Clara Martins;1840;5370,90
+839;20/07/2023;Jaguariúna;Andreia Moreno;1841;1810,50
+840;21/07/2023;Amparo;Ivone Teixeira;1842;1270,90
+841;22/07/2023;Jaguariúna;Andreia Moreno;1843;7280,50
+842;23/07/2023;Artur Nogueira;Jaqueline Almeida;1844;9260,50
+843;24/07/2023;Holambra;Jaqueline Almeida;1845;5520,50
+844;25/07/2023;Holambra;Mariana Silva;1846;1410,00
+845;26/07/2023;Holambra;Regina Santos Rocha;1847;6820,00
+846;27/07/2023;Campinas;Mariana Silva;1848;2310,90
+847;28/07/2023;Pedreira;Andreia Moreno;1849;8620,50
+848;29/07/2023;Pedreira;Regina Santos Rocha;1850;8030,50
+849;30/07/2023;Pedreira;Andreia Moreno;1851;6140,90
+850;31/07/2023;Campinas;Sandra Oliveira;1852;5050,50
+851;01/08/2023;Campinas;Regina Santos Rocha;1853;4820,50
+852;02/08/2023;Amparo;Ivone Teixeira;1854;5610,00
+853;03/08/2023;Pedreira;Jaqueline Almeida;1855;3570,00
+854;04/08/2023;Campinas;Maria Clara Martins;1856;7980,00
+855;05/08/2023;Artur Nogueira;Andreia Moreno;1857;5240,90
+856;06/08/2023;Jaguariúna;Andreia Moreno;1858;3070,50
+857;07/08/2023;Santo Antônio de Posse;Ivonete Teixeira;1859;9620,00
+858;08/08/2023;Amparo;Silvia Culiari Lima;1860;8350,00
+859;09/08/2023;Campinas;Andreia Moreno;1861;3370,50
+860;10/08/2023;Holambra;Ivone Teixeira;1862;2040,50
+861;11/08/2023;Jaguariúna;Ivonete Teixeira;1863;9780,90
+862;12/08/2023;Amparo;Jaqueline Almeida;1864;2930,90
+863;13/08/2023;Jaguariúna;Andreia Moreno;1865;8480,50
+864;14/08/2023;Amparo;Silvia Culiari Lima;1866;1110,90
+865;15/08/2023;Jaguariúna;Andreia Moreno;1867;3570,50
+866;16/08/2023;Campinas;Mariana Silva;1868;1870,90
+867;17/08/2023;Artur Nogueira;Ivonete Teixeira;1869;4070,50
+868;18/08/2023;Amparo;Maria Clara Martins;1870;4680,00
+869;19/08/2023;Jaguariúna;Regina Santos Rocha;1871;1180,90
+870;20/08/2023;Campinas;Silvia Culiari Lima;1872;1050,50
+871;21/08/2023;Holambra;Andreia Moreno;1873;4870,50
+872;22/08/2023;Artur Nogueira;Maria Clara Martins;1874;9600,50
+873;23/08/2023;Santo Antônio de Posse;Regina Santos Rocha;1875;8680,00
+874;24/08/2023;Jaguariúna;Maria Clara Martins;1876;5240,50
+875;25/08/2023;Holambra;Ivonete Teixeira;1877;7000,50
+876;26/08/2023;Campinas;Jaqueline Almeida;1878;4570,00
+877;27/08/2023;Jaguariúna;Jaqueline Almeida;1879;5510,90
+878;28/08/2023;Holambra;Jaqueline Almeida;1880;6900,50
+879;29/08/2023;Artur Nogueira;Mariana Silva;1881;9900,90
+880;30/08/2023;Holambra;Maria Clara Martins;1882;4310,00
+881;31/08/2023;Santo Antônio de Posse;Jaqueline Almeida;1883;5260,90
+882;01/09/2023;Artur Nogueira;Ivone Teixeira;1884;6380,90
+883;02/09/2023;Artur Nogueira;Ivonete Teixeira;1885;4950,90
+884;03/09/2023;Campinas;Mariana Silva;1886;6120,00
+885;04/09/2023;Santo Antônio de Posse;Ivonete Teixeira;1887;1350,90
+886;05/09/2023;Santo Antônio de Posse;Regina Santos Rocha;1888;5610,00
+887;06/09/2023;Pedreira;Sandra Oliveira;1889;5210,00
+888;07/09/2023;Artur Nogueira;Ivone Teixeira;1890;8890,90
+889;08/09/2023;Pedreira;Ivone Teixeira;1891;1950,90
+890;09/09/2023;Artur Nogueira;Ivonete Teixeira;1892;7870,90
+891;10/09/2023;Amparo;Regina Santos Rocha;1893;6460,50
+892;11/09/2023;Artur Nogueira;Mariana Silva;1894;2850,50
+893;12/09/2023;Campinas;Jaqueline Almeida;1895;7250,50
+894;13/09/2023;Jaguariúna;Maria Clara Martins;1896;9140,50
+895;14/09/2023;Campinas;Sandra Oliveira;1897;4260,50
+896;15/09/2023;Santo Antônio de Posse;Jaqueline Almeida;1898;4590,90
+897;16/09/2023;Santo Antônio de Posse;Ivone Teixeira;1899;4740,90
+898;17/09/2023;Santo Antônio de Posse;Ivone Teixeira;1900;5690,00
+899;18/09/2023;Amparo;Jaqueline Almeida;1901;7870,00
+900;19/09/2023;Campinas;Ivone Teixeira;1902;8440,50
+901;20/09/2023;Holambra;Silvia Culiari Lima;1903;7330,50
+902;21/09/2023;Pedreira;Regina Santos Rocha;1904;4030,50
+903;22/09/2023;Pedreira;Jaqueline Almeida;1905;2660,00
+904;23/09/2023;Jaguariúna;Regina Santos Rocha;1906;3670,00
+905;28/08/2023;Pedreira;Silvia Culiari Lima;1907;3300,00
+906;29/08/2023;Amparo;Silvia Culiari Lima;1908;6530,90
+907;30/08/2023;Jaguariúna;Sandra Oliveira;1909;8750,50
+908;31/08/2023;Santo Antônio de Posse;Andreia Moreno;1910;1270,90
+909;01/09/2023;Santo Antônio de Posse;Andreia Moreno;1911;1770,50
+910;02/09/2023;Pedreira;Ivonete Teixeira;1912;2190,00
+911;03/09/2023;Holambra;Sandra Oliveira;1913;9550,00
+912;04/09/2023;Artur Nogueira;Jaqueline Almeida;1914;4200,50
+913;05/09/2023;Amparo;Mariana Silva;1915;6730,50
+914;06/09/2023;Amparo;Jaqueline Almeida;1916;2440,50
+915;07/09/2023;Jaguariúna;Ivone Teixeira;1917;4950,50
+916;08/09/2023;Pedreira;Regina Santos Rocha;1918;4200,50
+917;09/09/2023;Amparo;Andreia Moreno;1919;3070,00
+918;10/09/2023;Artur Nogueira;Maria Clara Martins;1920;9180,50
+919;11/09/2023;Artur Nogueira;Maria Clara Martins;1921;6070,90
+920;12/09/2023;Holambra;Mariana Silva;1922;8480,90
+921;13/09/2023;Amparo;Regina Santos Rocha;1923;9780,00
+922;14/09/2023;Amparo;Ivonete Teixeira;1924;6370,90
+923;15/09/2023;Santo Antônio de Posse;Mariana Silva;1925;9630,50
+924;16/09/2023;Santo Antônio de Posse;Ivone Teixeira;1926;8940,00
+925;17/09/2023;Campinas;Maria Clara Martins;1927;4720,50
+926;18/09/2023;Amparo;Andreia Moreno;1928;2390,90
+927;19/09/2023;Jaguariúna;Sandra Oliveira;1929;7810,00
+928;20/09/2023;Amparo;Ivone Teixeira;1930;4730,50
+929;21/09/2023;Holambra;Regina Santos Rocha;1931;6170,00
+930;22/09/2023;Holambra;Ivone Teixeira;1932;1470,50
+931;23/09/2023;Holambra;Sandra Oliveira;1933;4400,90
+932;23/03/2023;Pedreira;Regina Santos Rocha;1934;3250,90
+933;24/03/2023;Pedreira;Silvia Culiari Lima;1935;3800,50
+934;25/03/2023;Campinas;Jaqueline Almeida;1936;4330,90
+935;26/03/2023;Artur Nogueira;Ivone Teixeira;1937;2480,90
+936;27/03/2023;Jaguariúna;Maria Clara Martins;1938;3480,00
+937;28/03/2023;Jaguariúna;Ivone Teixeira;1939;9700,50
+938;29/03/2023;Campinas;Andreia Moreno;1940;7380,90
+939;30/03/2023;Amparo;Ivone Teixeira;1941;6160,00
+940;31/03/2023;Pedreira;Ivone Teixeira;1942;1480,50
+941;01/04/2023;Pedreira;Ivonete Teixeira;1943;3980,90
+942;02/04/2023;Artur Nogueira;Jaqueline Almeida;1944;9050,50
+943;03/04/2023;Amparo;Andreia Moreno;1945;4570,50
+944;04/04/2023;Santo Antônio de Posse;Mariana Silva;1946;5450,90
+945;05/04/2023;Amparo;Ivone Teixeira;1947;4270,50
+946;06/04/2023;Amparo;Maria Clara Martins;1948;1150,90
+947;07/04/2023;Jaguariúna;Jaqueline Almeida;1949;9300,90
+948;08/04/2023;Amparo;Silvia Culiari Lima;1950;2950,50
+949;09/04/2023;Amparo;Andreia Moreno;1951;7360,90
+950;10/04/2023;Campinas;Maria Clara Martins;1952;8200,90
+951;11/04/2023;Santo Antônio de Posse;Regina Santos Rocha;1953;2250,90
+952;12/04/2023;Campinas;Ivonete Teixeira;1954;2670,90
+953;13/04/2023;Campinas;Andreia Moreno;1955;9100,90
+954;14/04/2023;Holambra;Regina Santos Rocha;1956;8990,00
+955;15/04/2023;Campinas;Silvia Culiari Lima;1957;7500,50
+956;16/04/2023;Jaguariúna;Andreia Moreno;1958;4580,00
+957;17/04/2023;Amparo;Silvia Culiari Lima;1959;8920,00
+958;18/04/2023;Santo Antônio de Posse;Jaqueline Almeida;1960;4780,00
+959;19/04/2023;Holambra;Andreia Moreno;1961;6030,90
+960;20/04/2023;Santo Antônio de Posse;Regina Santos Rocha;1962;8520,50
+961;21/04/2023;Santo Antônio de Posse;Maria Clara Martins;1963;9550,00
+962;22/04/2023;Campinas;Ivonete Teixeira;1964;9870,90
+963;23/04/2023;Campinas;Regina Santos Rocha;1965;1430,00
+964;24/04/2023;Jaguariúna;Regina Santos Rocha;1966;5450,00
+965;25/04/2023;Artur Nogueira;Ivone Teixeira;1967;5540,90
+966;26/04/2023;Jaguariúna;Maria Clara Martins;1968;6770,00
+967;27/04/2023;Amparo;Ivonete Teixeira;1969;8010,50
+968;28/04/2023;Pedreira;Sandra Oliveira;1970;4550,90
+969;29/04/2023;Artur Nogueira;Regina Santos Rocha;1971;4610,00
+970;30/04/2023;Amparo;Jaqueline Almeida;1972;1320,90
+971;01/05/2023;Campinas;Mariana Silva;1973;9790,50
+972;02/05/2023;Holambra;Ivone Teixeira;1974;5800,00
+973;03/05/2023;Amparo;Sandra Oliveira;1975;6050,00
+974;04/05/2023;Santo Antônio de Posse;Silvia Culiari Lima;1976;1790,00
+975;05/05/2023;Jaguariúna;Silvia Culiari Lima;1977;2810,90
+976;06/05/2023;Amparo;Andreia Moreno;1978;1480,50
+977;07/05/2023;Artur Nogueira;Ivone Teixeira;1979;5750,00
+978;08/05/2023;Artur Nogueira;Ivone Teixeira;1980;6560,00
+979;09/05/2023;Jaguariúna;Silvia Culiari Lima;1981;8320,90
+980;10/05/2023;Amparo;Sandra Oliveira;1982;4860,50
+981;11/05/2023;Santo Antônio de Posse;Andreia Moreno;1983;3080,90
+982;12/05/2023;Jaguariúna;Jaqueline Almeida;1984;3890,90
+983;13/05/2023;Santo Antônio de Posse;Silvia Culiari Lima;1985;5690,00
+984;14/05/2023;Campinas;Maria Clara Martins;1986;8420,90
+985;15/05/2023;Amparo;Maria Clara Martins;1987;9850,00
+986;16/05/2023;Jaguariúna;Ivone Teixeira;1988;6840,90
+987;17/05/2023;Jaguariúna;Ivonete Teixeira;1989;9940,90
+988;18/05/2023;Pedreira;Sandra Oliveira;1990;4070,50
+989;19/05/2023;Artur Nogueira;Silvia Culiari Lima;1991;1760,90
+990;20/05/2023;Campinas;Sandra Oliveira;1992;6230,50
+991;21/05/2023;Santo Antônio de Posse;Sandra Oliveira;1993;7520,50
+992;22/05/2023;Campinas;Ivonete Teixeira;1994;1670,90
+993;23/05/2023;Santo Antônio de Posse;Ivone Teixeira;1995;4290,50
+994;24/05/2023;Campinas;Regina Santos Rocha;1996;3460,00
+995;25/05/2023;Artur Nogueira;Ivone Teixeira;1997;5330,50
+996;26/05/2023;Santo Antônio de Posse;Sandra Oliveira;1998;1030,00
+997;27/05/2023;Campinas;Regina Santos Rocha;1999;5940,90
+998;28/05/2023;Jaguariúna;Andreia Moreno;2000;8140,00
+999;29/05/2023;Amparo;Sandra Oliveira;2001;3200,00
+1000;30/05/2023;Holambra;Silvia Culiari Lima;2002;9610,90
+1001;31/05/2023;Jaguariúna;Regina Santos Rocha;2003;7010,00
+1002;01/06/2023;Santo Antônio de Posse;Andreia Moreno;2004;6250,90
+1003;02/06/2023;Holambra;Silvia Culiari Lima;2005;6900,00
+1004;03/06/2023;Pedreira;Ivone Teixeira;2006;8280,00
+1005;04/06/2023;Amparo;Ivone Teixeira;2007;8200,00
+1006;05/06/2023;Santo Antônio de Posse;Sandra Oliveira;2008;5340,00
+1007;06/06/2023;Amparo;Regina Santos Rocha;2009;4130,90
+1008;07/06/2023;Amparo;Ivone Teixeira;2010;7340,00
+1009;08/06/2023;Amparo;Regina Santos Rocha;2011;9620,90
+1010;09/06/2023;Santo Antônio de Posse;Regina Santos Rocha;2012;7940,00
+1011;10/06/2023;Santo Antônio de Posse;Regina Santos Rocha;2013;5310,90
+1012;11/06/2023;Holambra;Ivonete Teixeira;2014;2700,00
+1013;12/06/2023;Artur Nogueira;Sandra Oliveira;2015;3140,90
+1014;13/06/2023;Santo Antônio de Posse;Jaqueline Almeida;2016;5800,90
+1015;14/06/2023;Amparo;Regina Santos Rocha;2017;5420,90
+1016;15/06/2023;Jaguariúna;Ivonete Teixeira;2018;2670,00
+1017;16/06/2023;Campinas;Jaqueline Almeida;2019;1430,90
+1018;17/06/2023;Santo Antônio de Posse;Andreia Moreno;2020;2150,50
+1019;18/06/2023;Holambra;Ivone Teixeira;2021;7430,00
+1020;19/06/2023;Amparo;Sandra Oliveira;2022;3120,50
+1021;20/06/2023;Santo Antônio de Posse;Sandra Oliveira;2023;4520,50
+1022;21/06/2023;Holambra;Silvia Culiari Lima;2024;4370,00
+1023;22/06/2023;Jaguariúna;Silvia Culiari Lima;2025;1620,90
+1024;23/06/2023;Santo Antônio de Posse;Silvia Culiari Lima;2026;4690,00
+1025;24/06/2023;Campinas;Silvia Culiari Lima;2027;9640,90
+1026;25/06/2023;Pedreira;Maria Clara Martins;2028;7890,00
+1027;26/06/2023;Santo Antônio de Posse;Mariana Silva;2029;6170,90
+1028;27/06/2023;Pedreira;Sandra Oliveira;2030;1200,50
+1029;28/06/2023;Artur Nogueira;Sandra Oliveira;2031;4300,90
+1030;29/06/2023;Jaguariúna;Maria Clara Martins;2032;8680,90
+1031;30/06/2023;Holambra;Sandra Oliveira;2033;7620,50
+1032;01/07/2023;Holambra;Silvia Culiari Lima;2034;1760,50
+1033;02/07/2023;Campinas;Ivonete Teixeira;2035;1900,00
+1034;03/07/2023;Holambra;Andreia Moreno;2036;1940,50
+1035;04/07/2023;Campinas;Ivone Teixeira;2037;5180,90
+1036;05/07/2023;Artur Nogueira;Andreia Moreno;2038;9510,00
+1037;06/07/2023;Santo Antônio de Posse;Ivonete Teixeira;2039;3160,50
+1038;07/07/2023;Santo Antônio de Posse;Andreia Moreno;2040;2440,00
+1039;08/07/2023;Jaguariúna;Sandra Oliveira;2041;7580,90
+1040;09/07/2023;Pedreira;Ivonete Teixeira;2042;5120,00
+1041;10/07/2023;Artur Nogueira;Mariana Silva;2043;4760,90
+1042;11/07/2023;Artur Nogueira;Maria Clara Martins;2044;7950,00
+1043;12/07/2023;Jaguariúna;Ivonete Teixeira;2045;3750,90
+1044;13/07/2023;Jaguariúna;Andreia Moreno;2046;4510,50
+1045;14/07/2023;Holambra;Mariana Silva;2047;8440,90
+1046;15/07/2023;Campinas;Mariana Silva;2048;1440,00
+1047;16/07/2023;Artur Nogueira;Jaqueline Almeida;2049;7490,50
+1048;17/07/2023;Holambra;Ivonete Teixeira;2050;4790,50
+1049;18/07/2023;Campinas;Andreia Moreno;2051;3320,90
+1050;19/07/2023;Jaguariúna;Ivone Teixeira;2052;2310,00
+1051;20/07/2023;Amparo;Sandra Oliveira;2053;3090,90
+1052;21/07/2023;Amparo;Ivone Teixeira;2054;4560,50
+1053;22/07/2023;Artur Nogueira;Maria Clara Martins;2055;6630,00
+1054;23/07/2023;Pedreira;Ivone Teixeira;2056;8970,90
+1055;24/07/2023;Campinas;Regina Santos Rocha;2057;1220,00
+1056;25/07/2023;Campinas;Maria Clara Martins;2058;2290,00
+1057;26/07/2023;Artur Nogueira;Jaqueline Almeida;2059;9060,50
+1058;27/07/2023;Holambra;Silvia Culiari Lima;2060;2290,00
+1059;28/07/2023;Amparo;Maria Clara Martins;2061;7890,90
+1060;29/07/2023;Campinas;Sandra Oliveira;2062;9090,50
+1061;30/07/2023;Jaguariúna;Jaqueline Almeida;2063;9920,50
+1062;31/07/2023;Campinas;Ivonete Teixeira;2064;8510,50
+1063;01/08/2023;Pedreira;Ivone Teixeira;2065;4570,00
+1064;02/08/2023;Jaguariúna;Maria Clara Martins;2066;2900,50
+1065;03/08/2023;Santo Antônio de Posse;Regina Santos Rocha;2067;9580,00
+1066;04/08/2023;Santo Antônio de Posse;Andreia Moreno;2068;4230,00
+1067;05/08/2023;Artur Nogueira;Mariana Silva;2069;3600,90
+1068;06/08/2023;Campinas;Regina Santos Rocha;2070;3830,90
+1069;07/08/2023;Santo Antônio de Posse;Ivonete Teixeira;2071;1340,00
+1070;08/08/2023;Santo Antônio de Posse;Jaqueline Almeida;2072;3210,00
+1071;09/08/2023;Jaguariúna;Maria Clara Martins;2073;6910,90
+1072;10/08/2023;Artur Nogueira;Mariana Silva;2074;7170,90
+1073;11/08/2023;Holambra;Ivonete Teixeira;2075;2980,50
+1074;12/08/2023;Pedreira;Ivonete Teixeira;2076;3740,00
+1075;13/08/2023;Santo Antônio de Posse;Regina Santos Rocha;2077;1330,90
+1076;14/08/2023;Holambra;Maria Clara Martins;2078;1420,50
+1077;15/08/2023;Pedreira;Andreia Moreno;2079;9050,00
+1078;16/08/2023;Artur Nogueira;Ivone Teixeira;2080;3450,00
+1079;17/08/2023;Holambra;Ivone Teixeira;2081;5710,50
+1080;18/08/2023;Holambra;Sandra Oliveira;2082;3680,00
+1081;19/08/2023;Amparo;Sandra Oliveira;2083;4870,90
+1082;20/08/2023;Artur Nogueira;Mariana Silva;2084;2730,50
+1083;21/08/2023;Campinas;Jaqueline Almeida;2085;2670,90
+1084;22/08/2023;Pedreira;Andreia Moreno;2086;9660,90
+1085;23/08/2023;Amparo;Maria Clara Martins;2087;7990,00
+1086;24/08/2023;Santo Antônio de Posse;Sandra Oliveira;2088;9460,00
+1087;25/08/2023;Amparo;Sandra Oliveira;2089;7250,50
+1088;26/08/2023;Santo Antônio de Posse;Regina Santos Rocha;2090;4690,50
+1089;27/08/2023;Amparo;Sandra Oliveira;2091;7160,00
+1090;28/08/2023;Campinas;Regina Santos Rocha;2092;2220,00
+1091;29/08/2023;Artur Nogueira;Mariana Silva;2093;9580,00
+1092;30/08/2023;Amparo;Ivone Teixeira;2094;5660,50
+1093;31/08/2023;Santo Antônio de Posse;Silvia Culiari Lima;2095;5540,90
+1094;01/09/2023;Amparo;Andreia Moreno;2096;9300,00
+1095;02/09/2023;Artur Nogueira;Silvia Culiari Lima;2097;4720,00
+1096;03/09/2023;Artur Nogueira;Mariana Silva;2098;8730,00
+1097;04/09/2023;Amparo;Maria Clara Martins;2099;9730,00
+1098;05/09/2023;Santo Antônio de Posse;Regina Santos Rocha;2100;3260,90
+1099;06/09/2023;Santo Antônio de Posse;Sandra Oliveira;2101;9840,50
+1100;07/09/2023;Holambra;Ivone Teixeira;2102;2290,50
+1101;08/09/2023;Artur Nogueira;Mariana Silva;2103;8450,50
+1102;09/09/2023;Amparo;Regina Santos Rocha;2104;5410,50
+1103;10/09/2023;Jaguariúna;Silvia Culiari Lima;2105;4040,50
+1104;11/09/2023;Jaguariúna;Jaqueline Almeida;2106;4850,90
+1105;12/09/2023;Amparo;Jaqueline Almeida;2107;5080,00
+1106;13/09/2023;Amparo;Sandra Oliveira;2108;3800,90
+1107;14/09/2023;Holambra;Andreia Moreno;2109;8690,50
+1108;15/09/2023;Jaguariúna;Andreia Moreno;2110;6690,00
+1109;16/09/2023;Jaguariúna;Sandra Oliveira;2111;8920,90

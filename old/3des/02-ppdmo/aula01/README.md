@@ -1,0 +1,6 @@
+- 3. DADOS:
+- 3.1. Operações em banco de dados;
+- 3.2. Acesso a dados através de conexões WEB;
+- Correção do desafio da semana 1: Sistema de Pedidos
+	- App Cozinha
+	- App Entregas

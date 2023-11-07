@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Perfil do usuário</title>
+</head>
+
+<body>
+    <header>
+        <h1>Perfil</h1>
+    </header>
+    <main>
+        <form id="perfil">
+            <label for="id">Id:</label>
+            <input type="number" name="id" id="id" disabled>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" id="cpf">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="nascimento">Data de Nascimento:</label>
+            <input type="date" name="nascimento" id="nascimento">
+            <div id="endereco">
+                <label for="cep">CEP:</label>
+                <input type="text" name="cep" id="cep">
+                <label for="numero">Número:</label>
+                <input type="number" name="numero" id="numero">
+                <label for="complemento">Complemento:</label>
+                <input type="text" name="complemento" id="complemento">
+            </div>
+            <label for="telefones">Telefones:</label>
+            <textarea name="telefones" id="telefones"></textarea>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha">
+            <label for="confirmacao">Confirmação de Senha:</label>
+            <input type="password" name="confirmacao" id="confirmacao">
+            <button type="submit">Salvar</button>
+        </form>
+    </main>
+    <footer>
+        <a href="login.html">Voltar</a>
+    </footer>
+</body>
+<script>
+    //Abrir o mockup local com fetch
+    fetch('./mockup.json')
+        .then(resposta => resposta.json())
+        .then(dados => {
+            //Preencher os campos do formulário com os dados do mockup
+            const perfil = document.getElementById('perfil');
+            perfil.id.value = dados.id;
+            perfil.nome.value = dados.nome;
+            perfil.cpf.value = dados.cpf;
+            perfil.email.value = dados.email;
+            perfil.nascimento.value = dados.nascimento;
+            perfil.cep.value = dados.endereco.cep;
+            perfil.numero.value = dados.endereco.numero;
+            perfil.complemento.value = dados.endereco.complemento;
+            perfil.telefones.value = dados.telefones;
+        })
+        .catch(erro => {
+            console.log(erro);
+        });
+</script>
+</html>

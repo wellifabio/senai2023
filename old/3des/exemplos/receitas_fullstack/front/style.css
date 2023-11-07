@@ -1,0 +1,252 @@
+*{
+    top:0;
+    left:0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #133;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    background-color: #133;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    color: #eee;
+    font-size: 30px;
+}
+
+header button{
+    background-color: #eee;
+    color: #133;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+header button:hover{
+    background-color: #133;
+    box-shadow: 0 0 10px #eee;
+    color: #eee;
+}
+
+main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow:auto;
+}
+
+#cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    max-width: 350px;
+    background-color: #eee;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px #133;
+}
+
+.card div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card div button{
+    background-color: rgb(110, 16, 16);
+    color: #eee;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.card div button:hover{
+    background-color: #eee;
+    box-shadow: 0 0 10px rgb(110, 16, 16);
+    color: rgb(110, 16, 16);
+}
+
+#img{
+    width: 100%;
+    height: 300px;
+    background-color: #eee;
+}
+
+.modal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+form{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+    background-color: #133;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px #eee;
+    position: relative;
+    top:10px;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form button{
+    background-color: rgb(110, 16, 16);
+    color: #eee;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #eee;
+    box-shadow: 0 0 10px rgb(110, 16, 16);
+    color: rgb(110, 16, 16);
+}
+
+form div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form img{
+    width: 250px;
+    height: 180px;
+}
+
+form input{
+    width: 100%;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+form select{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+form label{
+    width: 160px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+form textarea{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.botoes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.oculto{
+    display: none;
+}
+
+@media(max-width:600px){
+    *{
+        margin: 0px;
+    }
+    form{
+        width: 95%;
+        height: 95%;
+        margin: 0;
+        display: inline;
+        flex-wrap: wrap;
+        text-align: center;
+        position:absolute;
+    }
+    form button{
+        font-size: small;
+    }
+    form input{
+        font-size: small;
+        margin: 5px;
+    }
+    form label{
+        display: none;
+    }
+    form textarea{
+        margin: 5px;
+        height: 30px;
+    }
+    h1{
+        font-size: medium;
+    }
+    header buttom {
+        font-size: 14px;
+    }
+    form img{
+        width: 200px;
+        height: 150px;
+    }
+}

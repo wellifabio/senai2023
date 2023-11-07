@@ -1,0 +1,13 @@
+h1 Novo usuário
+
+form(action='/users', method='POST')
+  label(for='name') Nome:
+  input#name(type='text', name='name')
+
+  label(for='email') Email:
+  input#email(type='email', name='email')
+
+  label(for='password') Senha:
+  input#password(type='password', name='password')
+
+  button(type='submit') Salvar

@@ -1,0 +1,13 @@
+h1 Editar usuário
+
+form(action=`/users/${user._id}?_method=PUT`, method='POST')
+  label(for='name') Nome:
+  input#name(type='text', name='name', value=user.name)
+
+  label(for='email') Email:
+  input#email(type='email', name='email', value=user.email)
+
+  label(for='password') Senha:
+  input#password(type='password', name='password', value=user.password)
+
+  button(type='submit') Salvar

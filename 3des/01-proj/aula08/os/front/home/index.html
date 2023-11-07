@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../assets/icone.png" type="image/x-icon">
+    <title>OS (Ordens de Serviço)</title>
+</head>
+
+<body>
+    <header>
+        <h1>OS (Ordens de Serviço)</h1>
+        <div>
+            <div id="msg">Mensagens do sistema:</div>
+            <div>
+                <img id="imgPerfil" src="../assets/do-utilizador.png" alt="ìcone de usuário"
+                    onclick="user.classList.toggle('oculto')">
+                <h3 id="nomeColaborador"></h3>
+            </div>
+        </div>
+    </header>
+    <nav id="menu">
+        <button onclick="novaOS.classList.remove('oculto')">Nova OS</button>
+    </nav>
+    <nav id="user" class="oculto">
+        <ul onclick="user.classList.add('oculto')">
+            <button onclick="perfil.classList.remove('oculto')">Perfil</button>
+            <button onclick="sair()">Sair</button>
+        </ul>
+    </nav>
+    <main>
+        <section id="oss"></section>
+
+        <section id="perfil" class="modal oculto">
+            <form id="formPerfil">
+                <label for="matricula">Matrícula:</label>
+                <input type="number" name="matricula" disabled="true">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" required>
+                <label for="cargo">Cargo:</label>
+                <input type="text" name="cargo" required>
+                <label for="setor">Setor:</label>
+                <input type="text" name="setor" required>
+                <label for="pin">Novo PIM:</label>
+                <input type="password" name="pin">
+                <label for="confirmPin">Confirma PIM:</label>
+                <input type="password" name="confirmPin">
+                <input type="button" value="Cancelar" onclick="perfil.classList.add('oculto')">
+                <input type="submit" value="Atualizar">
+                <label for="excluir">Remover Perfil</label>
+                <input type="button" value="Excluir" onclick="excluirPerfil()">
+            </form>
+        </section>
+        <section id="novaOS" class="modal oculto">
+            <form id="formOS">
+                <label for="descricao">Descrição:</label>
+                <textarea name="descricao" placeholder="Descreva ao sua ordem de serviço:" required></textarea>
+                <input type="button" value="Cancelar" onclick="novaOS.classList.add('oculto')">
+                <input type="submit" value="Salvar">
+            </form>
+        </section>
+        <section id="detalhesOS" class="modal oculto">
+            <form id="formAtualizarOS">
+                <label for="id">Id:</label>
+                <input type="number" name="id" disabled="true">
+                <label for="colaborador">Colaborador:</label>
+                <input type="text" name="colaborador" disabled="true">
+                <label for="abertura">Data:</label>
+                <input type="datetime-local" name="abertura" disabled="true">
+                <label for="descricao">Descrição:</label>
+                <textarea name="descricao"></textarea>
+                <label for="executor">Executor:</label>
+                <input type="text" name="executor" disabled="true">
+                <input type="button" value="Cancelar" onclick="detalhesOS.classList.add('oculto')">
+                <input type="submit" value="Atualizar">
+                <label>Novo Comentário</label>
+                <input type="button" value="Adicionar"
+                    onclick="novoComentario.classList.remove('oculto'); formComentario.os.value = formAtualizarOS.id.value">
+            </form>
+            <section id="comentarios"></section>
+        </section>
+        <section id="novoComentario" class="modal oculto">
+            <form id="formComentario">
+                <input type="hidden" name="os">
+                <label for="comentario">Comentário:</label>
+                <textarea name="comentario" placeholder="Descreva seu comentário:" required></textarea>
+                <input type="button" value="Cancelar" onclick="novoComentario.classList.add('oculto')">
+                <input type="submit" value="Salvar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h2>Sistema de Gestão de Ordens de Serviço</h2>
+        <h3>By Professor Wellington</h3>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

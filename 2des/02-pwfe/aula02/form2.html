@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <!-- Página com um formulário onde os dados são enviados atrávés do submit -->
+    <!-- Os campos são validados antes de ser enviados, á um pré processamento -->
+    <div class="form2">
+        <form id="form">
+            Nome: <input type="text" name="nome" id="name" size="40" placeholder="Digite seu nome" autofocus required>
+            Idade: <input type="number" name="idade" id="age" placeholder="Digite sua idade" required>
+            Sexo: <select name="sexo" id="gender">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="trans">Trans</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casas Falida</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./scripts/api.js" defer></script>
+    <script src="./scripts/vendas.js" defer></script>
+
+    <link rel="stylesheet" href="./styles/vendas.css">
+</head>
+<body>
+
+    <header>
+        <p>CASAS <span id="text-red">FALIDA</span></p>
+        <div>
+            <a href="index.html"><p>Vendedores</p></a>
+            <a href="vendas.html"><p>Vendas</p></a>
+        </div>
+    </header>
+    
+    <div class="container">
+        <button>Nova Venda <span class="icon"><img src="./assets/add.png" alt="Icone de cadastrar venda"></span></button>
+        <div class="lista-vendas">
+            <div class="card-venda">
+                <p id="id" class="model">1</p>
+                <p id="vendedor">Stefany Antonella</p>
+                <p id="produto">Motorola Moto G42</p>
+                <p id="quantidade">2</p>
+                <span class="icon"><img src="./assets/edit.png" alt="Icone de edição de vendedores"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal model">
+        <div class="card-modal">
+            <span class="icon" onclick="closeModal()"><img src="./assets/close.png" alt="Icone de fechamento de modal"></span>
+            <input type="hidden" id="inpId">
+            <input type="text" id="inpNome" placeholder="Nome">
+            <input type="text" id="inpMatrila" placeholder="Matricula">
+            <button>Alterar</button>
+        </div>
+    </div>
+
+</body>
+</html>

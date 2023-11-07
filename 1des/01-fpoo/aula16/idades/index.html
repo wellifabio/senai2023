@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Orientação a Objetos</title>
+</head>
+
+<body onload="atualizaTabela()">
+    <header>
+        <h1>Inserindo e processando dados em uma tabela</h1>
+        <form id="novaPessoa">
+            <input type="text" name="nome" placeholder="Nome completo" required>
+            <input type="date" name="nascimento" required>
+            <select name="sexo">
+                <option value="F">Feminino</option>
+                <option value="M">Masculino</option>
+            </select>
+            <input type="submit" value="Inserir">
+        </form>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Nascimento</th>
+                    <th>Sexo</th>
+                    <th>Idade</th>
+                </tr>
+            </thead>
+            <tbody id="corpoTabela"></tbody>
+        </table>
+    </main>
+</body>
+<script src="pessoas.js"></script>
+
+</html>

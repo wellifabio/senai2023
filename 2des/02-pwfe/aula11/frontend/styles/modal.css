@@ -1,0 +1,47 @@
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.card-modal {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    padding: 2rem;
+    border-radius: 7px;
+    background-color: #f0f0f0;
+}
+
+.card-modal .icon,.card-modal .icon img {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.card-modal button {
+    border: none;
+    outline: none;
+    background-color: #35ac61;
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 1.15rem;
+    padding: 1rem;
+    border-radius: 7px;
+    transition: .2s;
+}
+
+.card-modal button:hover {
+    filter:brightness(110%);
+    cursor: pointer;
+}

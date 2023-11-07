@@ -1,0 +1,110 @@
+head
+  meta(charset='utf-8')
+  title Ordens de Serviço
+  link(rel='stylesheet', href='style.css')
+  link(rel="shortcut icon" href="ico.png")
+body
+  header
+    h1 Ordens de Serviço #{colaborador.nome}
+      button(onclick="novo.classList.remove('oculto')") Nova O.S.
+      button(onclick="window.location.href='http://localhost:3000'") Sair
+    div(class="sombra oculto" id="novo")
+      div(class="novo")
+        p Nova Ordem de Serviço
+          button(onclick="novo.classList.add('oculto')") X
+        form(action="/os/create", method="POST")
+          input(type="hidden", name="colaborador", value=colaborador.matricula)
+          p Descrição:
+            textarea(name="descricao", placeholder="Digite a descrição da Ordem de Serviço", required)
+          p Atribuído para executor:
+            select(name="executor")
+              each executor in executores
+                option(value=executor.matricula) #{executor.matricula} - #{executor.nome}
+          input(type="submit", value="Cadastrar")  
+  main
+    if colaborador.setor == "Manutencao"
+      h2 Para Trabalhar
+      each os in colaborador.executadas
+        if os.encerramento == undefined
+          div(class="trabalhando")
+            h2 OS #{os.id}
+            p Descrição: #{os.descricao}
+            p Colaborador: #{os.colaborador}
+            p Executor: #{os.executor}
+            p Aberto em: #{os.abertura.toISOString().split('T')[0]}, #{os.abertura.toISOString().split('T')[1].slice(0,5)}
+            button(onclick=`coment${os.id}.classList.remove('oculto')`) Detalhes
+            div(class="sombra oculto", id=`coment${os.id}`)
+              div(class="comentarios")
+                p Detalhes da Ordem de Serviço
+                  button(onclick=`coment${os.id}.classList.add('oculto')`) X
+                p Descrição: #{os.descricao}
+                form(action=`/comentario/create`, method='POST')
+                  input(type="hidden", name="id", value=os.id)
+                  input(type="hidden", name="matricula", value=colaborador.matricula)
+                  input(type="text", name="comentario", required)
+                  input(type="submit", value="Adicionar")
+                each comentario in os.comentarios
+                  div
+                    p Comentario: #{comentario.comentario}  
+                    p Id do Colaborador: #{comentario.colaborador}  
+                    p Data do comentario: #{comentario.data.toISOString().split('T')[0]}, #{comentario.data.toISOString().split('T')[1].slice(0,5)}                  
+                form(action=`/os/update/${os.id}?_method=PUT`, method='POST')
+                  input(type="hidden", name="matricula", value=colaborador.matricula)
+                  input(type="submit", value="Concluir")
+    h2 Abertas por mim
+    each os in colaborador.abertas
+      if os.encerramento == undefined
+        div(class="aberta")
+          h2 OS #{os.id}
+          form(action=`/os/update?_method=PUT`, method='POST')
+            input(type="hidden", name="id", value=os.id)
+            input(type="hidden", name="matricula", value=colaborador.matricula)
+            p Descrição:
+              textarea(name="descricao")=os.descricao
+            p Aberto por matrícula #{os.colaborador}
+            p Atribuído para executor:
+              select(name="executor")
+                each executor in executores
+                  option(value=executor.matricula, selected=os.executor==executor.matricula?true:false) #{executor.matricula} - #{executor.nome}
+            p Aberto em: #{os.abertura.toISOString().split('T')[0]}, #{os.abertura.toISOString().split('T')[1].slice(0,5)}
+            input(type="submit", value="Alterar")
+          div(class="botoes")
+            form(action=`/os/del/${os.id}?_method=DELETE`, method='POST')
+              input(type="hidden", name="id", value=os.id)
+              input(type="hidden", name="matricula", value=colaborador.matricula)
+              input(type="submit", value="Excluir")
+            button(onclick=`coments${os.id}.classList.remove('oculto')`) Detalhes
+          div(class="sombra oculto", id=`coments${os.id}`)
+            div(class="comentarios")
+              p Detalhes da Ordem de Serviço
+                button(onclick=`coments${os.id}.classList.add('oculto')`) X
+              p Descrição: #{os.descricao}
+              form(action=`/comentario/create`, method='POST')
+                input(type="hidden", name="id", value=os.id)
+                input(type="hidden", name="matricula", value=colaborador.matricula)
+                input(type="text", name="comentario", required)
+                input(type="submit", value="Adicionar")
+              each comentario in os.comentarios
+                div
+                  p Comentario: #{comentario.comentario}  
+                  p Id do Colaborador: #{comentario.colaborador}  
+                  p Data do comentario: #{comentario.data.toISOString().split('T')[0]}, #{comentario.data.toISOString().split('T')[1].slice(0,5)}  
+      else
+        div(class="concluida")
+          h2 OS #{os.id}
+          p Descrição: #{os.descricao}
+          p Colaborador: #{os.colaborador}
+          p Executor: #{os.executor}
+          p Aberto em: #{os.abertura.toISOString().split('T')[0]}, #{os.abertura.toISOString().split('T')[1].slice(0,5)}
+          p Concluído em: #{os.encerramento.toISOString().split('T')[0]}, #{os.encerramento.toISOString().split('T')[1].slice(0,5)}
+          button(onclick=`coments${os.id}.classList.remove('oculto')`) Detalhes
+          div(class="sombra oculto", id=`coments${os.id}`)
+            div(class="comentarios")
+              p Detalhes da Ordem de Serviço
+                button(onclick=`coments${os.id}.classList.add('oculto')`) X
+              p Descrição: #{os.descricao}
+              each comentario in os.comentarios
+                div
+                  p Comentario: #{comentario.comentario}  
+                  p Id do Colaborador: #{comentario.colaborador}  
+                  p Data do comentario: #{comentario.data.toISOString().split('T')[0]}, #{comentario.data.toISOString().split('T')[1].slice(0,5)}

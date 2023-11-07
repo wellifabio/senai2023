@@ -1,0 +1,53 @@
+id;os;colaborador;data;comentario
+1;1;201;2023-04-08 08:23:00;Falta vedarosca
+2;1;207;2023-04-08 08:23:01;Concluído com sucesso
+3;2;205;2023-04-08 09:20:00;Falta parafusos
+4;2;205;2023-04-08 09:20:01;Concluído com resalvas
+5;3;205;2023-04-08 10:19:00;Parcialmente concluído
+6;4;207;2023-04-08 11:20:00;Concluído com sucesso
+7;5;204;2023-04-08 12:21:00;Concluído com sucesso
+8;6;204;2023-04-08 13:22:00;Concluído com sucesso
+9;7;206;2023-04-09 08:23:00;Concluído com sucesso
+10;8;203;2023-04-09 09:20:00;Concluído com sucesso
+11;9;203;2023-04-09 10:19:00;Parcialmente concluído
+12;10;206;2023-04-09 11:23:00;Concluído com sucesso
+13;11;203;2023-04-09 12:21:00;Concluído com resalvas
+14;12;206;2023-04-09 13:22:00;Parcialmente concluído
+15;13;207;2023-04-10 08:23:00;Concluído com sucesso
+16;14;205;2023-04-10 09:20:00;Concluído com sucesso
+17;15;205;2023-04-10 10:19:00;Concluído com sucesso
+18;16;207;2023-04-10 11:23:00;Concluído com sucesso
+19;17;206;2023-04-10 12:25:00;Concluído com sucesso
+20;18;204;2023-04-10 13:26:00;Parcialmente concluído
+21;19;206;2023-04-11 08:23:00;Concluído
+22;20;209;2023-04-11 09:20:00;Concluído
+23;21;203;2023-04-11 10:19:00;Concluído
+24;22;206;2023-04-11 11:23:00;Concluído
+25;23;203;2023-04-11 12:25:00;Concluído
+26;24;206;2023-04-11 13:26:00;Concluído
+27;25;201;2023-04-08 08:23:00;Falta vedarosca
+28;25;207;2023-04-08 08:23:01;Concluído com sucesso
+29;26;205;2023-04-08 09:20:00;Falta parafusos
+30;26;205;2023-04-08 09:20:01;Concluído com resalvas
+31;27;205;2023-04-08 10:19:00;Parcialmente concluído
+32;28;207;2023-04-08 11:20:00;Concluído com sucesso
+33;29;204;2023-04-08 12:21:00;Concluído com sucesso
+34;30;204;2023-04-08 13:22:00;Concluído com sucesso
+35;31;206;2023-04-09 08:23:00;Concluído com sucesso
+36;32;203;2023-04-09 09:20:00;Concluído com sucesso
+37;33;203;2023-04-09 10:19:00;Parcialmente concluído
+38;34;206;2023-04-09 11:23:00;Concluído com sucesso
+39;35;203;2023-04-09 12:21:00;Concluído com resalvas
+40;36;206;2023-04-09 13:22:00;Parcialmente concluído
+41;37;207;2023-04-10 08:23:00;Concluído com sucesso
+42;38;205;2023-04-10 09:20:00;Concluído com sucesso
+43;39;205;2023-04-10 10:19:00;Concluído com sucesso
+44;40;207;2023-04-10 11:23:00;Concluído com sucesso
+45;41;206;2023-04-10 12:25:00;Concluído com sucesso
+46;42;204;2023-04-10 13:26:00;Parcialmente concluído
+47;43;206;2023-04-11 08:23:00;Aguardando material
+48;44;209;2023-04-11 09:20:00;Aguardando material
+49;45;203;2023-04-11 10:19:00;Aguardando material
+50;46;206;2023-04-11 11:23:00;Aguardando material
+51;47;203;2023-04-11 12:25:00;Aguardando material
+52;48;206;2023-04-11 13:26:00;Aguardando material

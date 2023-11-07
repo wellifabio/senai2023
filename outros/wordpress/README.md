@@ -1,0 +1,2 @@
+# Wordpress Basico
+- Slydes

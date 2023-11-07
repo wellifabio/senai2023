@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form id="formPessoa">
+        <input type="text" id="nome" name="nome" placeholder="Digite um nome:">
+        <input type="number" id="salario" name="salario" placeholder="Digite um salario:">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <div class="cards">
+        <div class="card model">
+            <button id="btnDel" onclick="updateCard(this)">edit</button>
+            <button id="btnDel" onclick="deleteCard(this)">X</button>
+            <h1 class="id model"></h1>
+            <h1 class="nomeValor">Nome</h1>
+            <h4 class="salarioValor">1000</h4>
+            <h4 class="salarioBase">1000</h4>
+            <h4 class="salarioLiquido">1000</h4>
+        </div>
+    </div>
+    
+</body>
+<script src="pessoa.js"></script>
+<script src="viewController.js"></script>
+</html>

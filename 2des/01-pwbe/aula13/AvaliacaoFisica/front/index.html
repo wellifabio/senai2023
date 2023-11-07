@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Avaliação Física</title>
+</head>
+
+<body onload="carregar()">
+    <header>
+        <h1>Avaliação Física</h1>
+        <button onclick="modal1.classList.remove('oculto')">Novo Paciente</button>
+        <div id="modal1" class="modal1 oculto">
+            <form id="novo">
+                <header style="grid-column-end: span 2;">
+                    <h1>Cadastro de Pacientes</h1>
+                </header>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite o nome do paciente" required>
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" name="nascimento" id="nascimento" required>
+                <label for="peso">Peso Kg:</label>
+                <input type="number" name="peso" id="peso" min="0" value="0" step="0.01" required>
+                <label for="altura">Altura m:</label>
+                <input type="number" name="altura" id="altura" min="0" value="0" step="0.01" required>
+                <input type="reset" value="Cancelar" onclick="modal1.classList.add('oculto')">
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Nascimento</th>
+                <th>Peso</th>
+                <th>Altura</th>
+                <th>Idade</th>
+                <th>IMC</th>
+                <th>Diagnóstico</th>
+                <th>Atualizar</th>
+                <th>Excluir</th>
+            </thead>
+            <tbody id="corpo"></tbody>
+        </table>
+    </main>
+    <footer><h2 id="total">Total de Pacientes:</h2></footer>
+</body>
+<script src="script.js"></script>
+
+</html>

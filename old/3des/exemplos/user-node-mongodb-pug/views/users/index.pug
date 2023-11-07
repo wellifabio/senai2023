@@ -1,0 +1,20 @@
+h1 Lista de usuários
+
+a(href='/users/new') Novo usuário
+
+table
+  thead
+    tr
+      th Nome
+      th Email
+      th Ações
+  tbody
+    each user in users
+      tr
+        td= user.name
+        td= user.email
+        td
+          a(href=`/users/${user._id}`) Ver
+          a(href=`/users/${user._id}/edit`) Editar
+          form(action=`/users/${user._id}?_method=DELETE`, method='POST')
+            button(type='submit') Excluir

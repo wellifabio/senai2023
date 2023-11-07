@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>OS (Ordens de Serviço)</title>
+</head>
+
+<body>
+    <header>
+        <h1>OS (Ordens de Serviço)</h1>
+        <div>
+            <div id="msg">Mensagens do sistema:</div>
+            <div>
+                <img id="imgPerfil" src="../assets/do-utilizador.png" alt="ìcone de usuário"
+                    onclick="user.classList.toggle('oculto')">
+                <h3 id="nomeColaborador"></h3>
+            </div>
+        </div>
+    </header>
+    <nav id="menu">
+        <button onclick="window.location.href='../home/index.html'">Home</button>
+        <button onclick="window.location.href='../os/index.html'">OSs</button>
+    </nav>
+    <nav id="user" class="oculto">
+        <ul onclick="user.classList.add('oculto')">
+            <button onclick="sair()">Sair</button>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>descricao</th>
+                        <th>colaborador</th>
+                        <th>executor</th>
+                        <th>Início</th>
+                        <th>Fim</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="oss">
+
+                </tbody>
+            </table>
+        </section>
+        <section id="detalhesOS" class="modal oculto">
+            <form id="formAtualizarOS">
+                <label for="id">Id:</label>
+                <input type="number" name="id" disabled="true">
+                <label for="colaborador">Colaborador:</label>
+                <input type="text" name="colaborador" disabled="true">
+                <label for="abertura">Data:</label>
+                <input type="datetime-local" name="abertura" disabled="true">
+                <label for="descricao">Descrição:</label>
+                <textarea name="descricao" disabled="true"></textarea>
+                <label for="executor">Executor:</label>
+                <input type="text" name="executor" disabled="true">
+                <input type="button" value="Cancelar" onclick="detalhesOS.classList.add('oculto')">
+            </form>
+            <section id="comentarios"></section>
+        </section>
+    </main>
+    <footer>
+        <p id="msg"></p>
+        <h2>Sistema de Gestão de Ordens de Serviço</h2>
+        <h3>By Professor Wellington</h3>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

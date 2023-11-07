@@ -1,0 +1,19 @@
+1. Diferencie Hardware e Software. Cite exemplos.
+
+2. O que são dispositivos de entrada e dispositivos de saída em um computador? Cite exemplos. 
+
+3. O que é um bit? Diferencie bit e byte.
+
+4. Quais são os elementos básicos que constituem um microcomputador? Desenhe o diagrama
+de blocos
+
+5. Qual é a função do microprocessador?
+
+6. As placas mães podem ser utilizadas indistintamente com qualquer tipo de processador?
+Justifique.
+
+7. O que é uma memória volátil? A RAM é uma memória volátil ou não volátil?
+
+8.  O que é vídeo on-board? E vídeo off-board?
+
+9. Qual o nome do local do encaixe das memórias na placa-mãe?

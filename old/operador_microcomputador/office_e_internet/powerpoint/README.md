@@ -1,0 +1,21 @@
+# PowerPoint
+– Inicializar e fechar o programa;
+- Sua tela;
+- Trabalhar com o arquivo (salvar, fechar, novo documento);
+- Barra de ferramentas;
+- Ajuda;
+- Criar uma apresentação;
+	- tipos de layouts de slides;
+	- inserir novos slides;
+	- modos de exibição;
+- Inserir e formatar cliparts, imagens, tabelas, gráficos, organogramas, clipe de mídia e filmes;
+- Modelo de design;
+- Plano de Fundo;
+- Esquema de Cores;
+- Transição de slides;
+- Esquema de animação;
+- Personalizar animação;
+- Inserir música na apresentação;
+- Slide mestre;
+- Recursos de apresentação;
+- Configuração de página e impressão.

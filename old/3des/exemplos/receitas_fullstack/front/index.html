@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/ico.png">
+    <title>Minhas Receitas</title>
+</head>
+
+<body onload="carregar()">
+    <header>
+        <h1>Minhas Receitas</h1>
+        <div>
+            <button id="btnAdd" onclick="modalCreate.classList.remove('oculto');">Adicionar</button>
+            <button id="btnLogin" onclick="modalLogin.classList.remove('oculto');">Entrar</button>
+            <button id="btnSair" onclick="sair()">Sair</button>
+        </div>
+    </header>
+    <main>
+        <section id="cards">
+            <div class="card oculto">
+                <div>
+                    <div id="id"><b>Id:</b></div><button id="alt">*</button><button id="btn">X</button>
+                </div>
+                <div id="tipo"><b>Tipo:</b> </div>
+                <div id="nome"><b>Nome:</b> </div>
+                <div id="ingredientes"><b>Ingredientes:</b> </div>
+                <div id="modoPreparo"><b>Modo de Preparo:</b> </div>
+                <img id="img" src="./assets/default.png">
+            </div>
+        </section>
+        <section id="modalCreate" class="modal oculto">
+            <form id="create">
+                <h2>Adicionar Receita</h2>
+                <div style="justify-content: space-around;">
+                    <h3>Tipo:</h3>
+                    <select name="tipo" id="tipoC" placeholder="Tipo">
+                        <option value="salgado">Salgada</option>
+                        <option value="doce">Doce</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nomeC" placeholder="Nome da receita" required />
+                </div>
+                <div>
+                    <label for="ingredientes">Ingredientes:</label>
+                    <textarea name="ingredientes" id="ingredientesC" placeholder="Ingredientes" required></textarea>
+                </div>
+                <div>
+                    <label for="modoPreparo">Modo de Preparo:</label>
+                    <textarea name="modoPreparo" id="modoPreparoC" placeholder="Modo de Preparo" required></textarea>
+                </div>
+                <div>
+                    <label for="img">Imagem:</label>
+                    <input type="file" name="img" id="fileC" onchange="prevImgCreate()" accept="image/jpeg, image/png">
+                </div>
+                <img src="./assets/default.png" name="imagem" alt="Imagem">
+                <div class="botoes">
+                    <button type="submit">Adicionar</button>
+                    <button type="reset" onclick="modalCreate.classList.add('oculto');">Cancelar</button>
+                </div>
+            </form>
+        </section>
+        <section id="modalUpdate" class="modal oculto">
+            <form id="update">
+                <h2>Alterar Receita</h2>
+                <div style="justify-content: space-around;">
+                    <h3>Tipo:</h3>
+                    <select name="tipo" id="tipoU" placeholder="Tipo">
+                        <option value="salgado">Salgada</option>
+                        <option value="doce">Doce</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="id">Id:</label>
+                    <input type="text" name="id" id="idU" required readonly />
+                </div>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nomeU" placeholder="Nome da receita" required />
+                </div>
+                <div>
+                    <label for="ingredientes">Ingredientes:</label>
+                    <textarea name="ingredientes" id="ingredientesU" placeholder="Ingredientes" required></textarea>
+                </div>
+                <div>
+                    <label for="modoPreparo">Modo de Preparo:</label>
+                    <textarea name="modoPreparo" id="modoPreparoU" placeholder="Modo de Preparo" required></textarea>
+                </div>
+                <div>
+                    <label for="img">Imagem:</label>
+                    <input type="file" name="img" id="fileU" onchange="prevImgUpdate()" accept="image/jpeg, image/png">
+                </div>
+                <img src="./assets/default.png" name="imagem" alt="Imagem">
+                <div class="botoes">
+                    <button type="submit">Alterar</button>
+                    <button type="reset" onclick="modalUpdate.classList.add('oculto');">Cancelar</button>
+                </div>
+            </form>
+        </section>
+        <section id="modalLogin" class="modal oculto">
+            <form id="login" style="height:200px">
+                <h2>Fazer login</h2>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email" id="email" placeholder="Email" required />
+                </div>
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" required />
+                </div>
+                <div class="botoes">
+                    <button type="submit">Login</button>
+                    <button type="reset" onclick="modalLogin.classList.add('oculto');">Cancelar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>

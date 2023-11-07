@@ -1,0 +1,73 @@
+head
+  meta(charset='utf-8')
+  title Folha de Pagamentos
+  link(rel='stylesheet', href='style.css')
+  link(rel="shortcut icon" href="ico.png")
+body
+  header
+    h1 Sistema de Folha de Pagamentos
+    button(onclick="modal1.classList.remove('oculto')") Novo Funcionario
+    div(id="modal1" class="modal1 oculto")
+      form(action="/create" id="novo" method="post")
+        header(style="grid-column-end: span 2;")
+          h1 Cadastro de Pagamento
+        label Nome completo:
+        input(type="text" name="nomeCompleto" placeholder="Nome completo do funcionário" required)
+        label Salário mensal:
+        input(type="number" name="salarioMensal" min="0" value="0.00" step="0.01" required)
+        input(type="reset" value="Cancelar" onclick="modal1.classList.add('oculto')")
+        input(type="submit" value="Cadastrar")
+  main
+    table
+      thead
+        tr
+          th Matricula
+          th Nome Completo
+          th Salário mensal
+          th Data
+          th INSS %
+          th INSS R$
+          th IRRF %
+          th IRRF R$
+          th Salário Líquido
+          th Alterar
+          th Excluir
+      tbody(id="corpo")
+        -let totalSalario = 0, totalINSS = 0, totalIRRF = 0, totalLiquido = 0, ultimaData = new Date()
+        each p in pagamentos
+          tr
+            form(action="/update?_method=PUT", method='POST')
+              td(data-label="Matrícula:")
+                input(type="number" value=p.matricula size="8" disabled)
+                input(type="hidden" name="matricula" value=p.matricula)
+              td(data-label="Nome completo:")
+                input(type="text" name="nomeCompleto" size="15" value=p.nomeCompleto required)
+              td(data-label="Salário mensal:")
+                input(type="number" name="salarioMensal" size="8" min="0" step="0.01" value=p.salarioMensal required)
+              td(data-label="Data:")
+                input(type="date" name="data" value=p.data.toISOString().split('T')[0])
+              td(data-label="INSS %:") #{(p.inssPorcento*100).toFixed(1)}%
+              td(data-label="INSS R$:")=p.inssValor.toFixed(2)
+              td(data-label="IRRF %:") #{(p.irrfPorcento*100).toFixed(1)}%
+              td(data-label="IRRF R$:")=p.irrfValor.toFixed(2)
+              td(data-label="Salário líquido:")=p.salarioLiquido.toFixed(2)
+              td(data-label="Alterar:")
+                input(type="submit" value="*")
+            form(action=`/del/${p.matricula}?_method=DELETE`, method='POST')
+              td(data-label="Excluir:")
+                input(type="submit" value="-")
+            -totalSalario += p.salarioMensal
+            -totalINSS += p.inssValor
+            -totalIRRF += p.irrfValor
+            -totalLiquido += p.salarioLiquido
+            -ultimaData = p.data 
+  footer
+    h2(id="total") Estatísticas
+    div
+      p Montante Salários R$ #{totalSalario.toFixed(2)}, Montante INSS R$ #{totalINSS.toFixed(2)}, Montante IRRF R$ #{totalIRRF.toFixed(2)}, Montante Líquido R$ #{totalLiquido.toFixed(2)}
+      form(action="/data")
+        input(type="text", placeholder="Digite o nome", onkeyup="filtroNome(this.value)")
+        input(type="date", value=ultimaData.toISOString().split('T')[0], name="data", onchange="this.form.submit()")
+        button(type="button" onclick="location.href='/'") Tudo
+        
+script(src="script.js")

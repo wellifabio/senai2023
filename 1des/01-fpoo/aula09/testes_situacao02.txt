@@ -1,0 +1,24 @@
+Digite o nome da Cidade: Americana
+Nº de Candidatos: 6
+Candidato Votos
+Ivone 10548
+Teixeirinha 14579
+Armando 7548
+Robervaldo 54849
+Mariana 97458
+Fabiana 24879
+Digite o total de votos brancos: 51236
+Total de votos Nulos: 92545
+
+Eleição Válida
+Votos válidos: 261097
+Votos inválidos: 92545
+Candidato   Porcentagem
+Ivone 4,0%
+Teixeirinha 5,6%
+Armando 2,9%
+Robervaldo 21,0%
+Mariana 37,3%
+Fabiana 9,5%
+Brancos 19,6%
+Haverá segundo turno entre Mariana e Robervaldo

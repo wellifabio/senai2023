@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body onload="carregar()">
+    <header>
+        <h1>CRUD Moedas</h1>
+    </header>
+    <nav>
+        <button onclick="modal.classList.remove('oculto')">Novo</button>
+    </nav>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Sigla</th>
+                    <th>Valor</th>
+                    <th>Editar</th>
+                    <th>Excluir</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </main>
+    <div id="modal" class="modal oculto">
+        <form id="form">
+            <div class="cabecalho">
+                <h2>Cadastro</h2>
+                <button onclick="modal.classList.add('oculto')">x</button>
+            </div>
+            <div class="fields">
+                <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                <input type="text" name="sigla" id="sigla" placeholder="Sigla" required>
+                <input type="number" name="valor" id="valor" placeholder="Valor" required>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

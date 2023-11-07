@@ -1,0 +1,49 @@
+head
+  meta(charset='utf-8')
+  title Livro de Receitas
+  link(rel='stylesheet', href='style.css')
+  link(rel="shortcut icon" href="./assets/ico.png")
+  script(src="script.js")
+
+body(onload="getURL()")
+  header
+    h1 Minhas Receitas
+    div
+      button(onclick="modalLogin.classList.remove('oculto');") Entrar
+  main
+    section(id="cards")
+      each receita in receitas
+        if receita.foto
+          -var foto='data:image/png;base64,'+receita.foto
+        else
+          -var foto="./assets/default.png"
+        div(class=`card ${receita.tipo}`)
+          div
+            div(class="card_header")
+              b Id:
+              label=receita._id
+          div
+            b Nome:
+            label=receita.nome
+          div
+            b Tipo:
+            label=receita.tipo
+          div
+            b Ingredientes:
+            label=receita.ingredientes
+          div
+            b Modo de Fazer:
+            label=receita.modoPreparo
+          img(class="img" src=foto)
+    section(id="modalLogin" class="modal oculto")
+      form(action="/login", method='POST', style="height:200px", class="form")
+        h2 Fazer login
+        div
+          label E-mail:
+          input(type="text" name="email" placeholder="Email" required)
+        div
+          label Senha:
+          input(type="password" name="senha" required)
+        div(class="botoes")
+          button(type="submit") Login
+          button(type="reset" onclick="modalLogin.classList.add('oculto');") Cancelar

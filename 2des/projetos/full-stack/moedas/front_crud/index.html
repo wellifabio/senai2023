@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>CRUD Moedas</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Sigla</th>
+                    <th>Valor</th>
+                    <th>Editar</th>
+                    <th>Excluir</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <form id="form">
+            <div class="fields">
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+                <input type="text" name="sigla" id="sigla" placeholder="Sigla">
+                <input type="number" name="valor" id="valor" placeholder="Valor">
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

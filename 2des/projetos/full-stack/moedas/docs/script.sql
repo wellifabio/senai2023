@@ -1,0 +1,71 @@
+-- SQL DDL (Data Definition Language) - Linguagem de Definição de Dados
+DROP DATABASE IF EXISTS moedas;
+CREATE DATABASE moedas CHARSET=UTF8 COLLATE utf8_general_ci;
+USE moedas;
+
+CREATE table moedas(
+    id int not null auto_increment,
+    nome varchar(100) not null,
+    sigla varchar(3) not null,
+    valor decimal(10,2) not null,
+    data_criacao timestamp not null,
+    primary key(id)
+);
+
+-- SQL DML (Data Manipulation Language) - Linguagem de Manipulação de Dados
+INSERT INTO moedas (nome, sigla, valor) VALUES
+    ('Dólar Americano', 'USD', 5.25),
+    ('Euro', 'EUR', 6.12),
+    ('Libra Esterlina', 'GBP', 7.36),
+    ('Iene Japonês', 'JPY', 0.048),
+    ('Dólar Australiano', 'AUD', 3.85),
+    ('Dólar Canadense', 'CAD', 4.01),
+    ('Franco Suíço', 'CHF', 5.55),
+    ('Dólar de Hong Kong', 'HKD', 0.67),
+    ('Coroa Sueca', 'SEK', 0.60),
+    ('Coroa Norueguesa', 'NOK', 0.62),
+    ('Dólar Neozelandês', 'NZD', 3.66),
+    ('Peso Mexicano', 'MXN', 0.26),
+    ('Real Brasileiro', 'BRL', 1.00),
+    ('Rublo Russo', 'RUB', 0.07),
+    ('Lira Turca', 'TRY', 0.60),
+    ('Dólar de Cingapura', 'SGD', 3.87),
+    ('Peso Argentino', 'ARS', 0.06),
+    ('Rupia Indiana', 'INR', 0.07),
+    ('Yuan Chinês', 'CNY', 0.81),
+    ('Dólar de Taiwan', 'TWD', 0.19),
+    ('Rand Sul-Africano', 'ZAR', 0.38),
+    ('Baht Tailandês', 'THB', 0.16),
+    ('Dólar de Barbados', 'BBD', 2.63),
+    ('Dirham dos Emirados Árabes Unidos', 'AED', 1.43),
+    ('Peso Chileno', 'CLP', 0.0067),
+    ('Peso Colombiano', 'COP', 0.0015),
+    ('Dinar do Kuwait', 'KWD', 17.34),
+    ('Ringgit Malaio', 'MYR', 1.23),
+    ('Rúpia Indonésia', 'IDR', 0.00072),
+    ('Zloty Polonês', 'PLN', 1.30),
+    ('Dólar das Bahamas', 'BSD', 5.25),
+    ('Dólar das Ilhas Cayman', 'KYD', 6.30),
+    ('Dólar das Bermudas', 'BMD', 5.25),
+    ('Dólar de Fiji', 'FJD', 2.55),
+    ('Dólar de Trinidad e Tobago', 'TTD', 0.78),
+    ('Shekel Israelense', 'ILS', 1.60),
+    ('Peso Filipino', 'PHP', 0.10),
+    ('Peso Dominicano', 'DOP', 0.09),
+    ('Leu Romeno', 'RON', 1.28),
+    ('Dólar de Belize', 'BZD', 2.62),
+    ('Dólar do Suriname', 'SRD', 0.77),
+    ('Dólar de Brunei', 'BND', 3.87),
+    ('Cólon Costa-riquenho', 'CRC', 0.0082),
+    ('Kwacha Zambiano', 'ZMW', 0.43),
+    ('Lev Búlgaro', 'BGN', 2.56),
+    ('Won Sul-Coreano', 'KRW', 0.0045),
+    ('Peso Uruguaio', 'UYU', 0.12),
+    ('Dólar de Fiji', 'FJD', 2.55),
+    ('Dólar de Trinidad e Tobago', 'TTD', 0.78),
+    ('Shekel Israelense', 'ILS', 1.60),
+    ('Peso Filipino', 'PHP', 0.10),
+    ('Peso Dominicano', 'DOP', 0.09),
+    ('Leu Romeno', 'RON', 1.28),
+    ('Dólar de Belize', 'BZD', 2.62);
+

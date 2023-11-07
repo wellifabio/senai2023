@@ -1,0 +1,29 @@
+Sub RegistrarDinheiro()
+    'Define uma variával para armazenar o total
+    Dim total As Double
+    Dim funcionario As String
+    
+    ' Vai para a guia "comanda" e pega o valor da célula D16
+    Sheets("comanda").Select
+    total = Range("D16").Value
+    funcionario = Range("A18").Value
+    If total = 0 Then
+        MsgBox "O total está em branco"
+    Else
+        ' Vai para a guia "relatorio" insere uma linha em branco e acrescenta os dados
+        Sheets("relatorio").Select
+        Rows("4:4").Select
+        Selection.Insert Shift:=xlDown, CopyOrigin:=xlFormatFromLeftOrAbove
+        Selection.Clear
+        ' Hora atual, o total e a palavra Dinheiro
+        Range("A4").Value = funcionario
+        Range("B4").Value = Now
+        Range("C4").Value = total
+        Range("D4").Value = "Dinheiro"
+        ' Formata os dados
+        Range("C4").Select
+        Selection.Style = "Currency"
+        ' Volta a guia "comanda"
+        Sheets("comanda").Select
+    End If
+End Sub

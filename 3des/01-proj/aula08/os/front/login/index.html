@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>OS (Ordens de Serviço)</title>
+</head>
+
+<body>
+    <header>
+        <h1>OS (Ordens de Serviço)</h1>
+    </header>
+    <main>
+        <form id="login">
+            <label for="matricula">Matrícula:</label>
+            <input type="number" name="matricula" required>
+            <label for="pin">PIM:</label>
+            <input type="password" name="pin" required>
+            <input type="button" onclick="cadastro.classList.remove('oculto')" value="Cadastro">
+            <input type="submit" value="Login">
+        </form>
+        <section id="cadastro" class="modal oculto">
+            <form id="formCadastro">
+                <label for="matricula">Matrícula:</label>
+                <input type="text" name="matricula" required>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" required>
+                <label for="cargo">Cargo:</label>
+                <input type="text" name="cargo" required>
+                <label for="setor">Setor:</label>
+                <input type="text" name="setor" required>
+                <label for="pin">PIM:</label>
+                <input type="password" name="pin" required>
+                <label for="confirmPin">Confirma PIM:</label>
+                <input type="password" name="confirmPin" required>
+                <input type="button" value="Cancelar" onclick="cadastro.classList.add('oculto')">
+                <input type="submit" value="Salvar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p id="msg"></p>
+        <h2>Sistema de Gestão de Ordens de Serviço</h2>
+        <h3>By Professor Wellington</h3>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

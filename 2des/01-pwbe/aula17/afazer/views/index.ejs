@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./ico.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tarefas a fazer</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <%= titulo %>
+        </h1>
+        <form action="/create" method="post">
+            <label>Descrição:</label>
+            <textarea name="descricao" placeholder="Descreva a tarefa" required></textarea>
+            <label>Quando:</label>
+            <input type="datetime-local" name="quando" required>
+            <input type="submit" value="Novo" />
+        </form>
+    </header>
+    <main>
+        <% if(typeof tasks=='undefined' ){ %>
+            <div>
+                <h2>Erro ao carregar dados do banco de dados.</h2>
+            </div>
+            <% } else { %>
+                <% tasks.forEach( e=> {%>
+                    <div>
+                        <form action="/del/<%= e.id %>?_method=DELETE" method="post">
+                            <input class="del" type="submit" value=" - " />
+                        </form>
+                        <form action="/update?_method=PUT" method="post">
+                            <label>Id:</label>
+                            <input type="number" name="id" value="<%= e.id %>" readonly>
+                            <label>Descrição:</label>
+                            <textarea name="descricao"><%= e.descricao %></textarea>
+                            <label>Quando:</label>
+                            <input type="datetime-local" name="quando"
+                                value="<%= e.quando.toISOString().slice(0, 16) %>">
+                            <input class="atualizar" type="submit" value=" * " />
+                        </form>
+                    </div>
+                    <%}) %>
+                        <% } %>
+    </main>
+    <footer>
+        <h3>Hoje é <%= new Date().toLocaleString('pt-BR')%>
+        </h3>
+    </footer>
+</body>
+
+</html>

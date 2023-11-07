@@ -1,0 +1,62 @@
+[
+    {
+        "funcionario":"Vitoria da Cruz",
+        "matricula":"010203",
+        "setor":"Eletronico",
+        "comissao":5,
+        "vendas":[
+            {
+                "data":"03/02/2023",
+                "valor":1250.00
+            },
+            {
+                "data":"03/02/2023",
+                "valor":899.00
+            },
+            {
+                "data":"04/02/2023",
+                "valor":5999.90
+            }
+        ]
+    },
+    {
+        "funcionario":"Cecilia Martins",
+        "matricula":"124578",
+        "setor":"Eletronico",
+        "comissao":5,
+        "vendas":[
+            {
+                "data":"15/01/2023",
+                "valor":3290.90
+            },
+            {
+                "data":"16/01/2023",
+                "valor":1320.99
+            },
+            {
+                "data":"16/02/2023",
+                "valor":990.90
+            }
+        ]
+    },
+    {
+        "funcionario":"Joaquim Souza",
+        "matricula":"124578",
+        "setor":"Moveis",
+        "comissao":12,
+        "vendas":[
+            {
+                "data":"08/01/2023",
+                "valor":4500.00
+            },
+            {
+                "data":"08/01/2023",
+                "valor":599.99
+            },
+            {
+                "data":"09/01/2023",
+                "valor":259.90
+            }
+        ]
+    }
+]

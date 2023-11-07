@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.grid{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    height: 200px;
+    width: auto;
+    border: 2px solid black;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap .box{
+    width: 300px;
+    margin: 20px;
+}

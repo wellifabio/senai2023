@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Folha de Pagamentos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Folha de pagamentos</h1>
+    </header>
+    <main>
+        <section>
+            <form id="create">
+                <label for="funcionario">Nome do funcionário:</label>
+                <input type="text" name="funcionario" id="funcionario" placeholder="Nome do funcionário" required>
+                <label for="salario">Salário:</label>
+                <input type="number" name="salario" id="salario" placeholder="Salário" required>
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Cadastrar">
+            </form>
+        </section>
+        <section id="cards">
+
+        </section>
+    </main>
+</body>
+<script src="Pagamento.js"></script>
+<script src="controller.js"></script>
+</html>

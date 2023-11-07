@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: aqua;
+}
+
+.titulo{
+	font-size: 30px;
+	font-weight: bold;
+	margin: 50px;
+}
+
+table{
+	background-color: #fff;
+	margin-top: 150px;
+}
+
+.fundo{
+	background-image: url(../img/ceu.jpg);
+	padding: 50px;
+}
+
+th{
+	font-size: 20px;
+	padding: 10px;
+}
+
+td{
+	padding: 10px 5px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	cursor: help;
+}
+
+.min{
+	color: blue;
+	text-align: center;
+}
+
+.chuva{
+	color: grey;
+	text-align: center;
+}
+
+button{
+	margin: 100px 20px;
+	padding: 15px;
+	background-color: #fff;
+	font-size: 18px;
+}

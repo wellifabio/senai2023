@@ -1,0 +1,22 @@
+head
+  meta(charset='utf-8')
+  title Agenda de Compromissos
+  link(rel='stylesheet', href='style.css')
+
+header
+  h1 Lista de Compomissos
+  form(action=`/create`, method='POST')
+    input(type='datetime-local', name='quando', value=new Date().toISOString().substring(0, 16))
+    input(type='text', name='onde', placeholder='Onde')
+    input(type='text', name='descricao', placeholder='Descrição do compromisso')
+    button(type='submit') Adicionar
+main
+  each compromisso in compromissos
+    div
+      form(action=`/delete/${compromisso._id}?_method=DELETE`, method='POST')
+        button(type='submit', style='top:2px') -    
+      form(action=`/update/${compromisso._id}?_method=PUT`, method='POST')
+        button(type='submit', style='top:33px') *
+        input(type='datetime-local', name='quando' value=new Date(compromisso.quando).toISOString().substring(0, 16))
+        input(type='text', name='onde', value=compromisso.onde)
+        input(type='text', name='descricao', value=compromisso.descricao)

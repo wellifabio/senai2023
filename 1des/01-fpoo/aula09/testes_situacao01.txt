@@ -1,0 +1,20 @@
+Entradas
+Total de pretendentes a doação: 7
+Nome Idade Sexo Última doação dias
+Alberto 17 M 120
+Anderson 15 M 0
+Bruna 45 F 75
+Felipe 72 M 3500
+Mariana 29 F 125
+Michele 23 F 95
+Zuleica 35 F 89
+
+Saídas
+Nome Status
+Alberto Apto
+Anderson Inapto
+Bruna Inapto
+Felipe Inapto
+Mariana Apto
+Michele Apto
+Zuleica Inapto

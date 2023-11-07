@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>MC Lanches</h1>
+    <div>
+        <input type="text" placeholder="Nome do Cliente" id="cliente">
+        <input type="text" placeholder="Endereço do Cliente" id="endereco"><br>
+        <select id="lanches">
+            <option value="X-Tudo">X-Tudo</option>
+            <option value="X-Salada">X-Salada</option>
+            <option value="X-Podrão">X-Podrão</option>
+        </select>
+        <input type="number" id="qntd">
+        <button onclick="cadastrar()">Cadastrar</button>
+    </div>
+    <div class="listas">
+        <div class="lista" id="cozinha">
+            <h2>Cozinha</h2>
+            <div class="card model">
+                <div class="card-body">
+                    <p id="infoCli">Fulano Rua Sem saida</p>
+                    <p id="infoPedido">X-Ratao 2</p>
+                    <p id="hora">22/22/2222 22:22</p>
+                </div>
+                <button>Enviar</button>
+            </div>
+        </div>
+        <div class="lista" id="entrega">
+            <h2>Entregas</h2>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

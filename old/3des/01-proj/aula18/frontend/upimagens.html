@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload de Imagens</title>
+</head>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    img {
+        width: 100%;
+        max-width: 400px;
+        box-shadow: 1px 1px 5px #000;
+    }
+</style>
+
+<body>
+    <header>
+        <form id="form" enctype="multipart/form-data">
+            <input type="file" name="file" accept="image/jpeg, image/png, image/jpg, image/gif">
+            <button type="submit">Enviar</button>
+        </form>
+    </header>
+    <main>
+        <div id="visualizar">
+            <img id="img" alt="Ver imagens">
+        </div>
+    </main>
+</body>
+<script>
+    const formulario = document.querySelector("#form");
+    const img = document.querySelector("#img");
+    const container = 'https://arquivosaulas.blob.core.windows.net/imgaulas/'
+    const urlParams = new URLSearchParams(window.location.search);
+    const imagem = urlParams.get("img")
+
+    img.src = imagem || "./imagem.png";
+
+    formulario.addEventListener('submit', e => {
+        e.preventDefault();
+        const arquivo = formulario.file['files'][0];
+        if (arquivo != null) {
+            console.log(arquivo.path)
+            const form = new FormData();
+            form.append("file", arquivo);
+            const options = {
+                method: 'POST',
+            };
+            options.body = form;
+            fetch('http://localhost:3000/upload', options)
+                .then(resp => resp.status)
+                .then(resp => {
+                    if (resp === 200) {
+                        alert('Erro ao enviar arquivo!');
+                        window.location.href = "?img=" + container + arquivo.name;
+                    } else
+                        alert('Erro ao enviar arquivo!')
+                })
+                .catch(err => console.error(err));
+        } else {
+            alert('Escolha um arquivo!')
+        }
+    });
+</script>
+
+</html>

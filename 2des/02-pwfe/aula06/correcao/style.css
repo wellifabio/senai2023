@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #2eff46;
+    font-family: "Roboto", "Helvetica Neue";
+}
+
+h1,
+h2 {
+    font-family: 'Pacifico';
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 15px;
+    color: #FFF;
+}
+
+input,
+select,
+button {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.listas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lista {
+    width: 48%;
+    padding: 15px;
+    background-color: #FFFFFFAA;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: #FFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.model {
+    display: none;
+}

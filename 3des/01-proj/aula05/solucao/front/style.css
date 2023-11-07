@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #7814ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: #f5f5f5;
+    width: 100vw;
+    height: 100vh;
+}
+
+.areas {
+    position: absolute;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+.ativa {
+    background-color: #00f;
+    cursor: pointer;
+    color: #FFF;
+}
+
+#d1 {
+    width: 10vw;
+    height: 20vh;
+    top: 50vh;
+    left: 20vw;
+}
+
+#d2 {
+    width: 5vw;
+    height: 10vh;
+    top: 58vh;
+    left: 34vw;
+}
+
+#d3 {
+    width: 15vw;
+    height: 40vh;
+    top: 55vh;
+    left: 25vw;
+}
+
+#d4 {
+    width: 7vw;
+    height: 7vh;
+    top: 49vh;
+    left: 26vw;
+}
+
+#d5 {
+    width: 25vw;
+    height: 45vh;
+    top: 50vh;
+    left: 32vw;
+}
+
+#d6 {
+    width: 7vw;
+    height: 5vh;
+    top: 5vh;
+    left: 70vw;
+}
+
+#d7 {
+    width: 7vw;
+    height: 7vh;
+    top: 43vh;
+    left: 33vw;
+}
+
+#d8 {
+    width: 7vw;
+    height: 7vh;
+    top: 27vh;
+    left: 28vw;
+}
+
+#d9 {
+    width: 10vw;
+    height: 10vh;
+    top: 25vh;
+    left: 35vw;
+}
+
+#d10 {
+    width: 30vw;
+    height: 80vh;
+    top: 5vh;
+    left: 47vw;
+}
+
+#d11 {
+    width: 5vw;
+    height: 10vh;
+    top: 14vh;
+    left: 30vw;
+}
+
+.modais {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.modal1 {
+    position: relative;
+    top: 0vh;
+    width: 40vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    background-color: #ccc;
+}
+
+.barra button {
+    border: none;
+    background: none;
+    padding: 10px;
+    color: #7814ff;
+}
+
+.titulo {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    font-size: larger;
+}
+
+.conteudo {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    max-height: 60%;
+    overflow-y: auto;
+}
+
+.conteudo button {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    border: none;
+    background-color: #7814ff;
+    color: #FFF;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+
+}
+
+.automovel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.oculto {
+    display: none;
+}

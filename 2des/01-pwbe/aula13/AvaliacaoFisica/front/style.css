@@ -1,0 +1,151 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: var(--p1);
+}
+
+:root {
+    --p1: #1f0e1a;
+    --p2: #324652;
+    --p3: #3d6868;
+    --p4: #eec276;
+    --p5: #fbf6d0;
+}
+
+body {
+    width: 100%;
+    background-color: var(--p5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header,
+footer {
+    width: 100%;
+    height: 8vh;
+    background-color: var(--p1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--p5);
+}
+
+main {
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+table {
+    background: var(--p4);
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background: var(--p5);
+}
+
+td {
+    padding: 5px;
+    border: 0px;
+}
+
+td[contenteditable="true"]{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+th {
+    background: var(--p2);
+    color: var(--p5);
+    padding: 10px;
+}
+
+label,
+input {
+    padding: 5px;
+    margin: 5px;
+}
+
+input{
+    background-color: var(--p5);
+}
+
+button, input[type="submit"], input[type="reset"]{
+    background-color: var(--p3);
+    border: none;
+    box-shadow: 1px 1px 3px var(--p1);
+    color: var(--p5);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#novo {
+    position: relative;
+    width: 50vw;
+    background-color: var(--p4);
+    box-shadow: 1px 1px 3px var(--p2);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.modal1 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 100px;
+}
+
+.oculto {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* ALtera o diplay da tabela deixando em coluna */
+    th {
+        display: none;
+    }
+
+    td[data-label] {
+        display: block;
+        text-align: right;
+    }
+
+    td[data-label]:before {
+        content: attr(data-label);
+        font-weight: bold;
+        float: left;
+    }
+
+    .modal1 {
+        padding: 0;
+    }
+
+    #novo {
+        width: 100vw;
+    }
+}

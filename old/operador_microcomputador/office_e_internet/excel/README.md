@@ -1,0 +1,28 @@
+# BROffice Calc ou MS Office Excel:
+- Operações básicas em planilhas:
+	- criar e salvar uma planilha;
+	- inserindo texto e número em uma folha de cálculo;
+	- auto preenchimento;
+	- copiar – colar;
+	- inserindo e excluindo;
+	- linhas e colunas;
+	- modificando dimensões de linhas e colunas;
+	- Fórmulas em planilhas:
+	- fórmulas e funções;
+	- soma;
+	- copiar fórmulas;
+	- referência;
+	- referências relativas;
+	- referências absolutas;
+	- função AutoPiloto;
+- Manipulação de Dados:
+	- ordenando dados;
+	- filtrar;
+	- resolver;
+	- Formatação de planilhas:
+	- Acrescentando formatos a células;
+	- formatação de planilha;
+- Manipulação de figuras:
+	- figuras;
+	- gerando gráficos;
+- Impressão: - Visualizando a impressão, controlando as margens e tamanho de papel

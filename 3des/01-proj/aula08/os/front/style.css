@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,500;0,600;1,700&display=swap');
+
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root{
+    --cor1: #FFFFFF;
+    --cor2: #FFC107;   
+    --cor3: #673AB7;
+    --cor4: #252525;
+    --cor5: #000;
+}
+
+button, input[type=submit], input[type=button]{
+    cursor: pointer;
+}

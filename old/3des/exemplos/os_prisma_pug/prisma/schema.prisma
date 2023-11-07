@@ -1,0 +1,45 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-1.1.x", "debian-openssl-3.0.x", "linux-musl", "linux-musl-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Colaborador {
+  matricula   Int          @id @default(autoincrement())
+  nome        String
+  cargo       String
+  setor       String
+  pin         Int
+  comentarios Comentario[]
+  abertas     Os[]         @relation("abertas")
+  executadas  Os[]         @relation("executadas")
+}
+
+model Os {
+  id            Int          @id @default(autoincrement())
+  descricao     String
+  colaborador   Int
+  executor      Int
+  abertura      DateTime     @default(now())
+  encerramento  DateTime?
+  colaboradores Colaborador  @relation("abertas", fields: [colaborador], references: [matricula])
+  executores    Colaborador  @relation("executadas", fields: [executor], references: [matricula])
+  comentarios   Comentario[]
+}
+
+model Comentario {
+  id            Int         @id @default(autoincrement())
+  os            Int
+  colaborador   Int
+  data          DateTime    @default(now())
+  comentario    String
+  colaboradores Colaborador @relation(fields: [colaborador], references: [matricula])
+  oss           Os          @relation(fields: [os], references: [id], onDelete: Cascade)
+}

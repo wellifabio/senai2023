@@ -1,0 +1,19 @@
+{
+  "name": "estacionamento",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.ts -r tsconfig-paths/register",
+    "build": "sucrase src -d dist --transforms typescript,imports",
+    "start": "node dist/server.js"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1",
+    "nodemon": "^2.0.21",
+    "sucrase": "^3.29.0",
+    "typescript": "^4.9.5"
+  }
+}

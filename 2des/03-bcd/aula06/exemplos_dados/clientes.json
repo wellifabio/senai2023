@@ -1,0 +1,26 @@
+[
+	{
+		"nome":"Arnaldo",
+		"sobrenome":"Moreira",
+		"telefones":[
+			{
+				"tipo":"celular",
+				"numero":"19-98787-7788"
+			},
+			{
+				"tipo":"Residencial",
+				"numero":"19-38787-4567"
+			}
+		]
+	},
+	{
+		"nome":"Juliana",
+		"sobrenome":"Silva",
+		"telefones":[
+			{
+				"tipo":"celular",
+				"numero":"19-99987-4566"
+			}
+		]
+	}
+]

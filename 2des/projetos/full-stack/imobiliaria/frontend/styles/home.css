@@ -1,0 +1,77 @@
+@import url('./global.css');
+
+header {
+    width: 100vw;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header p:nth-child(2) {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.card {
+    width: 85%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card p {
+    font-size: 1.15rem;
+}
+
+.card button {
+    width: 80px;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 7px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: 700;
+    transition: .15s;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes button:nth-child(2) {
+    border: 1px solid #318fe7;
+}
+
+.opcoes button:nth-child(1) {
+    border: 1px solid #3aac3a;
+}
+
+.opcoes button:hover {
+    color: #fff;
+}
+
+.opcoes button:nth-child(2):hover {
+    background: #318fe7;
+}
+
+.opcoes button:nth-child(1):hover {
+    background: #3aac3a;
+}
+
+.model {
+    display: none;
+    visibility: hidden;
+}

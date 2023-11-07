@@ -1,0 +1,19 @@
+.light {
+    background-color: #e5e5e5;
+}
+
+.light h1 {
+    color: #313131;
+}
+
+.dark {
+    background-color: #353535;
+}
+
+.dark h1 {
+    color: #e5e5e5;
+}
+
+.m1 {
+    color: red;
+}

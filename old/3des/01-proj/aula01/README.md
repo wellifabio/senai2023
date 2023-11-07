@@ -1,0 +1,88 @@
+# Competências Específicas e de Gestão
+------------
+- Capacidades Técnicas
+	- 1. Definir a sequência das atividades para desenvolvimento dos componentes, de acordo com os requisitos do sistema (3)
+	- 2. Definir a infraestrutura física a ser utilizada no desenvolvimento dos componentes (2)
+	- 3. Projetar os componentes do sistema considerando as plataformas computacionais (3)
+	- 4. Definir os recursos humanos e materiais para o desenvolvimento dos componentes (2)
+	- 5. Elaborar cronograma das etapas sequenciadas do desenvolvimento dos componentes, considerando a integração com outros profissionais envolvidos no projeto (2)
+	- 6. Definir o custo estimado para o desenvolvimento dos componentes
+	- 7. Definir os softwares a serem utilizados no desenvolvimento do sistema (2)
+	- 8. Definir as dependências de software considerando os componentes do sistema, para a sua implantação
+	- 9. Elaborar documentação técnica do sistema (2)
+	- 10. Implementar as funcionalidades de acordo com os requisitos definidos
+	- 11. Apresentar tecnicamente ao cliente o sistema de software desenvolvido, sanando as possíveis dúvidas sobre o funcionamento do mesmo
+	- 12. Pesquisar em diversas fontes de informação tendo em vista as melhores práticas de mercado considerando, inclusive, a performance e a qualidade de software (21)
+- Capacidades Sociais, Organizativas e Metodológicas
+	- 1. Demonstra atenção a detalhes (27)
+	- 2. Demonstrar capacidade de comunicação com profissionais de diferentes áreas e especialidades (7)
+	- 3. Demonstrar capacidade de organização (4)
+	- 4. Demonstrar raciocínio lógico na organização das informações (14)
+	- 5. Demonstrar visão holística
+	- 6. Demonstrar visão sistêmica (16)
+	- 7. Manter relacionamento interpessoal
+	- 8. Seguir método de trabalho (15)
+	- 9. Trabalhar em equipe (2)
+	- 10. Comunicar-se com clareza
+------------
+
+# Praticando recursos avançados (Aulas 1 a 5) Revisão
+- Sistema Básico de Gestão de Pedidos e Entregas
+
+# Projeto 1 (Entregas) Sistema Full Stack + mobile
+- Requisitos:
+	- Getão: Sistema Web (Front-End) com as funcionalidades:
+		- Cadastrar novo pedido
+		- Visualizar dados de todos os pedidos
+		- Alterar dados do pedido
+		- Excluir pedidos
+	- Cozinha: App (Mobile)
+		- Apenas listar pedidos que estão em execução
+		- Botão que ao ser clicado preenche a hora_entrega com a hora atual e escolhe um entregador aleatoriamente.
+	- Entregador: App (Mobile)
+		- Tela de login para entregador
+		- Listar as entregas
+		- Botão que ao ser clicado preenche a hora_fim e o pedido some da lista
+- WireFrame com as três telas de exemplo:
+	- ./wireframe/gestao.png
+	- ./wireframe/cozinha.png
+	- ./wireframe/entregador.png
+- Dados de teste:
+	- ./dados/entregadores.csv
+	- ./dados/pedidos.csv
+
+# Recomendações (CheckList) da sequência de trabalho
+	- Criar o Banco de dados
+		- DER Conceitual (Cardinalidade: 1 Entregador para Muitos Pedidos)
+		- Escolher como fazer a gestão dos campos de endereço se ficarão juntos ou separados
+		- Desenvolver o script SQL/DDL
+		- Importar os dados dos arquivos CSV para as tabelas do Banco de dados, Ajustar as datas no formato BD
+		- Criar as consultas (Views) para:
+			- listar todos os pedidos
+			- Listar pedidos em execução, com os campos hora_entrega e hora_fim em branco ou nulo ou hora 0:00
+			- Listar pedidos por entregador, com o campo hora_fim em branco ou nulo ou hora 0:00
+	- Desenvolver o Back End
+		- CRUD de pedidos
+		- Login do entregador (Opcional: implementar midware, criptografia de senha)
+		- read das views criadas no Banco de Dado
+	- Desenvolver o Mobile 1 (Cozinha):
+		- Listar apenas os pedidos em execução:
+		- Criar um botão para cada pedido que envia para entrega
+	- Desenvolver o Mobile 2 (Entregas=dor)
+		- Tela de login
+		- Tela que lista os pedidos em entrega para o entregador que fex login.
+		- Criar um botão para cada pedido que finaliza a entrega.
+	- Desenvolver a Front-End.
+		- 4 Funcionalidades CRUD para pedidos
+		- Listar todos os pedidos
+		- Listar pedidos em execução
+		- Listar pedidos em entrega
+		- Opcionais
+			- funcionalidades CRUD para entregador
+			- Listar todos
+			- Criar um dashboard de pedidos com excel
+			- Criar um dashboard de pedidos com JavaScript
+# Correções
+	- ./docs (DER, script.sql, Arquivo de testes Insomnia)
+	- ./api (BackEnd)
+	- ../../02-ppdmo/proj-pedidos (App Cozinha e App Entregador)

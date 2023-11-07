@@ -1,0 +1,14 @@
+body{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+.t1{
+    color: blue;   
+}
+#t2{
+    color: red;
+}

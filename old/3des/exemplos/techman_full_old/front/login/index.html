@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel ="shortcut icon" href =" ../assets/icone.png " >
+    <title>TechMan</title>
+</head>
+
+<body>
+    <header>
+        <img src="../assets/techman.png" alt="LogoMarca">
+    </header>
+    <main>
+        <div class="senha">
+            <input type="hidden" id="senha"/>
+            <input type="text" id="asterisco" disabled/>
+        </div>
+        <div class="botoes">
+            <button id="b1" onclick = "senha.value+='1';asterisco.value+='*'">1</button>
+            <button id="b2" onclick = "senha.value+='2';asterisco.value+='*'">2</button>
+            <button id="b3" onclick = "senha.value+='3';asterisco.value+='*'">3</button>
+            <button id="b4" onclick = "senha.value+='4';asterisco.value+='*'">4</button>
+            <button id="b5" onclick = "senha.value+='5';asterisco.value+='*'">5</button>
+            <button id="b6" onclick = "senha.value+='6'">6</button>
+            <button id="b7" onclick = "senha.value+='7';asterisco.value+='*'">7</button>
+            <button id="b8" onclick = "senha.value+='8';asterisco.value+='*'">8</button>
+            <button id="b9" onclick = "senha.value+='9';asterisco.value+='*'">9</button>
+            <button id="bc" onclick = "senha.value='';asterisco.value=''">C</button>
+            <button id="b0" onclick = "senha.value+='0';asterisco.value+='*'">0</button>
+            <button id="bplay" onclick = "login()" >&crarr;</button>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

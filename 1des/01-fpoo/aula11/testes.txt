@@ -1,0 +1,10 @@
+O que é uma string? Um vetor de caracteres.
+O que é uma matriz? um vetor de vetores.
+Então um vetor de strings é uma matriz
+Uma matriz é uma tabela? Sim
+
+Ana 10 10
+Maria 10 9,5
+Bruna 8 5
+Mauro 3 4
+Paulo 7 9

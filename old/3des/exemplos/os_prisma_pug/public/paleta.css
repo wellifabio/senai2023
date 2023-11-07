@@ -1,0 +1,14 @@
+:root {
+    --grave: #000000;
+    --mediograve: #001f36;
+    --medio: #1c5560;
+    --medioagudo: #79ae92;
+    --agudo: #fbffcd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--grave);
+}

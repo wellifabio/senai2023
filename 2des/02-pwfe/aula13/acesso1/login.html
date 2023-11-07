@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Acesso ao Perfil</title>
+</head>
+
+<body>
+    <header>
+        <h1>Acesso ao perfil</h1>
+    </header>
+    <main>
+        <form id="acesso">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" value="passos@email.com">
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" value="Zaq1@wsx">
+            <button type="submit">Entrar</button>
+        </form>
+    </main>
+    <footer>
+        <h2 id="erro"></h2>
+    </footer>
+</body>
+<script>
+    //função para converter a senha em md5 (Só exempo básico, não use em produção)
+    function md5(s) {
+        let hash = 0;
+        for (let i = 0; i < s.length; i++) {
+            hash = s.charCodeAt(i) + ((hash << 5) - hash);
+        }
+        return hash;
+    }
+    const acesso = document.getElementById('acesso');
+    acesso.addEventListener('submit', function (evento) {
+        evento.preventDefault();
+        const email = acesso.email.value;
+        const senha = acesso.senha.value;
+        const erro = document.getElementById('erro');
+        //verifica se o email e a senha estão preenchidos
+        if (email && senha) {
+            //converte a senha em md5
+            const senhaMd5 = md5(senha);
+            //faz a requisição para o servidor
+            fetch('./mockup.json')
+                .then(resposta => resposta.json())
+                .then(dados => {
+                    console.log(dados);
+                    //verifica se o usuário e a senha estão corretas
+                    if (dados.email === email && dados.senha === senhaMd5.toString()) {
+                        //redireciona para a página de perfil
+                        window.location.href = `perfil.html?id=${dados.id}`;
+                    } else {
+                        //exibe a mensagem de erro
+                        erro.textContent = 'Usuário não encontrado';
+                    }
+                })
+                .catch(erro => {
+                    //exibe a mensagem de erro
+                    erro.textContent = 'Erro ao acessar o servidor';
+                });
+        } else {
+            //exibe a mensagem de erro
+            erro.textContent = 'Preencha todos os campos';
+        }
+    });
+</script>
+
+</html>

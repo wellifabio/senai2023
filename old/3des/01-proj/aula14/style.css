@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#map {
+    height: 100%;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+    position: absolute;
+    top: 4rem;
+    left: .6rem;
+}
+
+input,
+button {
+    padding: .5rem;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4285F4;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .6px;
+}

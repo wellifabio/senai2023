@@ -1,0 +1,16 @@
+# Projetos de exemplo e desafios
+- Exemplos de pequenos projetos Full-stack (Juntos Back-end ou separados (API,Front-end))
+    - Escola (Integração Banco de Dados e Back-End, aula04 e aula05 **PWBE**)
+    - Inventário (Projeto fullstack, Exemplo de CRUD aula06, aula07 **PWBE**)
+    - Imobiliara (Projeto fullstack, Iniciado nas aula09 **PWBE** e aula08 **PWFE**)
+    - Bonificações (FullStack, aula13 **PWBE**, solução da Atividade 2)
+- Exmplo de Projetos/Interfaces Mobile
+    - Componentes Básicos
+        - bitola1 (Entrada, Processamento/Cálculo e Saída em uma tela, aula02 **INDMO**)
+        - bitola2 (CRUD com armazenamento de dados locais, aula02, teste no navegador **INDMO**)
+        - bitola3 (CRUD com armazenamento de dados locais, aula02, teste no dispositivo **INDMO**)
+    - Senaicursos (Cálculo de bitola, aula02 **INDMO**)
+    - Carrinho de compras
+        - coxinha (Exemplo com tela de login, armazenamento local e troca de dados entre telas empilhadas, aula04 **INDMO**)
+- Desafios (Situações Problemas sugeridas)
+- Assets (Imagens utilizadas em alguns projetos)

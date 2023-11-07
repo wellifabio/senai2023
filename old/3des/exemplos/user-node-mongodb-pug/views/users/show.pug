@@ -1,0 +1,9 @@
+h1= user.name
+
+p Email: #{user.email}
+p Senha: #{user.password}
+
+a(href=`/users/${user._id}/edit`) Editar
+form(action=`/users/${user._id}?_method=DELETE`, method='POST')
+  button(type='submit') Excluir
+a(href=`/users/`) Listar
