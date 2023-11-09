@@ -1,4 +1,4 @@
 git pull
 git add .
-git commit -m "freq"
+git commit -m "att"
 git push
