@@ -115,3 +115,8 @@
 - 1 Dado o IP 192.168.10.5/24, qual é a máscara de subrede?
 - 2 Dado o IP 10.87.202.132/25 qual é o gateway e máscara de subrede?
 - 3 Dado o IP 172.16.100.25/24 qual é o gateway, máscara de subrede e broadcast?
+- 4 Dado o IP 172.16.100.25/24 qual é o gateway, máscara de subrede e broadcast?
+- 5 Dado o IP 192.168.1.144/26 qual a máscara, o IP da rede, o Gateway e o Broadcast?
+
+# Correção
+![Correcao](./correcao.png)
