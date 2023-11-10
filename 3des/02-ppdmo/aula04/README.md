@@ -252,4 +252,5 @@ export default StyleSheet.create({
     },
 });
 ```
-
+## Ao executa seu projeto deve ficar semelhante ao wireframe a seguir
+![wireframe](./wireframe.png)
