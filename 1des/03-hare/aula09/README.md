@@ -2,10 +2,10 @@
 ## Nuvens
 ### Google Cloud
 #### Trilha 01 - Criar e gerenciar recuros de nuvem (VM, Load Balance, Container, Kubernet, Firewall)
-#### Trilha 02 - Infraestrutura (Buckets(Pasta de rede, arquivos), IAM(usuários e acessos), Funções, Tópicos PUB/SUB, Monitoramento)
+#### Trilha 02 - Infraestrutura (Buckets, IAM, Funções, Tópicos PUB/SUB, Monitoramento)
 #### Trilha 03 - Redes (VPC, Várias redes, IPs internos e externos, Firewall, Roteamento)
 ![lousa](./lousa.jpg)
-#### Recursos de núvem
+#### Recursos de núvem - Trilha 01
 - **VM** (Virtual Machine) Instância de máquina virtual
   - Utilidade: Hospedar sites, Armazenar arquivos, Testes ...
 - **VPC** (Virtual Private Cloud) Rede virtual em nuvem
@@ -15,8 +15,21 @@
 - **Container**: Máquinas virtuais reduzidas para hospedagem de sites ou aplicativos, podendo ser duplicados e excluídos com facilidade
 - **Kubernet**: Orquestrador de containers
 - **Firewall**: Filtro de segurança de Rede, VM, clusters, VPC...
+#### Recursos de núvem - Trilha 02
+- **Buckets**: Pastas de rede para armazenamento e compartilhamento de arquivos.
+- **IAM** (Identity and Access Management): Gerenciamento de acesso e identidade
+- **Funções**: Recursos de nuvem onde podemos programar funções utilizando JavaScript e outras linguagens
+- **Tópicos PUB/SUB**: Recurso de nuvem para comunicação entre aplicações
+- **Monitoramento**: Recurso de nuvem para monitorar recursos de nuvem
+#### Recursos de núvem - Trilha 03
+- **VPC** (Virtual Private Cloud) Rede virtual em nuvem
+  - Utilidade: Hospedar sites, Bancos de dados, Front-End e Back-End.
+- **Várias redes**: Recurso de nuvem para criar várias redes virtuais
+- **IPs internos e externos**: Recurso de nuvem para criar IPs internos e externos
+- **Roteamento**: Recurso de nuvem para criar rotas de rede
 
 ## Endereçamento IP
+![lousa2](./lousa2.jpg)
 ### Protocolo TCP IP: Camada de Rede, segunda camada.
 ### IP v4
 - 32 Bits
