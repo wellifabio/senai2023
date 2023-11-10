@@ -1,7 +1,9 @@
 # Aula09 - Redes
 ## Nuvens
 ### Google Cloud
-#### Trilha 01 - Criar e gerenciar recuros de nuvem
+#### Trilha 01 - Criar e gerenciar recuros de nuvem (VM, Load Balance, Container, Kubernet, Firewall)
+#### Trilha 02 - Infraestrutura (Buckets(Pasta de rede, arquivos), IAM(usuários e acessos), Funções, Tópicos PUB/SUB, Monitoramento)
+#### Trilha 03 - Redes (VPC, Várias redes, IPs internos e externos, Firewall, Roteamento)
 ![lousa](./lousa.jpg)
 #### Recursos de núvem
 - **VM** (Virtual Machine) Instância de máquina virtual
