@@ -12,7 +12,7 @@
 |-|
 |Criar uma landing page para a empresa **COLECT**, com os dados dos produtos estão no reposítório (../04-sop/aula08/analisepedidos)|
 |Desafio de aprendizagem autônoma|
-|Para este desafio você pode utilizar o Framework Bootstrap a seguir segue algun links sobre este framework que você poderá utilizar para estilizar sua landing page|
+|Para este desafio você pode utilizar o Framework Bootstrap, segue alguns links sobre este framework que você poderá utilizar para estilizar sua landing page|
 
 |WireFrame|
 |-|
