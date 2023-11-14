@@ -106,9 +106,6 @@ var objs = [
 		"preco": "400.00",
 		"valor": "350.00",
 		"img": "https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/homemferro.JPEG"
-	},
-	{
-		"id": ""
 	}
 ];
 console.table(objs);
@@ -122,3 +119,4 @@ objs.forEach(p =>{
     model.querySelector('.card-footer').innerHTML = `R$ ${parseFloat(p.preco).toFixed(2)}`;
     container.appendChild(model);
 });
+document.getElementById('model0').remove();
