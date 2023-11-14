@@ -6,7 +6,7 @@
 - Endereços a partir da API Via CEP: JSON https://viacep.com.br/ws/SP/Jaguari%C3%BAna/Bueno/json
 
 ### Atividade 01
-Em seu computador crie uma pasta chamada **"sudeste"** e baixe para dentro dela os arquivos **.csv** condidos neste repositório, na subpasta **/varegistasudeste**.
+Em seu computador crie uma pasta chamada **"sudeste"** e baixe para dentro dela os arquivos **.csv** contidos neste repositório, na subpasta **/varegistasudeste**.
 - 1 Abra o **Power BI** e crie um novo projeto, importe os arquivos **csv** e mescle os dados.
 - 2 Crie dois relatórios com os dados dos arquivos conforme imagens a seguir:
   -  2.1 Uma análise gráfica do valor de venda por categoria
