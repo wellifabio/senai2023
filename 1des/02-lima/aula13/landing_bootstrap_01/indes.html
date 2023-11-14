@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links para os CSSs do Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>CONECT</title>
+</head>
+
+<body>
+    <header class="col justify-content-center">
+        <div class="row justify-content-around">
+            <h1>CONECT</h1>
+        </div>
+    </header>
+    <main class="container">
+        <!-- Card de Modelo para os outros -->
+        <div id="container" class="row justify-content-md-center">
+            <div id="model0" class="card col-lg-3 m-2 justify-content-between">
+                <h2 class="card-title text-center">Tipo</h2>
+                <p class="card-text">Produto</p>
+                <img src="https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/camiseta.webp"
+                    alt="Imagem Padrão" class="img">
+                <button class="btn btn-secondary">Detalhes</button>
+                <p class="card-footer">Preço</p>
+            </div>
+        </div>
+    </main>
+    <footer class="text-center">
+        <p>© 2023 CONECT</p>
+        <label id="rodape"></label>
+        <script>
+            rodape = document.getElementById("rodape");
+            rodape.innerHTML = new Date().toLocaleDateString();
+            rodape.innerHTML += " ";
+            rodape.innerHTML += new Date().toLocaleTimeString();
+        </script>
+    </footer>
+    <!-- Links para os JavaScripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+<script src="./script.js"></script>
+
+</html>

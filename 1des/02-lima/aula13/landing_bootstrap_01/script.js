@@ -1,4 +1,4 @@
-[
+var objs = [
 	{
 		"id": "1",
 		"produto": "Camiseta",
@@ -107,4 +107,16 @@
 		"valor": "350.00",
 		"img": "https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/homemferro.JPEG"
 	}
-]
+];
+console.table(objs);
+const container = document.getElementById('container');
+objs.forEach(p =>{
+    const model = document.getElementById('model0').cloneNode(true);
+    model.setAttribute('id', 'model'+p.id);
+    model.querySelector('.card-title').innerHTML = p.tipo;
+    model.querySelector('.card-text').innerHTML = p.produto;
+    model.querySelector('.img').src = p.img;
+    model.querySelector('.card-footer').innerHTML = `R$ ${parseFloat(p.preco).toFixed(2)}`;
+    container.appendChild(model);
+});
+document.getElementById('model0').remove();

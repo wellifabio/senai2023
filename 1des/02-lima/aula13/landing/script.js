@@ -1,4 +1,4 @@
-[
+var objs = [
 	{
 		"id": "1",
 		"produto": "Camiseta",
@@ -107,4 +107,31 @@
 		"valor": "350.00",
 		"img": "https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/homemferro.JPEG"
 	}
-]
+];
+
+var id = 12;
+
+const container = document.getElementById('container');
+objs.forEach(p => {
+	const model = document.getElementById('model0').cloneNode(true);
+	model.setAttribute('id', 'model' + p.id);
+	model.querySelector('.card-title').innerHTML = p.tipo;
+	model.querySelector('.card-text').innerHTML = p.produto;
+	model.querySelector('.img').src = p.img;
+	model.querySelector('.card-footer').innerHTML = `R$ ${parseFloat(p.preco).toFixed(2)}`;
+	container.appendChild(model);
+});
+document.getElementById('model0').remove();
+
+const formNovo = document.querySelector("#novo");
+formNovo.addEventListener("submit", e => {
+	e.preventDefault();
+	id++;
+	const model = document.getElementById('model1').cloneNode(true);
+	model.setAttribute('id', 'model' + id);
+	model.querySelector('.card-title').innerHTML = formNovo.tipo.value;
+	model.querySelector('.card-text').innerHTML = formNovo.produto.value;
+	model.querySelector('.img').src = formNovo.img.value;
+	model.querySelector('.card-footer').innerHTML = `R$ ${parseFloat(formNovo.valor.value).toFixed(2)}`;
+	container.appendChild(model);
+});
