@@ -14,6 +14,10 @@
 |Desafio de aprendizagem autônoma|
 |Para este desafio você pode utilizar o Framework Bootstrap a seguir segue algun links sobre este framework que você poderá utilizar para estilizar sua landing page|
 
+|WireFrame|
+|-|
+|![WireFrame](./wireframe.png)|
+
 ### Bootstrap
 - Framework para desenvolvimento de sites responsivos
 - [Bootstrap](https://getbootstrap.com/)
