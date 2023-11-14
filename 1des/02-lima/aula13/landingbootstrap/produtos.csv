@@ -1,0 +1,13 @@
+id,produto,tipo,custo,preco,valor,img
+1,Camiseta,vestuário,30.00,60.00,50.00,https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/camiseta.webp
+2,Calça,vestuário,50.00,100.00,80.00,https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/calsa.jpg
+3,Boné,vestuário,15.00,40.00,25.00,https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/bone.jpg
+4,Meia,vestuário,5.00,10.00,8.00,https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/meia.png
+5,Cueca,vestuário,5.00,10.00,8.00,https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/cueca.webp
+6,Mini fusca,decoração,100.00,200.00,150.00,https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/fusca.jpg
+7,Mini moto,decoração,120.00,240.00,200.00,https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/moto.webp
+8,Mini caminhão,decoração,150.00,300.00,250.00,https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/caminhao.webp
+9,Mini bicicleta,decoração,80.00,160.00,120.00,https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/bicicleta.webp
+10,Miniatura Thor,colecionáveis,200.00,400.00,350.00,https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/thor.webp
+11,Miniatura Hulk,colecionáveis,200.00,400.00,350.00,https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/hulk.webp
+12,Miniatura Homem de Ferro,colecionáveis,200.00,400.00,350.00,https://raw.githubusercontent.com/wellifabio/senai2023/main/1des/02-lima/aula13/assets/homemferro.JPEG
