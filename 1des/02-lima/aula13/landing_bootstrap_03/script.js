@@ -1,4 +1,8 @@
+//Objetos do DOM
 const container = document.getElementById('container');
+const form = document.getElementById('formDisabled');
+
+//Lista de objetos
 var objs = [
 	{
 		"id": "1",
@@ -115,8 +119,7 @@ function preencherModais() {
 			<div id="model0" class="card col-lg-3 m-2 justify-content-between">
 				<h2 class="card-title text-center">Tipo</h2>
 				<p class="card-text">Produto</p>
-				<img src="./noimage.jpg"
-					alt="Imagem Padrão" class="img">
+				<img alt="Imagem Padrão" class="img">
 					<button class="btn btn-secondary" data-toggle="modal" data-target="#detalhes">Detalhes</button>
 					<p class="card-footer">Preço</p>
 			</div>`;
@@ -125,7 +128,7 @@ function preencherModais() {
 		model.setAttribute('id', 'model' + p.id);
 		model.querySelector('.card-title').innerHTML = p.tipo;
 		model.querySelector('.card-text').innerHTML = p.produto;
-		model.querySelector('.img').src = p.img == "" ? "./noimage.jpg" : p.img;
+		model.querySelector('.img').src = p.img;
 		model.querySelector('.card-footer').innerHTML = `R$ ${parseFloat(p.preco).toFixed(2)}`;
 		model.querySelector('.btn').setAttribute("onclick", `preencherDetalhes(${i})`);
 		container.appendChild(model);
@@ -133,51 +136,17 @@ function preencherModais() {
 	document.getElementById('model0').remove();
 }
 
-const formNovo = document.querySelector("#novo");
-formNovo.addEventListener("submit", e => {
-	e.preventDefault();
-	objs.push({
-		"id": parseInt(objs[objs.length - 1].id) + 1,
-		"produto": formNovo.produto.value,
-		"tipo": formNovo.tipo.value,
-		"custo": formNovo.custo.value,
-		"preco": formNovo.preco.value,
-		"valor": formNovo.valor.value,
-		"img": formNovo.img.value
-	});
-	preencherModais();
-	$('#cadastro').modal('hide');
-});
-
-const form = document.getElementById('alterar')
-
 function preencherDetalhes(indice) {
 	form.indice.value = indice;
-	form.id.value = objs[indice].id;
 	form.produto.value = objs[indice].produto;
 	form.tipo.value = objs[indice].tipo;
 	form.custo.value = objs[indice].custo;
 	form.preco.value = objs[indice].preco;
 	form.valor.value = objs[indice].valor;
-	form.img.value = objs[indice].img;
+	form.img.src = objs[indice].img;
 }
 
-form.addEventListener("submit", e => {
-	e.preventDefault();
-	objs[form.indice.value] = {
-		"id": form.id.value,
-		"produto": form.produto.value,
-		"tipo": form.tipo.value,
-		"custo": form.custo.value,
-		"preco": form.preco.value,
-		"valor": form.valor.value,
-		"img": form.img.value
-	};
-	preencherModais();
-	$('#detalhes').modal('hide');
-});
-
-function excluir(indice){
+function comprar(indice){
 	objs.splice(indice,1);
 	preencherModais();
 	$('#detalhes').modal('hide');

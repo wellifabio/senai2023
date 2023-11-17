@@ -1,4 +1,9 @@
+//Objetos do DOM
 const container = document.getElementById('container');
+const formNovo = document.querySelector("#novo");
+const form = document.getElementById('alterar');
+
+//Lista de objetos
 var objs = [
 	{
 		"id": "1",
@@ -110,6 +115,7 @@ var objs = [
 	}
 ];
 
+//CRUD - READALL
 function preencherModais() {
 	container.innerHTML = `
 			<div id="model0" class="card col-lg-3 m-2 justify-content-between">
@@ -133,7 +139,7 @@ function preencherModais() {
 	document.getElementById('model0').remove();
 }
 
-const formNovo = document.querySelector("#novo");
+//CRUD - CREATE
 formNovo.addEventListener("submit", e => {
 	e.preventDefault();
 	objs.push({
@@ -149,8 +155,7 @@ formNovo.addEventListener("submit", e => {
 	$('#cadastro').modal('hide');
 });
 
-const form = document.getElementById('alterar')
-
+//CRUD - READ
 function preencherDetalhes(indice) {
 	form.indice.value = indice;
 	form.id.value = objs[indice].id;
@@ -160,8 +165,10 @@ function preencherDetalhes(indice) {
 	form.preco.value = objs[indice].preco;
 	form.valor.value = objs[indice].valor;
 	form.img.value = objs[indice].img;
+	form.imgv.src = objs[indice].img;
 }
 
+//CRUD - UPDATE
 form.addEventListener("submit", e => {
 	e.preventDefault();
 	objs[form.indice.value] = {
@@ -177,6 +184,7 @@ form.addEventListener("submit", e => {
 	$('#detalhes').modal('hide');
 });
 
+//CRUD - DELETE
 function excluir(indice){
 	objs.splice(indice,1);
 	preencherModais();
