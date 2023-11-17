@@ -231,6 +231,14 @@ document.getElementById('model0').remove();
 #### 6. Execute o arquivo index.html com live server e o resultado será semelhante ao wireframe a seguir
 ![wireframe](./wireframe.png)
 
-# Desafio
+# Desafio 1 - Novo Produto
 Pesquise na [Documentação](https://getbootstrap.com/docs/4.5/getting-started/introduction/) do **Bootstrap** sobre **Modais** e **Formulários**, crie um com um formulário para cadastrar um novo produto que se abra quando for clicado no botão **Novo** conforme o wireframe a seguir:
 ![wireframe](./wireframe2.png)
+
+# Desafio 2 - Detalhes
+Crie um modal que se abra quando for clicado no botão **Detalhes** de cada produto conforme o wireframe a seguir, e um botão comprar que ao ser clicado "adicione o produto ao carrinho.", como não temos um carrinho, basta apenas excluir o produto da lista.:
+![wireframe](./wireframe3.png)
+
+# Desafio 3 - CRUD (Cadasctro, Consulta, Alteração e Exclusão)
+Crie uma versão da Landing Page que permita cadastrar, consultar, alterar e excluir produtos, manipulando a lista em JavaScript, o wireframe a seguir está na visualização responsiva:
+![wireframe](./wireframe4.png)
