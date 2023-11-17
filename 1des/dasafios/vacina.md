@@ -10,14 +10,21 @@ Fonte: IC Unicamp URL: https://susy.ic.unicamp.br:9999/mc102/05/enunciado.html a
 |-|
 |Pessoas completamente imunizadas: D2<br>Pessoas imunizadas apenas com uma dose: D1<br>Pessoas que tomaram a segunda dose com atraso: D2A<br>Pessoas esperando a segunda dose com atraso: D1A|
 
-|Exemplos de entradas e saídas esperadas pelo seu programa:|
-|-|
-|Teste 01<br>Entrada<br>1<br>4034|
-|Saída|
-|Pessoas completamente imunizadas: 0<br>Pessoas imunizadas apenas com uma dose: 4034<br>Pessoas que tomaram a segunda dose com atraso: 0<br>Pessoas esperando a segunda dose com atraso: 0|
-|Teste 03<br>Entrada<br>4<br>26000<br>26000<br>46000<br>46000|
-|Saída|
-|Pessoas completamente imunizadas: 72000<br>Pessoas imunizadas apenas com uma dose: 0<br>Pessoas que tomaram a segunda dose com atraso: 0<br>Pessoas esperando a segunda dose com atraso: 0|
-|Teste 09<br>Entrada<br>5<br>13000<br>7000<br>41000<br>11000<br>8000|
-|Saída|
-|Pessoas completamente imunizadas: 32000<br>Pessoas imunizadas apenas com uma dose: 16000<br>Pessoas que tomaram a segunda dose com atraso: 14000<br>Pessoas esperando a segunda dose com atraso: 16000|
+<table>
+<tr><th colspan=2>Exemplos de entradas e saídas esperadas pelo seu programa:</th></tr>
+<tr><td>Entrada</td><td>Saída</td></tr>
+<tr>
+	<td>Teste 01<br>Entrada<br>1<br>4034</td>
+	<td>Pessoas completamente imunizadas: 0<br>Pessoas imunizadas apenas com uma dose: 4034<br>Pessoas que tomaram a segunda dose com atraso: 0<br>Pessoas esperando a segunda dose com atraso: 0</td>
+</tr>
+<tr><td>Entrada</td><td>Saída</td></tr>
+<tr>
+	<td>Teste 03<br>Entrada<br>4<br>26000<br>26000<br>46000<br>46000</td>
+	<td>Pessoas completamente imunizadas: 72000<br>Pessoas imunizadas apenas com uma dose: 0<br>Pessoas que tomaram a segunda dose com atraso: 0<br>Pessoas esperando a segunda dose com atraso: 0</td>
+</tr>
+<tr><td>Entrada</td><td>Saída</td></tr>
+<tr>
+	<td>Teste 09<br>Entrada<br>5<br>13000<br>7000<br>41000<br>11000<br>8000</td>
+	<td>Pessoas completamente imunizadas: 32000<br>Pessoas imunizadas apenas com uma dose: 16000<br>Pessoas que tomaram a segunda dose com atraso: 14000<br>Pessoas esperando a segunda dose com atraso: 16000</td>
+</tr>
+</table>
