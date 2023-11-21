@@ -19,6 +19,7 @@ Aplicativo de gestão de carteira de ações
 |Com o crescente número de corretoras online, muitas pessoas começaram investir suas economias em ações, para não perder o controle de seus investimentos, normalmente utilizam planilhas para fazer a gestão de sua carteira de investimentos|
 |![carteira](./carteira.png)|
 |![carteira](./resumo.png)|
+|![carteira](./carteira2.png)|
 |**Desafio:**|
 |Como programador Mobile, você precisa desenvolver um App para substituir esta planilha com a comodidade das funcionalidades do smartphone, como consumo de uma API que traga o valor atual das ações|
 
