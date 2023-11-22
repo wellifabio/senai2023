@@ -1,5 +1,7 @@
 # Avaliação Objetiva
 
-|![Instruções](instrucoes.png)|
+|![Instruções](./instrucoes.png)|
 |-|
-|[Link](https://security.cebraspe.org.br/SENAI2023E2)|
+|![Fases](./fases.png)|
+|[Acessos](./acessos.md)|
+|[Link](https://security.cebraspe.org.br/SENAI2024E2)|
