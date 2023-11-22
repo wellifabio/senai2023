@@ -75,6 +75,6 @@
 - [Live de conteúdo: Prototipagem](https://www.youtube.com/watch?v=eqe-A0fb0mM)
 ### 10/11 (Sexta-feira)
 - [Live de conteúdo: Pitch](https://www.youtube.com/watch?v=WbFPpafO60U)
-- [Live de conteúdo: Pitch](https://www.youtube.com/watch?v=zj_6IaJ3FZM)
+- [LCerimônia de Encerramento](https://www.youtube.com/watch?v=zj_6IaJ3FZM)
 ### 13/12/2023 (Quarta-feira)
 - [Cerimônia de Premiação das 15h as 16h](https://www.youtube.com/watch?v=PJgR_4ESeC4)
