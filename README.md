@@ -58,3 +58,11 @@
 - [Reenye](https://github.com/ReenyeLima)
 - [Matheus](https://github.com/MatheusPignata)
 - [Wellington](https://github.com/wellifabio)
+
+## Banco de talentos
+- Se você é:
+	- aluno do SENAI em faze final de formação
+	- aluno de graduação ou já se formou em qualquer instituição de ensino.
+	- possui conhecimentos ou habilidades e deseja trabalhar no SENAI.
+ - [Banco de Talentos](https://sesisenaisp.jobs.recrut.ai/)
+ - [Banco de Talentos PCD](https://sesisenaisp.jobs.recrut.ai/job/LKJV4W)
