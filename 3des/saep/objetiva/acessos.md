@@ -7,7 +7,7 @@
 |João Pedro Aguiar Tomaz|50466098863-2VL6||
 |João Pedro Angeloni Alvarenga|44741604870-3SX9||
 |João Victor Rodrigues Dias Fernandes|36900947808-D92Y||
-|Karen Isabella Costa Celestino|51286304806-BM18|2ag91c8i|
+|Karen Isabella Costa Celestino|51286304806-BM18||
 |Kaike De Moura Ferreira|52144346852-IR49||
 |Larissa Motta Carrara|52730165843-8TJ6||
 |Lucas Almeida Camacho|36229755807-8CV6||
