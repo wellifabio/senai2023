@@ -2,7 +2,7 @@
 |-|:-:|-:|
 |Andre Fernandes Izidro|50723815879-I46V||
 |Gabriel Zonta Batista|49853222884-AC34||
-|Gustavo Dos Santos Tavares|36386662806-Q79K|51d8mls7|
+|Gustavo Dos Santos Tavares|36386662806-Q79K||
 |Igor Cremasco Viotto|48478291822-8DI3||
 |João Pedro Aguiar Tomaz|50466098863-2VL6||
 |João Pedro Angeloni Alvarenga|44741604870-3SX9||
