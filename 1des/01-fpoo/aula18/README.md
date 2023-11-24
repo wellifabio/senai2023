@@ -25,4 +25,4 @@
 ## Apresentações
 - [Carlos, Ana, Otavio, Fernanda - Agregação, Composição e Herança](./relacoes)
 - [Guilherme, Bruno, Alefe - Classes, Instâncias e Pacotes](https://github.com/Bruno-Otavio/senai/blob/main/presentation/presentation.pptx)
-- [Carla, Letícia, Gabriela]()
+- [Carla, Letícia, Gabriela](./encapsulamento/apresentacao.pptx)
