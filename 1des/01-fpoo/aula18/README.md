@@ -25,4 +25,7 @@
 ## Apresentações
 - [Carlos, Ana, Otavio, Fernanda - Agregação, Composição e Herança](./relacoes)
 - [Guilherme, Bruno, Alefe - Classes, Instâncias e Pacotes](https://github.com/Bruno-Otavio/senai/blob/main/presentation/presentation.pptx)
-- [Carla, Letícia, Gabriela](./encapsulamento/apresentacao.pptx)
+- [Carla, Letícia, Gabriela - Encapsulamento](./encapsulamento/apresentacao.pptx)
+- [Cícero, Érick, Colosso - Polimorfismo](./polimorfismo/Apresentacao.pptx)
+- [Castro, Jake, Beckham - Classe Interna, Anõnima, Atributos e Métodos](./classe_interna_oculta/apresentacao.pptx)
+- [Igor, Filho - Classe Abstrata e Interface](./classe_abstrata_interface/apresentacao.pptx)
