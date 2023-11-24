@@ -21,3 +21,8 @@
   |Atividades|
   |-|
   |Em grupos de 3 a 4 integrantes, pesquise no google e/ou chatgpt sobre os assuntos/temas destacados na lousa e atribuídos pelo professor a cada grupo, escolha a linguagem de programação para apresentar a sala pelo menos dois exemplos de cada assunto| 
+
+## Apresentações
+- [Carlos, Ana, Otavio, Fernanda - Agregação, Composição e Herança](./relacoes)
+- [Guilherme, Bruno, Alefe - Classes, Instâncias e Pacotes](https://github.com/Bruno-Otavio/senai/blob/main/presentation/presentation.pptx)
+- [Carla, Letícia, Gabriela]()
