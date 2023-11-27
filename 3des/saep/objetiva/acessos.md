@@ -13,7 +13,7 @@
 |Lucas Almeida Camacho|36229755807-8CV6||
 |Marcelo Ortega Dos Santos|55061750861-1S7Z|nx0e5j41|
 |Rodrigo De Melo Freire|12743561483-X81J||
-|Samuel Sanches D Urbano|23602311899-MH54|7k91qp2y|
+|Samuel Sanches D Urbano|23602311899-MH54||
 |Thaila Lugianatiello|55858390803-83BO|86i7sde0|
 |Vera Lucia Pereira|27652097827-R20C||
 |Vinicius Vieira De Souza|43187386806-84VK||
