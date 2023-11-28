@@ -29,3 +29,4 @@
 - [Cícero, Érick, Colosso - Polimorfismo](./polimorfismo/Apresentacao.pptx)
 - [Castro, Jake, Beckham - Classe Interna, Anõnima, Atributos e Métodos](./classe_interna_oculta/apresentacao.pptx)
 - [Igor, Filho - Classe Abstrata e Interface](./classe_abstrata_interface/apresentacao.pptx)
+- [Wellington - Enumeração](./enumeracao/)
