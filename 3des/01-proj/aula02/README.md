@@ -157,7 +157,7 @@ update pedido set valorPedido = (select sum(valor) from itens where pedidoId = 3
 - Criar a estrutura de pastas **src**
 - O prisma já trabalha com a estrutura MVC, o arquivo schema.prisma é a camada modelo.
 - Editar os arquivos
-- servet.js
+- server.js
 ```javascript
 require('dotenv').config();
 const express = require('express');
