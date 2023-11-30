@@ -25,3 +25,32 @@
 |Desafio|
 |-|
 |Crie um sistema Web que diferencie o acesso dos **usuários**: Sra. Ana e seus funcionários e permita que ela possa cadastrar **ítens**, e seus funcionários possam registrar as **vendas** de produtos e serviços, ao concluir a utilização do sistema os dados devem ser salvos (feito download para um arquivo de dados) e ao iniciar o sistema os dados devem ser carregados|
+
+|Solução|
+|-|
+|Esta situação problema será resolvida em 3 etapas, sendo que cada etapa será um projeto, o primeiro projeto será o sistema de carregar e salvar dados em arquivo JSON, o segundo projeto será o sistema de login e logout e o final um sistema completo que atende a situação problema|
+
+# Projetos finais
+Baseado nesta situação problema, os projetos finais serão executados em grupos com três elementos, cada grupo deverá escolher um tema para o sistema, por exemplo: PetShop, Loja de Roupas, Loja de Materiais de Construção, Loja de Materiais Esportivos, Biblioteca, etc.
+
+|Grupo|Integrantes|Tema|
+|-|-|-|
+|1|Cícero, Colosso, Richard|Loja de Acessorios para Veículos (Estética automotiva)|
+|2|Guilerme, Bruno, Alefe|Livraria|
+|3|Carla, Gabriela, Letícia|Loja de Joias|
+|4|Carlos, Igor, Vinícius|Loja e Games|
+|5|Ana, Fernanda, Otávio|Loja de Bijouterias|
+|6|Erick|Loja de Roupas e Acessórios|
+|7|Carlos|Prestação de serviços de Marido/Esposa de aluguel|
+|8|João e Rafael|Açougue|
+|9|Beckham, Mirela, Pedro|Loja de Materiais de Construção|
+
+## Requisitos mínimos
+- Salvar e carregar dados em arquivo JSON
+- Login e logout
+- CRUD com dados das listas
+- Estilização com CSS e/ou BootsTrap
+
+|Entregas|
+|-|
+|O projeto deverá ser implementado no github.io ou em um servidor de hospedagem gratuito de sua preferência, o link do projeto deverá ser enviado para este FORMS 15/12/2020, também deverá ser colocado no seu portifólio|
