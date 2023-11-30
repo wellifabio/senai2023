@@ -1,0 +1,86 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Ana Souza Silva",
+            "email": "ana@js.com",
+            "senha": "1234",
+            "cargo": "proprietária",
+            "tipo": "admin"
+        },
+        {
+            "id": 2,
+            "nome": "Mariana Almeida Silva",
+            "email": "mariana@js.com",
+            "senha": "1234",
+            "cargo": "Ajudante Geral",
+            "tipo": "comum"
+        },
+        {
+            "id": 3,
+            "nome": "André de Almeida Sales",
+            "email": "andre@js.com",
+            "senha": "1234",
+            "cargo": "Veterinário",
+            "tipo": "comum"
+        }
+    ],
+    "itens": [
+        {
+            "id": 1,
+            "nome": "Banho",
+            "descricao": "Banho com shampu neutro e ecovação",
+            "tipo": "Serviço",
+            "img": "",
+            "preco": 29.9
+        },
+        {
+            "id": 2,
+            "nome": "Tosa",
+            "descricao": "Corte do pelo e escovação",
+            "tipo": "Serviço",
+            "img": "",
+            "preco": 49.9
+        },
+        {
+            "id": 3,
+            "nome": "Hospedagem",
+            "descricao": "Diária com alimentação e cuidados especiais",
+            "tipo": "Serviço",
+            "img": "",
+            "preco": 49.9
+        },
+        {
+            "id": 4,
+            "nome": "Coleira pequena",
+            "descricao": "Coleira de couro para cachorro pequeno",
+            "tipo": "Produto",
+            "img": "",
+            "preco": 19.9
+        },
+        {
+            "id": 5,
+            "nome": "Coleira média",
+            "descricao": "Coleira de couro para cachorro de porte médio",
+            "tipo": "Produto",
+            "img": "",
+            "preco": 24.9
+        },
+        {
+            "id": 6,
+            "nome": "Casa de transporte de gato",
+            "descricao": "Casa fechada para transporte de gatos",
+            "tipo": "Produto",
+            "img": "",
+            "preco": 159.9
+        },
+        {
+            "id": 7,
+            "nome": "Casa de cachorro médio",
+            "descricao": "Casinha feita de material reciclado para cães de médio porte",
+            "tipo": "Produto",
+            "img": "",
+            "preco": 59.9
+        }
+    ]
+}
