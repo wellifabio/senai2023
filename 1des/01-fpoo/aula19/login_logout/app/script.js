@@ -6,11 +6,12 @@ const boasVindas = document.getElementById("boasVindas");
 const container = document.getElementById("container");
 const formLogin = document.getElementById("formLogin");
 
+//Modelo de dados
 var dados = {
     usuarios: [],
     itens: []
 };
-
+//Modelo de usuários
 var usuario = {};
 
 //Carregar dados de arquivo JSON
@@ -42,6 +43,7 @@ function download() {
 
 //CRUD - Real All
 function preencherCards() {
+    //Criar modelo do Card
     container.innerHTML = `
 			<div id="model0" class="card col-lg-3 m-2 justify-content-between">
 				<h2 class="card-title text-center">Nome</h2>
@@ -51,6 +53,7 @@ function preencherCards() {
 					<button class="btn btn-secondary" data-toggle="modal" data-target="#vender">Vender</button>
 					<h4 class="card-footer text-right">Preço</h4>
 			</div>`;
+    //Preencher os cards com os dados (percorrer o array de itens)
     dados.itens.forEach((item, i) => {
         const model = document.getElementById('model0').cloneNode(true);
         model.setAttribute('id', 'model' + item.id);

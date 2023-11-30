@@ -1,0 +1,216 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Ana Souza Silva",
+            "email": "ana@js.com",
+            "senha": "1234",
+            "cargo": "proprietária",
+            "tipo": "admin"
+        },
+        {
+            "id": 2,
+            "nome": "Mariana Almeida Silva",
+            "email": "mariana@js.com",
+            "senha": "1234",
+            "cargo": "Ajudante Geral",
+            "tipo": "comum"
+        },
+        {
+            "id": 3,
+            "nome": "André de Almeida Sales",
+            "email": "andre@js.com",
+            "senha": "1234",
+            "cargo": "Veterinário",
+            "tipo": "comum"
+        }
+    ],
+    "itens": [
+        {
+            "id": 1,
+            "nome": "Banho",
+            "descricao": "Banho com shampu neutro e ecovação",
+            "tipo": "Serviço",
+            "img": "../assets/banho.png",
+            "preco": 29.9
+        },
+        {
+            "id": 2,
+            "nome": "Tosa",
+            "descricao": "Corte do pelo e escovação",
+            "tipo": "Serviço",
+            "img": "../assets/tosa.png",
+            "preco": 49.9
+        },
+        {
+            "id": 3,
+            "nome": "Hospedagem",
+            "descricao": "Diária com alimentação e cuidados especiais",
+            "tipo": "Serviço",
+            "img": "../assets/hospedagem.png",
+            "preco": 49.9
+        },
+        {
+            "id": 4,
+            "nome": "Coleira pequena",
+            "descricao": "Coleira de couro para cachorro pequeno",
+            "tipo": "Produto",
+            "img": "../assets/coleira.png",
+            "preco": 19.9
+        },
+        {
+            "id": 5,
+            "nome": "Coleira média",
+            "descricao": "Coleira de couro para cachorro de porte médio",
+            "tipo": "Produto",
+            "img": "../assets/coleira.png",
+            "preco": 24.9
+        },
+        {
+            "id": 6,
+            "nome": "Casa de transporte de gato",
+            "descricao": "Casa fechada para transporte de gatos",
+            "tipo": "Produto",
+            "img": "../assets/casa_gato.png",
+            "preco": 159.9
+        },
+        {
+            "id": 7,
+            "nome": "Casa de cachorro médio",
+            "descricao": "Casinha feita de material reciclado para cães de médio porte",
+            "tipo": "Produto",
+            "img": "../assets/casa_cachorro.png",
+            "preco": 59.9
+        }
+    ],
+    "vendas": [
+        {
+            "id": 1,
+            "data": "2023-11-05T08:50:00.000Z",
+            "usuario": 2,
+            "item": 1,
+            "quantidade": 1,
+            "valorUnitario": 29.9
+        },
+        {
+            "id": 2,
+            "data": "2023-11-05T09:35:00.000Z",
+            "usuario": 2,
+            "item": 2,
+            "quantidade": 1,
+            "valorUnitario": 49.9
+        },
+        {
+            "id": 3,
+            "data": "2023-11-05T12:00:00.000Z",
+            "usuario": 2,
+            "item": 3,
+            "quantidade": 1,
+            "valorUnitario": 49.9
+        },
+        {
+            "id": 4,
+            "data": "2023-11-05T08:50:00.000Z",
+            "usuario": 2,
+            "item": 6,
+            "quantidade": 1,
+            "valorUnitario": 159.9
+        },
+        {
+            "id": 5,
+            "data": "2023-11-06T08:20:00.000Z",
+            "usuario": 3,
+            "item": 5,
+            "quantidade": 2,
+            "valorUnitario": 24.9
+        },
+        {
+            "id": 6,
+            "data": "2023-11-06T10:40:00.000Z",
+            "usuario": 3,
+            "item": 4,
+            "quantidade": 1,
+            "valorUnitario": 19.9
+        },
+        {
+            "id": 7,
+            "data": "2023-11-06T11:50:00.000Z",
+            "usuario": 3,
+            "item": 4,
+            "quantidade": 2,
+            "valorUnitario": 19.9
+        },
+        {
+            "id": 8,
+            "data": "2023-11-06T12:50:00.000Z",
+            "usuario": 2,
+            "item": 6,
+            "quantidade": 1,
+            "valorUnitario": 159.9
+        },
+        {
+            "id": 9,
+            "data": "2023-11-07T08:50:00.000Z",
+            "usuario": 2,
+            "item": 7,
+            "quantidade": 1,
+            "valorUnitario": 59.9
+        },
+        {
+            "id": 10,
+            "data": "2023-11-07T10:20:00.000Z",
+            "usuario": 2,
+            "item": 2,
+            "quantidade": 1,
+            "valorUnitario": 49.9
+        },
+        {
+            "id": 11,
+            "data": "2023-11-07T10:45:00.000Z",
+            "usuario": 3,
+            "item": 1,
+            "quantidade": 2,
+            "valorUnitario": 29.9
+        },
+        {
+            "id": 12,
+            "data": "2023-11-07T11:05:00.000Z",
+            "usuario": 1,
+            "item": 3,
+            "quantidade": 1,
+            "valorUnitario": 49.9
+        },
+        {
+            "id": 13,
+            "data": "2023-11-07T13:50:00.000Z",
+            "usuario": 1,
+            "item": 4,
+            "quantidade": 1,
+            "valorUnitario": 19.9
+        },
+        {
+            "id": 14,
+            "data": "2023-11-07T08:14:00.000Z",
+            "usuario": 2,
+            "item": 5,
+            "quantidade": 1,
+            "valorUnitario": 24.9
+        },
+        {
+            "id": 15,
+            "data": "2023-11-07T15:50:00.000Z",
+            "usuario": 1,
+            "item": 6,
+            "quantidade": 1,
+            "valorUnitario": 159.9
+        },
+        {
+            "id": 16,
+            "data": "2023-11-07T16:20:00.000Z",
+            "usuario": 1,
+            "item": 7,
+            "quantidade": 1,
+            "valorUnitario": 59.9
+        }
+    ]
+}
