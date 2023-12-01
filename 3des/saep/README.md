@@ -1,3 +1,3 @@
 # SAEP
 ## [Avaliação Objetiva](./objetiva/)
-## Avaliação Prática
+## [Avaliação Prática](./pratica)
