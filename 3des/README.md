@@ -56,7 +56,7 @@
 
 ## Desafio Front End (smartsite)
 - https://github.com/bioritmo/front-end-code-challenge-smartsite
-- Video com a dev Fernanda Kipper resolvendo o desafio com Angular: https://www.youtube.com/watch?v=Z9vQG7q5v6k
+- Video com a dev Fernanda Kipper resolvendo o desafio com Angular: https://www.youtube.com/watch?v=ozZXMkp8MnQ&t=3794s
 
 ## Como procurar um estágio ou vaga de programador Júnior: Código fonte TV
 - https://www.youtube.com/watch?v=a8gK_w4v7QU
