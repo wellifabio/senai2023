@@ -1,5 +1,5 @@
 # Aula02 - Recursos Avançados - ORM Prisma
-## Projeto Exemplo
+## Projeto Exemplo (Tutorial)
 ### Sistema de Gestão de pedidos em um Restaurante
 - ![Lousa1](lousa1.jpg)
 
@@ -8,9 +8,17 @@
 ### Abrir o VSCode
 ### Abrir um terminal: CTRL + "
 - Navegar até a pasta do seu projeto API.
-- Instalar o risma globalmente e iniciar o projeto com MySQL
+- Instalar o risma globalmente
 ```bash
   npm i -g prisma
+```
+- Em uma pasta chamada ./bacck ou ./api Iniciar o projeto backend e pressionar ENTER até o fim
+```bash
+  cd back
+  npm init
+```
+- Iniciar o Prisma no projeto com MySQL
+```bash
   prisma init --datasource-provider mysql
 ```
 - Neste caso estamos utilizando o prisma com o SGBD mysql.
