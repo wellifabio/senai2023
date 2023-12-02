@@ -63,3 +63,7 @@ O Curso de Aperfeiçoamento Profissional Power BI tem por objetivo o desenvolvim
   - 6.7.	Calculate
   - 6.8.	Filter
   - 6.9.	Related
+ 
+# Email para o Curso
+cfp513T4.1057928@senaisp.edu.br
+Senaisp01
