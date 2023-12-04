@@ -65,6 +65,7 @@ function preencherCards() {
         model.querySelector('.btn').setAttribute("onclick", `vender(${i})`);
         if (usuario.email == undefined) model.querySelector('.btn').classList.add("oculto");
         container.appendChild(model);
+    
     });
     document.getElementById('model0').remove();
 }
