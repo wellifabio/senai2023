@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cards</title>
+</head>
+<body>
+    <header>
+        <h1>Cards</h1>
+        <button onclick="novoCard()">Add Cards</button>
+    </header>
+    <main class="container">
+    </main>
+    <footer>
+    </footer>
+</body>
+<script>
+    const container = document.querySelector('.container');
+    var indice = 0;
+    function novoCard(){
+        const card = document.createElement('div');
+        card.innerHTML = `
+        <div class="card">
+            <div class="card-header">
+                <h1>Card ${indice}</h1>
+            </div>
+            <div class="card-body">
+                <h2>Card Corpo</h2>
+            </div>
+            <div class="card-footer">
+                <h3>Card Rodapé</h3>
+            </div>
+        </div>`;
+        indice++;
+        container.appendChild(card);
+    }
+</script>
+</html>
