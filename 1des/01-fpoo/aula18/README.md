@@ -30,3 +30,6 @@
 - [Castro, Jake, Beckham - Classe Interna, Anõnima, Atributos e Métodos](./classe_interna_oculta/apresentacao.pptx)
 - [Igor, Filho - Classe Abstrata e Interface](./classe_abstrata_interface/apresentacao.pptx)
 - [Wellington - Enumeração](./enumeracao/)
+
+## Testando os conhecimentos
+- [Responda este questionário com os conhecimentos adquiridos com sua pesquisa e apresentados pelos colegas de turma](https://forms.gle/g8zTKTqc8ipWVVBZ8)

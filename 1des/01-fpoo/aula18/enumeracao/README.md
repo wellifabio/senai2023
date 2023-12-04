@@ -32,5 +32,4 @@ class DiasDaSemana {
 
 console.log(DiasDaSemana.QUARTA); // Saída: Quarta-feira
 ```
-
 Essas abordagens permitem que você crie estruturas que se comportam como enumerações em outras linguagens, embora não sejam exatamente iguais em termos de funcionalidade nativa.
