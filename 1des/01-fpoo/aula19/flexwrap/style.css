@@ -5,16 +5,46 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+	position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    background: #f5f5f5;
+}
+
 header{
     width: 100%;
+	height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+main{
+	width: 100%;
+	height: 80vh;
+	overflow-y: auto;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 10px;
+    border-top: 1px solid #ccc;
 }
 
-button{
+button, input{
     background: none;
     cursor: pointer;
     font-size: 1.2rem;
@@ -23,16 +53,6 @@ button{
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    width: 100vw;
-    background: #f5f5f5;
 }
 
 .container{
@@ -44,6 +64,10 @@ body{
 .card{
     width: 300px;
     height: 300px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -51,8 +75,4 @@ body{
     overflow: hidden;
     position: relative;
     transition: 0.5s;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
 }
