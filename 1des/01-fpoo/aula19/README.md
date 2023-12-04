@@ -31,7 +31,7 @@
 |Esta situação problema será resolvida em 3 etapas, sendo que cada etapa será um projeto, o primeiro projeto será o sistema de carregar e salvar dados em arquivo JSON, o segundo projeto será o sistema de login e logout e o final um sistema completo que atende a situação problema|
 
 # Projetos finais
-Baseado nesta situação problema, os projetos finais serão executados em grupos com três elementos, cada grupo deverá escolher um tema para o sistema, por exemplo: PetShop, Loja de Roupas, Loja de Materiais de Construção, Loja de Materiais Esportivos, Biblioteca, etc.
+Baseado nesta situação problema, os projetos finais serão executados em grupos de até três devs. Cada grupo deverá escolher um tema para o sistema, por exemplo: PetShop, Loja de Roupas, Loja de Materiais de Construção, Loja de Materiais Esportivos, Biblioteca, etc.
 
 |Grupo|Integrantes|Tema|
 |-|-|-|
