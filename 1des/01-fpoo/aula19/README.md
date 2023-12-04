@@ -40,9 +40,9 @@ Baseado nesta situação problema, os projetos finais serão executados em grupo
 |3|Carla, Gabriela, Letícia|Loja de Joias|
 |4|Carlos, Igor, Vinícius|Loja e Games|
 |5|Ana, Fernanda, Otávio|Loja de Bijouterias|
-|6|Erick|Loja de Roupas e Acessórios|
+|6|Camila, Cecília, Erick|Loja de Roupas e Acessórios|
 |7|Carlos|Prestação de serviços de Marido/Esposa de aluguel|
-|8|João e Rafael|Açougue|
+|8|Jaqueline, João, Rafael|Açougue|
 |9|Beckham, Mirela, Pedro|Loja de Materiais de Construção|
 
 ## Requisitos mínimos
