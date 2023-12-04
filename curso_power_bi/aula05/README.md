@@ -59,7 +59,7 @@ Os Indicadores permitem uma apresentação dos seus dados de forma organizada, c
 
 | Entregas:                                                            |
 | -------------------------------------------------------------------- |
-| Apresente ao professor os dois arquivos com as análises solicitadas. |
+| Apresente ao professor o arquivo com as análises solicitadas. |
 
 # Publicar
 
