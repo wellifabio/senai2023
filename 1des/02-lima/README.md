@@ -14,7 +14,7 @@
 |Avaliação|Peso|Nota|
 |-|:-:|:-:|
 |VPS01|40|0 a 100|
-|VPS02|40|0 a 100|
+|Portfolio|40|0 a 100|
 |Trabalhos|20|0 a 100|
 
 # Competências Básicas e de Gestão 
