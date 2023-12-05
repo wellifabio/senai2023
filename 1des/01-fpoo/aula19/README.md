@@ -1,4 +1,6 @@
-# Aula 19 - Sistema de exemplo com persistência de dados
+# Aula 19 (POO - JSON)
+
+## Sistema de exemplo com persistência de dados em arquivo JSON
 
 ## Funções
 - Abrir e Salvar(Download) de arquivos de dados
