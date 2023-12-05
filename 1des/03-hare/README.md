@@ -19,8 +19,8 @@
 |Avaliação|Peso|Nota|
 |-|:-:|:-:|
 |VPS01|40|0 a 100|
-|VPS02|40|0 a 100|
-|Trabalhos|20|0 a 100|
+|GCloud|40|0 a 100|
+|VOS01|20|0 a 100|
 
 # Fundamentos Técnicos e Científicos
 
