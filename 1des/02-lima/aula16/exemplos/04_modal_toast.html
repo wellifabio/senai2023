@@ -151,6 +151,7 @@
         formNovo.descricao.value = '';
         modalNovo.classList.add("oculto");
         criarCrards();
+        toast(`Novo Card criado!`);
     });
 
     function criarCrards() {
@@ -163,7 +164,6 @@
                 <button onclick='excluir(${i})'>Excluir</button>
             </div>
             `;
-            toast(`Novo Card criado!`);
         });
     }
 
