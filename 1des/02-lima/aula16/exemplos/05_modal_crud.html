@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal, Cards e Toast</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header,
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    button,
+    input,
+    textarea {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    input,
+    textarea {
+        grid-column: 1/3;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all .5s ease-in-out;
+    }
+
+    .area {
+        min-width: 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
+        padding: 10px;
+    }
+
+    .card {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 70vw;
+    }
+
+    form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .toast {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        margin: 10px;
+        background-color: #eee;
+    }
+
+    .oculto {
+        display: none;
+    }
+</style>
+
+<body onload="toast('Bem vindo!')">
+    <header>
+        <h1>Exemplo de Modal, Cards e Toast</h1>
+        <button id="novo" onclick="modalNovo.classList.remove('oculto')">Novo</button>
+    </header>
+    <main class="container"></main>
+    <footer>
+        <h3>Mensagens:</h3>
+        <p class="toast"></p>
+    </footer>
+    <div class="modal oculto" id="modalNovo">
+        <div class="area">
+            <h2>Novo Card</h2>
+            <form id="formNovo">
+                <input type="text" name="titulo" placeholder="Título" required>
+                <textarea name="descricao" placeholder="Descrição" required></textarea>
+                <button type="button" onclick="modalNovo.classList.add('oculto')">Cancelar</button>
+                <button type="submit">Criar</button>
+            </form>
+        </div>
+    </div>
+    <div class="modal oculto" id="modalDetalhes">
+        <div class="area">
+            <h2>Detalhes do Card</h2>
+            <form id="formDetalhes">
+                <input type="hidden" name="indice">
+                <input type="text" name="titulo" placeholder="Título" required>
+                <textarea name="descricao" placeholder="Descrição" required></textarea>
+                <button type="button" onclick="modalDetalhes.classList.add('oculto')">Cancelar</button>
+                <button type="submit">Atualizar</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script>
+    const container = document.querySelector(".container");
+    const novo = document.querySelector("#novo");
+    const formNovo = document.querySelector("#formNovo");
+    const formDetalhes = document.querySelector("#formDetalhes");
+
+    var cards = [{
+            titulo: "Card1",
+            descricao: "Texto do Card de exemplo"
+        },
+        {
+            titulo: "Card2",
+            descricao: "Texto do Card de exemplo"
+        },
+    ];
+
+    criarCrards();
+
+    formNovo.addEventListener("submit", e => {
+        e.preventDefault();
+        cards.push({
+            titulo: formNovo.titulo.value,
+            descricao: formNovo.descricao.value
+        });
+        formNovo.titulo.value = '';
+        formNovo.descricao.value = '';
+        modalNovo.classList.add("oculto");
+        criarCrards();
+        toast(`Novo Card criado!`);
+    });
+
+    function criarCrards() {
+        container.innerHTML = '';
+        cards.forEach((card, i) => {
+            container.innerHTML += `
+            <div class="card">
+                <h2>${card.titulo}</h2>
+                <p>${card.descricao}</p>
+                <button onclick='excluir(${i})'>Excluir</button>
+                <button onclick='detalhes(${i})'>Detalhes</button>
+            </div>
+            `;
+        });
+    }
+
+    function detalhes(indice) {
+        document.querySelector("#modalDetalhes").classList.remove("oculto");
+        formDetalhes.indice.value = indice;
+        formDetalhes.titulo.value = cards[indice].titulo;
+        formDetalhes.descricao.value = cards[indice].descricao;
+    }
+
+    formDetalhes.addEventListener("submit", e => {
+        e.preventDefault();
+        cards[formDetalhes.indice.value] = {
+            titulo: formDetalhes.titulo.value,
+            descricao: formDetalhes.descricao.value
+        }
+        modalDetalhes.classList.add("oculto");
+        criarCrards();
+        toast(`Card atualizado com sucesso!`);
+    });
+
+    function excluir(indice) {
+        if (confirm(`Confirma a exclusão do card ${indice}?`)) {
+            cards.splice(indice, 1);
+            criarCrards();
+            toast(`Card ${indice} excluído com sucesso!`);
+        }
+    }
+
+    function toast(msg) {
+        document.querySelector(".toast").innerHTML = msg;
+        setTimeout(() => {
+            document.querySelector(".toast").innerHTML = "";
+        }, "1500");
+    }
+</script>
+
+</html>
