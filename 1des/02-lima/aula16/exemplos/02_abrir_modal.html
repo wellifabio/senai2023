@@ -52,20 +52,23 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .oculto{
+        display:none;
+    }
 </style>
 <body>
     <header>
-        <button id="novo">Novo</button>
+        <button id="novo" onclick="modalNovo.classList.remove('oculto')">Novo</button>
     </header>
     <main class="container"></main>
     <footer></footer>
-    <div class="modal" id="modalNovo">
+    <div class="modal oculto" id="modalNovo">
         <div class="area">
             <h2>Novo Card</h2>
             <form id="formNovo">
                 <input type="text" name="titulo" id="titulo" placeholder="Título">
                 <textarea name="descricao" id="descricao" placeholder="Descrição"></textarea>
-                <button>Cancelar</button>
+                <button onclick="modalNovo.classList.add('oculto')">Cancelar</button>
                 <button type="submit">Criar</button>
             </form>
         </div>
