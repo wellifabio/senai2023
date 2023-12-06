@@ -14,7 +14,7 @@
 
 ## Modal
 - Modal é uma janela que aparece sobre o conteúdo da tela, geralmente para exibir mensagens importantes.
-- Exemplo de modal:
+![Exemplo de Modal](./modal.png)
 
 ## Toast
 - Toast é uma mensagem que aparece na tela, geralmente na parte inferior, para exibir mensagens importantes.
