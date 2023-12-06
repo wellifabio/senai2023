@@ -18,3 +18,4 @@
 
 ## Toast
 - Toast é uma mensagem que aparece na tela, geralmente na parte inferior, para exibir mensagens importantes.
+![Exemplo de Card e Toast](./toast.png)
