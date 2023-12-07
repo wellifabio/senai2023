@@ -1,5 +1,7 @@
 # Links úteis
 - https://www.draw.io/ - Diagramas Web
+- https://quant-ux.com/ - Prototipagem Mobile e Front
+- https://www.figma.com/ - Prototipagem Mobile e Front
 - https://www.easel.ly/ - Infográficos Web
 - https://snipboard.io/ - (snag.gy) - Compartilhar imagens Web
 - http://filebin.ca/ - Compartilhar arquivos Web
