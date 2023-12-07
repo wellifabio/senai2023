@@ -1,0 +1,80 @@
+[
+	{
+		"tg": "T",
+		"fundamento": "1. Identificar as características e tipos de linguagem de marcação",
+		"criterio": "Identifica e diferencia HTML de CSS",
+		"criticidade": "1"
+	},
+	{
+		"tg": "T",
+		"fundamento": "2. Utilizar linguagem de marcação para desenvolvimento de páginas web",
+		"criterio": "Constroi folha de estilo CSS e aplica a página HTML",
+		"criticidade": "1"
+	},
+	{
+		"tg": "T",
+		"fundamento": "3. Desenhar leiautes de tela para ambientes web",
+		"criterio": "Organiza a estrutura do leiaute a priori através de rascunhos.",
+		"criticidade": "0"
+	},
+	{
+		"tg": "T",
+		"fundamento": "4. Codificar leiautes de página web",
+		"criterio": "Implementa leiautes com as estruturas de separações básicas de uma página: cabeçalho",
+		"criticidade": " menu"
+	},
+	{
+		"tg": "T",
+		"fundamento": "5. Utilizar semântica de linguagem de marcação conforme normas",
+		"criterio": "Aplica a sequência correta das classes e objetos CSS e como é carregado pelo navegador",
+		"criticidade": "0"
+	},
+	{
+		"tg": "T",
+		"fundamento": "6. Elaborar formulários de página web",
+		"criterio": "Implementa formulários HTML funcionais conforme solicitado.",
+		"criticidade": "0"
+	},
+	{
+		"tg": "T",
+		"fundamento": "7. Aplicar técnicas de estilização de páginas web",
+		"criterio": "Relacionar adequadamente os comandos CSS para estilizar os elementos HTML.",
+		"criticidade": "1"
+	},
+	{
+		"tg": "T",
+		"fundamento": "8. Utilizar ferramentas gráficas para interface web e mobile",
+		"criterio": "Trabalha com imagens em plano de fundo e em primeiro plano",
+		"criticidade": "0"
+	},
+	{
+		"tg": "T",
+		"fundamento": "9. Otimizar imagens para aplicação em ambientes web e mobile",
+		"criterio": "Diferencia imagens png",
+		"criticidade": " jpg e outros formatos"
+	},
+	{
+		"tg": "G",
+		"fundamento": "1. Demonstrar atenção a detalhes (44)",
+		"criterio": "Desenvolve todos os itens solicitados nas situações problema propostos",
+		"criticidade": "0"
+	},
+	{
+		"tg": "G",
+		"fundamento": "2. Demonstrar capacidade de análise (2)",
+		"criterio": "Relaciona os objetos HTML e controla seu estilo através do CSS",
+		"criticidade": "0"
+	},
+	{
+		"tg": "G",
+		"fundamento": "3. Demonstrar raciocínio lógico na organização das informações (24)",
+		"criterio": "Resolve os problemas propostos nas situações de aprendizagem",
+		"criticidade": "0"
+	},
+	{
+		"tg": "G",
+		"fundamento": "4. Seguir método de trabalho (21)",
+		"criterio": "Utiliza ferramentas como VSCode",
+		"criticidade": " Notepad++ e GitHub"
+	}
+]

@@ -1,0 +1,80 @@
+[
+	{
+		"tg": "T",
+		"fundamento": "7. Identificar as topologias f�sicas empregadas nas redes de computadores",
+		"criterio": "Identifica as principais topologias de redes (Estrela",
+		"criticidade": " Barra e Anel)"
+	},
+	{
+		"tg": "T",
+		"fundamento": "8. Identificar o modelo TCP/IP e sua aplicação na comunicação entre sistemas computacionais",
+		"criterio": "Endere�a dispositivos de rede ou configura para que receba autoconfiguração",
+		"criticidade": " efetivamente realizando conexões de rede"
+	},
+	{
+		"tg": "T",
+		"fundamento": "9. Identificar os ativos e passivos que compõem uma rede de computadores (4)",
+		"criterio": "Orça valores via internet",
+		"criticidade": " telefone ou presencialmente para dispositivos 'Switches"
+	},
+	{
+		"tg": "T",
+		"fundamento": "10. Identificar os tipos de servi�os disponíveis em redes",
+		"criterio": "Compartilha arquivos",
+		"criticidade": " configura ip autom�tico ou manual"
+	},
+	{
+		"tg": "T",
+		"fundamento": "11. Compartilhar unidades e pastas em rede",
+		"criterio": "Compartilha arquivos por diversos meios",
+		"criticidade": " Google drive"
+	},
+	{
+		"tg": "T",
+		"fundamento": "12. Acessar unidades e pastas compartilhadas em rede",
+		"criterio": "Acessa arquivos por diversos meios",
+		"criticidade": " Google drive"
+	},
+	{
+		"tg": "T",
+		"fundamento": "13. Mapear unidades e pastas compartilhadas em rede",
+		"criterio": " Mapea unidades e pastas compartilhadas em rede",
+		"criticidade": "0"
+	},
+	{
+		"tg": "G",
+		"fundamento": "1. Demonstrar atenção a detalhes (44)",
+		"criterio": "Responde a cada quest�o ou tarefa solicitada",
+		"criticidade": "1"
+	},
+	{
+		"tg": "G",
+		"fundamento": "2. Demonstrar capacidade de análise (2)",
+		"criterio": "Monta projeto de redes no simulador Packet Tracer",
+		"criticidade": "0"
+	},
+	{
+		"tg": "G",
+		"fundamento": "3. Demonstrar capacidade de organização (6)",
+		"criterio": "Identifica as classes de IPv4",
+		"criticidade": " Ips reservados para redes privadas e máscaras de subrede"
+	},
+	{
+		"tg": "G",
+		"fundamento": "4. Demonstrar raciocínio lógico na organização das informações (24)",
+		"criterio": "Identifica a classe de um IPv4 ou máscara",
+		"criticidade": "0"
+	},
+	{
+		"tg": "G",
+		"fundamento": "5. Seguir método de trabalho (21)",
+		"criterio": "Cumpre as normas t�cnicas para Cabeamento estruturado",
+		"criticidade": "0"
+	},
+	{
+		"tg": "G",
+		"fundamento": "6. Trabalhar em equipe (2)",
+		"criterio": "Auxilia colegas da turma em experimentos no simulador.",
+		"criticidade": "0"
+	}
+]

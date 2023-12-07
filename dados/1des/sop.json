@@ -1,0 +1,62 @@
+[
+	{
+		"tg": "T",
+		"fundamento": "1. Identificar as características técnicas dos sistemas de arquivo",
+		"criterio": " tendo em vista a utilização de sistemas operacionais (3)",
+		"criticidade": "Manipula arquivos e pasta localmente e remotamente no SO Windows"
+	},
+	{
+		"tg": "T",
+		"fundamento": "2. Instalar sistemas operacionais em máquinas virtuais",
+		"criterio": "Instala o SO Windows em maquina virtual e física",
+		"criticidade": "0"
+	},
+	{
+		"tg": "T",
+		"fundamento": "3. Operar sistemas operacionais por meio de linha de comando e interface gráfica (2)",
+		"criterio": "Utiliza os aplicativos básicos internet e Office",
+		"criticidade": "0"
+	},
+	{
+		"tg": "T",
+		"fundamento": "4. Configurar sistemas operacionais considerando variáveis de ambiente",
+		"criterio": " memória",
+		"criticidade": " disco"
+	},
+	{
+		"tg": "T",
+		"fundamento": "5. Instalar gerenciador de pacotes de acordo com o sistema operacional",
+		"criterio": "Instala programas necessário para criar seu ambiente de desenvolvimento",
+		"criticidade": "0"
+	},
+	{
+		"tg": "T",
+		"fundamento": "6. Utilizar ferramentas de edição de texto e planilha eletrônica para a elaboração da documentação técnica",
+		"criterio": "Realiza cálculos",
+		"criticidade": " funções"
+	},
+	{
+		"tg": "G",
+		"fundamento": "1. Demonstrar atenção a detalhes (44)",
+		"criterio": "Responde a cada questão ou tarefa solicitada",
+		"criticidade": "1"
+	},
+	{
+		"tg": "G",
+		"fundamento": "2. Demonstrar capacidade de análise (2)",
+		"criterio": "Integra soluções utilizando diversos programas ou plataformas",
+		"criticidade": " arquivos CSV"
+	},
+	{
+		"tg": "G",
+		"fundamento": "3. Seguir método de trabalho (21)",
+		"criterio": "Padroniza e ou Normaliza dados para tratar e relacionar informações",
+		"criticidade": "0"
+	},
+	{
+		"tg": "G",
+		"fundamento": "4. Demonstrar capacidade de organização (6)",
+		"criterio": "Distribui os assuntos em Planilhas",
+		"criticidade": " Abas"
+	}
+]
