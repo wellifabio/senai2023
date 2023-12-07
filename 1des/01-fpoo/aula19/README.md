@@ -55,4 +55,4 @@ Baseado nesta situação problema, os projetos finais serão executados em grupo
 
 |Entregas|
 |-|
-|O projeto deverá ser implementado no github.io ou em um servidor de hospedagem gratuito de sua preferência, o link do projeto deverá ser enviado para este FORMS 15/12/2020, também deverá ser colocado no seu portifólio|
+|O projeto deverá ser implementado no github.io ou em um servidor de hospedagem gratuito de sua preferência, o link do projeto deverá ser enviado para este **[FORMS](https://forms.gle/vJBkvViXPfndEjy96)** 15/12/2020, também deverá ser colocado no seu portifólio|
