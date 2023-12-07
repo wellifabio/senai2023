@@ -1,6 +1,8 @@
-# Aula 21 - VOS02 - POO
-## Verificação Objetiva Somativa 02
+# Aula 21 - VPS02 - POO
+## Verificação Prática e Objetiva Somativa 02
 - [VOS02](https://forms.gle/LFqR3yhcMHZzmcEG7)
+
+Os critérios a seguir serão aplicados para o **Projeto final** e para a **VOS02**.
 
 |Peso|Fundamentos ou Capacidades|Critérios de avaliação|
 |-|-|-|
