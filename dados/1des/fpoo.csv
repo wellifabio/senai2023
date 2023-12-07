@@ -1,0 +1,20 @@
+tg;fundamento;criterio;criticidade
+T;1. Identificar as características e tipos de linguagem de programação;Consegue diferenciar um código escrito na linguagem Python e Java Bean;1
+T;2. Utilizar lógica de programação para a resolução de problemas (7);Desenvolve algoritmos de forma que resolva os problemas propostos.;1
+T;3. Declarar as variáveis e as constantes considerando os tipos de dados na elaboração do programa.;Declara variáveis em Java, tanto atributos, parâmetros ou variáveis locais em métodos;1
+T;4. Utilizar comandos de entrada e saída na elaboração de programas (3);Aplicação da sintaxe da linguagem estudada, classes Scanner e System.out.println.;1
+T;5. Utilizar operações aritméticas, relacionais e lógicas na elaboração de programas (6);Resolve os problemas que envolvam cálculos.;0
+T;6. Utilizar estruturas de decisão na elaboração do programa (3);Resolve os problemas que envolvam decisão (if ou switch case);1
+T;7. Utilizar estruturas de repetição na elaboração do programa (3);Resolver os problemas que envolvam laços (for, while ou do while).;1
+T;9. Aplicar técnicas de código limpo (clean code);Apresenta o código fonte de maneira adequada a técnica estudada (indentação, comentários);0
+T;10. Manipular os diferentes tipos de dados na elaboração de programas;Classifica e identifica atributos e métodos bem com sua aplicabilidade em uma Classe.;0
+T;11. Utilizar o ambiente integrado de desenvolvimento (IDE);Domina as funcionalidades básicas disponibilizadas pela IDE e dos recursos de melhoria de performance no desenvolvimento;0
+T;12. Utilizar técnicas de versionamento através de softwares específicos;Consegue criar repositórios e enviar códigos através da ferramenta git.;0
+T;13. Utilizar o paradigma da programação orientada a objetos;Utiliza recursos como: Encapsulamento, Herança, Poliformismo e outros, para a resolução das situações problema propostas.;0
+T;14. Elaborar diagramas de classe;"Codifica as informações de um Diagrama de Classes através de uma das linguagens de programação orientadas a objetos; Java ou Python.";0
+G;1. Demonstrar atenção a detalhes (44);Utilizar endentação e convenções facilitando o entendimento de outros programadores.;0
+G;2. Demonstrar capacidade de análise (2);Compreensão dos códigos através de testes de mesa e validação de resultados.;0
+G;4. Demonstrar raciocínio lógico na organização das informações (24);Define variáveis ou constantes pertinentes a resolução das situações problema ou projetos propostos.;1
+G;3. Demonstrar objetividade na coleta de informações;Classificação adequada de objetos, capacidade de abstrair atributos e métodos, aplicação das técnicas de código limpo.;0
+G;5. Demonstrar visão sistêmica (28);Apresentação dos códigos desenvolvidos de forma organizada, Demonstrando o conhecimento de todas as partes do projeto.;0
+G;6. Seguir método de trabalho (21);Abstração de Objetos, persistência de dados e manipulação de arquivos, seguindo as convenções e boas práticas de POO.;0

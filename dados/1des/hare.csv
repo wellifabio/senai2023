@@ -1,0 +1,14 @@
+tg;fundamento;criterio;criticidade
+T;7. Identificar as topologias f�sicas empregadas nas redes de computadores;Identifica as principais topologias de redes (Estrela, Barra e Anel);1
+T;8. Identificar o modelo TCP/IP e sua aplica��o na comunica��o entre sistemas computacionais;Endere�a dispositivos de rede ou configura para que receba autoconfigura��o, efetivamente realizando conex�es de rede;1
+T;9. Identificar os ativos e passivos que comp�em uma rede de computadores (4);"Or�a valores via internet, telefone ou presencialmente para dispositivos ""Switches, Roteadores"" e insumos ""Cabos, Conectores""";0
+T;10. Identificar os tipos de servi�os dispon�veis em redes;Compartilha arquivos, configura ip autom�tico ou manual, identifica o servi�o de DHCP;0
+T;11. Compartilhar unidades e pastas em rede;Compartilha arquivos por diversos meios, Google drive, GitHub;1
+T;12. Acessar unidades e pastas compartilhadas em rede;Acessa arquivos por diversos meios, Google drive, GitHub;1
+T;13. Mapear unidades e pastas compartilhadas em rede; Mapea unidades e pastas compartilhadas em rede;0
+G;1. Demonstrar aten��o a detalhes (44);Responde a cada quest�o ou tarefa solicitada;1
+G;2. Demonstrar capacidade de an�lise (2);Monta projeto de redes no simulador Packet Tracer;0
+G;3. Demonstrar capacidade de organiza��o (6);Identifica as classes de IPv4, Ips reservados para redes privadas e m�scaras de subrede;0
+G;4. Demonstrar racioc�nio l�gico na organiza��o das informa��es (24);Identifica a classe de um IPv4 ou M�scara;0
+G;5. Seguir m�todo de trabalho (21);Cumpre as normas t�cnicas para Cabeamento estruturado;0
+G;6. Trabalhar em equipe (2);Auxilia colegas da turma em experimentos no simulador.;0
