@@ -50,8 +50,8 @@
 	{
 		"tg": "T",
 		"fundamento": "9. Otimizar imagens para aplicação em ambientes web e mobile",
-		"criterio": "Diferencia imagens png",
-		"criticidade": " jpg e outros formatos"
+		"criterio": "Diferencia imagens png, jpg e outros formatos",
+		"criticidade": "0"
 	},
 	{
 		"tg": "G",
