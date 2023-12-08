@@ -14,20 +14,20 @@
 	{
 		"tg": "T",
 		"fundamento": "3. Declarar as variáveis e as constantes considerando os tipos de dados na elaboração do programa.",
-		"criterio": "Declara variáveis em Java",
-		"criticidade": " tanto atributos"
+		"criterio": "Declara variáveis em JavaScript tanto atributos como métodos",
+		"criticidade": "1"
 	},
 	{
 		"tg": "T",
 		"fundamento": "4. Utilizar comandos de entrada e saída na elaboração de programas (3)",
-		"criterio": "Aplicação da sintaxe da linguagem estudada",
-		"criticidade": " classes Scanner e System.out.println."
+		"criterio": "Aplicação da sintaxe da linguagem estudada classes e objetos",
+		"criticidade": "1"
 	},
 	{
 		"tg": "T",
-		"fundamento": "5. Utilizar operações aritméticas",
-		"criterio": " relacionais e lógicas na elaboração de programas (6)",
-		"criticidade": "Resolve os problemas que envolvam cálculos."
+		"fundamento": "5. Utilizar operações aritméticas, relacionais e lógicas na elaboração de programas (6)",
+		"criterio": "Resolve os problemas que envolvam cálculos.",
+		"criticidade": "1"
 	},
 	{
 		"tg": "T",
@@ -38,14 +38,14 @@
 	{
 		"tg": "T",
 		"fundamento": "7. Utilizar estruturas de repetição na elaboração do programa (3)",
-		"criterio": "Resolver os problemas que envolvam laços (for",
-		"criticidade": " while ou do while)."
+		"criterio": "Resolver os problemas que envolvam laços (for, while ou do while)",
+		"criticidade": "1"
 	},
 	{
 		"tg": "T",
 		"fundamento": "9. Aplicar técnicas de código limpo (clean code)",
-		"criterio": "Apresenta o código fonte de maneira adequada a técnica estudada (indentação",
-		"criticidade": " comentários)"
+		"criterio": "Apresenta o código fonte de maneira adequada a técnica estudada (indentação, comentários)",
+		"criticidade": "0"
 	},
 	{
 		"tg": "T",
@@ -68,14 +68,14 @@
 	{
 		"tg": "T",
 		"fundamento": "13. Utilizar o paradigma da programação orientada a objetos",
-		"criterio": "Utiliza recursos como: Encapsulamento",
-		"criticidade": " Herança"
+		"criterio": "Utiliza recursos como: Encapsulamento, Herança",
+		"criticidade": "0"
 	},
 	{
 		"tg": "T",
 		"fundamento": "14. Elaborar diagramas de classe",
-		"criterio": "Codifica as informações de um Diagrama de Classes através de uma das linguagens de programação orientadas a objetos",
-		"criticidade": "Java ou Python."
+		"criterio": "Codifica as informações de um Diagrama de Classes através de uma das linguagens de programação orientadas a objetos.",
+		"criticidade": "0"
 	},
 	{
 		"tg": "G",
@@ -98,19 +98,19 @@
 	{
 		"tg": "G",
 		"fundamento": "3. Demonstrar objetividade na coleta de informações",
-		"criterio": "Classificação adequada de objetos",
-		"criticidade": " capacidade de abstrair atributos e métodos"
+		"criterio": "Classificação adequada de objetos, capacidade de abstrair atributos e métodos",
+		"criticidade": "0"
 	},
 	{
 		"tg": "G",
 		"fundamento": "5. Demonstrar visão sistêmica (28)",
-		"criterio": "Apresentação dos códigos desenvolvidos de forma organizada",
-		"criticidade": " Demonstrando o conhecimento de todas as partes do projeto."
+		"criterio": "Apresentação dos códigos desenvolvidos de forma organizada demonstrando o conhecimento de todas as partes do projeto.",
+		"criticidade": "0"
 	},
 	{
 		"tg": "G",
 		"fundamento": "6. Seguir método de trabalho (21)",
-		"criterio": "Abstração de Objetos",
-		"criticidade": " persistência de dados e manipulação de arquivos"
+		"criterio": "Abstração de Objetos persistência de dados e manipulação de arquivos",
+		"criticidade": "0"
 	}
 ]
