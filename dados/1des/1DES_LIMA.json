@@ -4,6 +4,7 @@
     "instrutor": "Wellington",
     "componente": "LIMA",
     "data": "07/12/2023",
+    "tipo": "A",
     "alunos": [
         {
             "aluno": "Alefe de Magalhães Vigatto"
