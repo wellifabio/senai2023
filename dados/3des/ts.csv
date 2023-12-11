@@ -1,0 +1,11 @@
+Definir as técnicas de testes a serem utilizadas no roteiro de testes do sistema;Apresentou roteiro de testes;T;1
+Elaborar cenários de testes, considerando os pontos do sistema a serem testados e as técnicas definidas;Realizou pelo menos testes unitários;T;0
+Configurar o ambiente de teste de acordo com o cenário elaborado;Utilizou alguma ferramenta de testes como Insomnia;T;1
+Executar os testes de acordo com o cenário proposto;Utilizou alguma ferramenta de testes como Insomnia ou Selenium;T;1
+Elaborar relatório dos resultados da validação do software;Apresentou relatório de testes;T;0
+Demonstrar atenção a detalhes;Fez adequações ao projetos conforme resultado dos testes;G;0
+Demonstrar capacidade de comunicação com profissionais de diferentes áreas e especialidades;Apresentou de forma clara e completa a proposta e o protótipo;G;0
+Demonstrar capacidade de organização das informações (4);Separou o repositório com a solução documentada, criou arquivo README instruindo como executar cada camada do projeto;G;0
+Demonstrar objetividade na coleta de informações;Aplicou as técnicas estudade para elencar os requisitos de acordo com as regras de negócio;G;0
+Demonstrar visão sistêmica (9);Verificou onde a solução se encaixa em meio ao mercado, indústria ou sociedade;G;1
+Seguir método de trabalho (3);Seguiu as intruções estudadas neste componente;G;1

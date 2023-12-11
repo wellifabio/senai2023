@@ -1,0 +1,13 @@
+1. Instalar e configurar ambientes de desenvolvimento de aplicativos para dispositivos móveis;Instala o ambiente estudado, NodeJS, VsCode, Expo, React Native;T;1
+2. Criar Widgets;Diferencia aplicativos de widgets, cria funcionalidades básicas com Expo e React Native;T;0
+3. Criar aplicação com múltiplas telas;Cria aplicativos com controle de telas e navegação (Navigator, Tab ou Stack);T;1
+4. Construir animação simples com a utilização de imagens.;Inse imagens de origem interna ou externa tipo gif animado ou cria animação com Expo.;T;0
+5. Tratar Data e Hora em aplicações.;Trata datas e hora com JavaSript convertendo dados tipo numéricos, String, e objeto Date.;T;1
+6. Criar notificações e alarmes.;"Exibe notificações através de campos dentro das páginas ou objeto ""alert()""";T;0
+"7. Caracterizar as variáveis de entrada.
+8. Caracterizar as variáveis de saída.
+9. Seguir algoritmo.";Utiliza estados de entrada e saída useState, useEffect;T;0
+1.Demonstrar capacidade de organização (16);Expressa qual é o problema através da documentação e demonstrar a solução implementada como um todo.;G;0
+2.Seguir método de trabalho (12).;Demonstra o que cada integrante do grupo realmente executa de forma profissional e imparcial.;G;0
+3.Ter visão sistêmica (12).;Desenvolveu aplicativo mobile ou web com responsividade.;G;1
+6.Trabalhar em articulação com outras pessoas (6);Dividiu as tarefas entre os integrantes do grupo, com evidências em cronograma ou ferramentas como MS Planner;G;1
