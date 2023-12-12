@@ -1,0 +1,13 @@
+7. Identificar as topologias físicas empregadas nas redes de computadores;Identifica as principais topologias de redes (Estrela, Barra e Anel);T;1
+8. Identificar o modelo TCP/IP e sua aplicação na comunicação entre sistemas computacionais;Endereça dispositivos de rede ou configura para que receba autoconfiguração, efetivamente realizando conexões de rede;T;1
+9. Identificar os ativos e passivos que compõem uma rede de computadores (4);"Orça valores via internet, telefone ou presencialmente para dispositivos ""Switches, Roteadores"" e insumos ""Cabos, Conectores""";T;0
+10. Identificar os tipos de serviços disponíveis em redes;Compartilha arquivos, configura ip automático ou manual, identifica o serviço de DHCP;T;0
+11. Compartilhar unidades e pastas em rede;Compartilha arquivos por diversos meios, Google drive, GitHub;T;1
+12. Acessar unidades e pastas compartilhadas em rede;Acessa arquivos por diversos meios, Google drive, GitHub;T;0
+13. Mapear unidades e pastas compartilhadas em rede; Mapea unidades e pastas compartilhadas em rede;T;0
+1. Demonstrar atenção a detalhes (44);Responde a cada questão ou tarefa solicitada;G;1
+2. Demonstrar capacidade de análise (2);Monta projeto de redes no simulador Packet Tracer;G;0
+3. Demonstrar capacidade de organização (6);Identifica as classes de IPv4, Ips reservados para redes privadas e máscaras de subrede;G;0
+4. Demonstrar raciocínio lógico na organização das informações (24);Identifica a classe de um IPv4 ou Máscara;G;0
+5. Seguir método de trabalho (21);Cumpre as normas técnicas para Cabeamento estruturado;G;0
+6. Trabalhar em equipe (2);Auxilia colegas da turma em experimentos no simulador.;G;0
