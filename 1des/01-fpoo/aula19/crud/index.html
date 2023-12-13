@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista CRUD</title>
+</head>
+
+<body onload="listarTodos()">
+    <header>
+        <h1>Botões e funções (Exemplo CRUD -FrontEnd)</h1>
+        <form id="fNovo">
+            <input type="hidden" name="indice" value="-1">
+            <input type="text" name="nome" required>
+            <input type="number" name="idade" required>
+            <button type="submit" name="botao">Novo</button>
+        </form>
+    </header>
+    <main id="cards" class="container"></main>
+</body>
+<script>
+    const cards = document.getElementById('cards');
+    const lista = [
+        {
+            "nome": "Ana",
+            "idade": 18
+        },
+        {
+            "nome": "Maria",
+            "idade": 22
+        },
+        {
+            "nome": "Juliana",
+            "idade": 19
+        }
+    ];
+
+    //CRUD READ
+    function listarTodos() {
+        cards.innerHTML = '';
+        lista.forEach((p, i) => {
+            cards.innerHTML += `
+            <div class="card">
+                <div class="card-header">
+                    <h1>${p.nome}</h1>
+                </div>
+                <div class="card-body">
+                    <h2>${p.idade}</h2>
+                </div>
+                <div class="card-footer">
+                    <button type="button" onclick="editar(${i})">Editar</button>
+                    <button type="button" onclick="excluir(${i})">Excluir</button>
+                </div>
+            </div>`;
+        });
+    }
+
+    const novo = document.getElementById('fNovo');
+    //Formulário CRUD - CREATE e ALTER
+    novo.addEventListener("submit", e => {
+        e.preventDefault();
+        if (novo.indice.value == -1) {
+            lista.push({
+                "nome": novo.nome.value,
+                "idade": novo.idade.value
+            });
+        } else {
+            lista[novo.indice.value].nome = novo.nome.value;
+            lista[novo.indice.value].idade = novo.idade.value;
+            novo.indice.value = -1;
+            novo.botao.innerHTML = "Novo"
+        }
+        novo.nome.value = "";
+        novo.idade.value = "";
+        listarTodos();
+    });
+
+    //CRUD DELETE
+    function excluir(i){
+        lista.splice(i, 1);
+        listarTodos();
+    }
+
+    //CRUD UPDATE
+    function editar(i){
+        novo.nome.value = lista[i].nome;
+        novo.idade.value = lista[i].idade;
+        novo.indice.value = i;
+        novo.botao.innerHTML = "Alterar"
+    }
+</script>
+
+</html>
