@@ -1,7 +1,9 @@
 # Projeto final
 
 ## Entregar Projeto (Link do Repositório)
-- [Formulário](https://forms.gle/uGEh2ThQhct26aX2A)
+- [Formulário Projeto](https://forms.gle/uGEh2ThQhct26aX2A)
+## Entregar portfolio
+- [Formulário Portfolio](https://forms.gle/9s7bx8KGPSsYUfir5)
 
 ## Prazos
 - (01/12/2023) Entrega do documento do projeto para correções (doc ou pdf)
