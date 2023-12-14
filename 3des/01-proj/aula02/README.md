@@ -16,6 +16,7 @@
 ```bash
   cd back
   npm init
+  npm i express cors mysql dotenv
 ```
 - Iniciar o Prisma no projeto com MySQL
 ```bash
