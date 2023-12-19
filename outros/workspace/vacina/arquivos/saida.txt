@@ -1,0 +1,4 @@
+Pessoas completamente imunizadas: 32000
+Pessoas imunizadas apenas com uma dose: 16000
+Pessoas que tomaram a segunda dose com atraso: 14000
+Pessoas esperando a segunda dose com atraso: 16000

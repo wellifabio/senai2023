@@ -1,0 +1,15 @@
+Para a importação dos dados os paths (diretórios) dos arquivos dever
+ser alterados conforme exemplo a seguir.
+1 - Abra o diretório deste arquivo com o VSCode de
+2 - Clique com o botão direito do mouse sobre os arquivos e na opção "Copy Path"
+3 - Cole aqui, e altere a direção das barras para / (Ctrl + H)
+
+D:/wellington/senai2021/2des/pwbe/workspace/delivery/deliverysql/docs/sql/clientes.csv
+D:/wellington/senai2021/2des/pwbe/workspace/delivery/deliverysql/docs/sql/entregadores.csv
+D:/wellington/senai2021/2des/pwbe/workspace/delivery/deliverysql/docs/sql/produtos.csv
+
+4 - Copie e cole estes endereços para seus respectivos scripts em script.sql
+5 - Rode o script com o comando abaixo, também com o path correto em um terminal SQL
+
+mysql -u root -p
+source C:/Users/wellington.martins/Desktop/workspace/deliverysql/docs/sql/script.sql
